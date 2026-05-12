@@ -1,7 +1,5 @@
 """
-Evaluation metrics for all classifiers.
-Computes Top-1/Top-5 accuracy, precision, recall, F1 (macro), confusion matrix, MAE.
-Matches Section 4.5 of the proposal.
+Evaluation metrics and plots for all classifiers.
 """
 
 import os
@@ -21,20 +19,11 @@ from sklearn.metrics import (
 
 
 def top1_accuracy(y_true: np.ndarray, y_pred: np.ndarray) -> float:
-    """Fraction of samples where the top prediction equals ground truth."""
     return float(accuracy_score(y_true, y_pred))
 
 
 def top5_accuracy(y_true: np.ndarray, probs: np.ndarray) -> float:
-    """
-    Fraction of samples where the ground-truth label is in the top-5 predicted classes.
-    Standard metric for Food-101 (Section 4.5).
-
-    Args:
-        y_true: (N,) ground-truth class indices.
-        probs:  (N, num_classes) probability array.
-    """
-    top5_preds = np.argsort(probs, axis=1)[:, -5:]  # top-5 indices per sample
+    top5_preds = np.argsort(probs, axis=1)[:, -5:]
     correct = sum(
         1 for true, top5 in zip(y_true, top5_preds) if true in top5
     )
@@ -59,18 +48,6 @@ def compute_all_metrics(
     probs: np.ndarray,
     model_name: str = "Model",
 ) -> dict:
-    """
-    Computes and prints all evaluation metrics from Section 4.5.
-
-    Args:
-        y_true:     (N,) ground-truth class indices.
-        y_pred:     (N,) predicted class indices.
-        probs:      (N, num_classes) probability array.
-        model_name: Name string for display.
-
-    Returns:
-        Dict of metric name -> value.
-    """
     top1  = top1_accuracy(y_true, y_pred)
     top5  = top5_accuracy(y_true, probs)
     prec  = macro_precision(y_true, y_pred)
@@ -106,26 +83,11 @@ def plot_confusion_matrix(
     top_n: int = 20,
     model_name: str = "Model",
 ):
-    """
-    Saves two confusion matrix plots side-by-side in one figure:
-      - Left:  Top-N most confused classes (highest off-diagonal errors)
-      - Right: Top-N best classified classes (highest per-class accuracy)
-
-    Args:
-        y_true:      Ground-truth labels.
-        y_pred:      Predicted labels.
-        class_names: List of class name strings.
-        save_path:   File path to save the figure (PNG).
-        top_n:       Number of classes to show in each panel.
-        model_name:  Title prefix.
-    """
     cm = confusion_matrix(y_true, y_pred)
     errors_per_class   = cm.sum(axis=1) - np.diag(cm)
     per_class_accuracy = np.diag(cm) / (cm.sum(axis=1) + 1e-9)
 
-    # Top-N most confused: highest error count
     worst_idx = np.sort(np.argsort(errors_per_class)[-top_n:])
-    # Top-N best classified: highest per-class accuracy
     best_idx  = np.sort(np.argsort(per_class_accuracy)[-top_n:])
 
     fig, (ax_worst, ax_best) = plt.subplots(1, 2, figsize=(28, 12))
@@ -170,17 +132,6 @@ def plot_per_class_accuracy(
     top_n: int = 20,
     model_name: str = "Model",
 ):
-    """
-    Bar chart showing the top-N best and worst per-class accuracies side by side.
-
-    Args:
-        y_true:      Ground-truth labels.
-        y_pred:      Predicted labels.
-        class_names: List of class name strings.
-        save_path:   File path to save the figure (PNG).
-        top_n:       Number of classes shown in each panel.
-        model_name:  Title prefix.
-    """
     cm = confusion_matrix(y_true, y_pred)
     per_class_acc = np.diag(cm) / (cm.sum(axis=1) + 1e-9)
 
@@ -219,14 +170,6 @@ def plot_training_history(
     save_path: str | None = None,
     model_name: str = "CNN",
 ):
-    """
-    Plots train/val loss and accuracy curves from a training history dict.
-
-    Args:
-        history:    Dict with keys: train_loss, val_loss, train_acc, val_acc.
-        save_path:  File path to save the figure (PNG).
-        model_name: Title prefix.
-    """
     epochs = range(1, len(history["train_loss"]) + 1)
 
     fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(14, 5))
@@ -260,13 +203,6 @@ def plot_model_comparison(
     results: dict[str, dict],
     save_path: str | None = None,
 ):
-    """
-    Bar chart comparing multiple models across key metrics.
-
-    Args:
-        results:   Dict mapping model_name -> metrics dict (from compute_all_metrics).
-        save_path: File path to save the figure.
-    """
     metrics_to_plot = ["top1_accuracy", "top5_accuracy", "macro_f1"]
     labels          = list(results.keys())
     x               = np.arange(len(labels))
@@ -303,9 +239,6 @@ def print_classification_report(
     class_names: list[str],
     save_path: str | None = None,
 ):
-    """
-    Prints and optionally saves the full per-class classification report.
-    """
     report = classification_report(y_true, y_pred, target_names=class_names, zero_division=0)
     print(report)
     if save_path:

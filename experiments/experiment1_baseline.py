@@ -1,11 +1,6 @@
 """
 Experiment 1 — Baseline
-========================
-Train and evaluate all three classifiers (CNN, SVM, Random Forest) on the
-full Food-101 dataset using the official train/test split.
-
-Matches Section 4.4, Experiment 1 of the proposal.
-
+Train and evaluate CNN, SVM, and Random Forest on the full Food-101 dataset.
 Results saved to: results/experiment1/
 """
 
@@ -14,7 +9,6 @@ import sys
 import json
 import numpy as np
 
-# Allow imports from project root
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
 
 from src.data.dataset import load_food101, load_food101_raw
@@ -47,24 +41,9 @@ def run(
     skip_rf: bool = False,
     skip_cnn: bool = False,
 ):
-    """
-    Runs Experiment 1.
-
-    Args:
-        data_root:        Directory to download/store Food-101.
-        results_dir:      Directory for output files.
-        subset_fraction:  Use a fraction of the dataset (1.0 = full).
-        cnn_epochs:       Max CNN training epochs.
-        batch_size:       CNN DataLoader batch size.
-        pca_components:   Number of PCA components for SVM/RF.
-        skip_svm:         Skip SVM training (for quick runs).
-        skip_rf:          Skip RF training (for quick runs).
-        skip_cnn:         Skip CNN training (for quick runs).
-    """
     os.makedirs(results_dir, exist_ok=True)
     all_results = {}
 
-    # ─── CNN ─────────────────────────────────────────────────────────────────
     if not skip_cnn:
         print("\n" + "="*70)
         print("  EXPERIMENT 1 — CNN (ResNet-50, two_blocks fine-tuning)")
@@ -113,11 +92,9 @@ def run(
 
         all_results["CNN (ResNet-50)"] = cnn_metrics
 
-        # Save history
         with open(os.path.join(results_dir, "cnn_history.json"), "w") as f:
             json.dump(history, f, indent=2)
 
-    # ─── SVM ─────────────────────────────────────────────────────────────────
     if not skip_svm:
         print("\n" + "="*70)
         print("  EXPERIMENT 1 — SVM (HOG + Color Histogram + PCA)")
@@ -131,10 +108,7 @@ def run(
 
         pipeline = FeaturePipeline(n_components=pca_components, hog_only=False)
 
-        print("Extracting training features...")
         X_train, y_train = pipeline.fit_transform(raw_data["train_loader"])
-
-        print("Extracting test features...")
         X_test,  y_test  = pipeline.transform(raw_data["test_loader"])
 
         pipeline.save(os.path.join(results_dir, "feature_pipeline_hog_color.pkl"))
@@ -162,23 +136,19 @@ def run(
 
         all_results["SVM (HOG+Color+PCA)"] = svm_metrics
 
-    # ─── Random Forest ────────────────────────────────────────────────────────
     if not skip_rf:
         print("\n" + "="*70)
         print("  EXPERIMENT 1 — Random Forest (HOG + Color Histogram + PCA)")
         print("="*70)
 
         if skip_svm:
-            # Need to build the feature pipeline if SVM was skipped
             raw_data = load_food101_raw(
                 data_root=data_root,
                 subset_fraction=subset_fraction,
             )
             class_names = raw_data["class_names"]
             pipeline    = FeaturePipeline(n_components=pca_components, hog_only=False)
-            print("Extracting training features...")
             X_train, y_train = pipeline.fit_transform(raw_data["train_loader"])
-            print("Extracting test features...")
             X_test,  y_test  = pipeline.transform(raw_data["test_loader"])
 
         rf = train_random_forest(X_train, y_train, n_estimators=200)
@@ -204,14 +174,12 @@ def run(
 
         all_results["Random Forest"] = rf_metrics
 
-    # ─── Summary comparison ───────────────────────────────────────────────────
     if len(all_results) > 1:
         plot_model_comparison(
             all_results,
             save_path=os.path.join(results_dir, "model_comparison.png"),
         )
 
-    # Save summary JSON
     summary_path = os.path.join(results_dir, "summary.json")
     with open(summary_path, "w") as f:
         json.dump(all_results, f, indent=2)

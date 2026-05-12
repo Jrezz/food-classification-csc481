@@ -1,7 +1,6 @@
 """
 SVM classifier with RBF kernel trained on PCA-reduced HOG + color histogram features.
-Includes 5-fold cross-validation grid search for C and gamma hyperparameters.
-Matches Section 4.3 of the proposal.
+Includes 5-fold cross-validation grid search for C and gamma.
 """
 
 import os
@@ -12,7 +11,6 @@ from sklearn.model_selection import GridSearchCV, StratifiedKFold
 from sklearn.metrics import accuracy_score
 
 
-# Hyperparameter search grid (Section 4.3)
 SVM_PARAM_GRID = {
     "C":     [0.1, 1.0, 10.0, 100.0],
     "gamma": ["scale", "auto", 0.001, 0.01],
@@ -27,20 +25,6 @@ def train_svm(
     n_jobs: int = -1,
     verbose: int = 1,
 ) -> SVC:
-    """
-    Trains an SVM with RBF kernel using 5-fold cross-validated grid search.
-
-    Args:
-        X_train:    (N, n_components) feature matrix.
-        y_train:    (N,) label array.
-        param_grid: Hyperparameter grid. Defaults to SVM_PARAM_GRID.
-        cv_folds:   Number of cross-validation folds.
-        n_jobs:     Parallel jobs (-1 = all CPUs).
-        verbose:    Verbosity level for GridSearchCV.
-
-    Returns:
-        Best-fitted SVC estimator.
-    """
     if param_grid is None:
         param_grid = SVM_PARAM_GRID
 
@@ -71,14 +55,6 @@ def evaluate_svm(
     X: np.ndarray,
     y: np.ndarray,
 ) -> tuple[np.ndarray, np.ndarray, np.ndarray]:
-    """
-    Runs inference with the SVM and returns probabilities, predictions, and labels.
-
-    Returns:
-        probs:  (N, num_classes) probability estimates (requires probability=True in SVC).
-        preds:  (N,) predicted class indices.
-        labels: (N,) ground-truth class indices (same as y).
-    """
     probs  = svm.predict_proba(X)
     preds  = probs.argmax(axis=1)
     acc    = accuracy_score(y, preds)
@@ -87,12 +63,10 @@ def evaluate_svm(
 
 
 def save_svm(svm: SVC, path: str):
-    """Persists the fitted SVM to disk."""
     os.makedirs(os.path.dirname(path) or ".", exist_ok=True)
     joblib.dump(svm, path)
     print(f"SVM saved to {path}")
 
 
 def load_svm(path: str) -> SVC:
-    """Loads a previously saved SVM from disk."""
     return joblib.load(path)

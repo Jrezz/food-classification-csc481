@@ -1,13 +1,6 @@
 """
 Experiment 3 — Feature Ablation
-=================================
-Compares SVM and Random Forest classifiers using:
-  1. HOG features only
-  2. HOG + RGB/HSV color histogram features (concatenated, then PCA-reduced)
-
-Quantifies how much the color information contributes to classification accuracy.
-Matches Section 4.4, Experiment 3 of the proposal.
-
+Compares HOG-only vs. HOG + color histograms for SVM and Random Forest.
 Results saved to: results/experiment3/
 """
 
@@ -39,15 +32,6 @@ def run(
     subset_fraction: float = 1.0,
     pca_components: int = 200,
 ):
-    """
-    Runs Experiment 3.
-
-    Args:
-        data_root:       Directory to download/store Food-101.
-        results_dir:     Directory for output files.
-        subset_fraction: Use a fraction of the dataset (1.0 = full).
-        pca_components:  Number of PCA components.
-    """
     os.makedirs(results_dir, exist_ok=True)
 
     raw_data = load_food101_raw(data_root=data_root, subset_fraction=subset_fraction)
@@ -62,14 +46,11 @@ def run(
 
         pipeline = FeaturePipeline(n_components=pca_components, hog_only=hog_only)
 
-        print("Extracting training features...")
         X_train, y_train = pipeline.fit_transform(raw_data["train_loader"])
-        print("Extracting test features...")
         X_test,  y_test  = pipeline.transform(raw_data["test_loader"])
 
         pipeline.save(os.path.join(results_dir, f"pipeline_{feature_set}.pkl"))
 
-        # ── SVM ──────────────────────────────────────────────────────────────
         print(f"\n  SVM [{feature_set}]")
         svm = train_svm(X_train, y_train)
         save_svm(svm, os.path.join(results_dir, f"svm_{feature_set}.pkl"))
@@ -91,7 +72,6 @@ def run(
         )
         all_results[f"SVM [{feature_set}]"] = svm_metrics
 
-        # ── Random Forest ─────────────────────────────────────────────────────
         print(f"\n  Random Forest [{feature_set}]")
         rf = train_random_forest(X_train, y_train, n_estimators=200)
         save_rf(rf, os.path.join(results_dir, f"rf_{feature_set}.pkl"))
@@ -113,13 +93,11 @@ def run(
         )
         all_results[f"RF [{feature_set}]"] = rf_metrics
 
-    # Comparison plot
     plot_model_comparison(
         all_results,
         save_path=os.path.join(results_dir, "feature_ablation_comparison.png"),
     )
 
-    # Ablation delta table
     _print_ablation_delta(all_results, results_dir)
 
     summary_path = os.path.join(results_dir, "summary.json")
@@ -131,7 +109,6 @@ def run(
 
 
 def _print_ablation_delta(results: dict, results_dir: str):
-    """Prints and saves the accuracy gain from adding color features."""
     lines = [
         "Feature Ablation Delta (HOG+Color vs HOG-only)\n",
         "=" * 50 + "\n",

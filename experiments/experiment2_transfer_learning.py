@@ -1,12 +1,6 @@
 """
 Experiment 2 — Transfer Learning Depth
-========================================
-Compares two ResNet-50 fine-tuning strategies:
-  1. head_only   — only the final FC layer is trained
-  2. two_blocks  — the final FC layer + last 2 residual blocks (layer3, layer4)
-
-Matches Section 4.4, Experiment 2 of the proposal.
-
+Compares head-only vs. two-block fine-tuning on ResNet-50.
 Results saved to: results/experiment2/
 """
 
@@ -38,16 +32,6 @@ def run(
     cnn_epochs: int = 20,
     batch_size: int = 32,
 ):
-    """
-    Runs Experiment 2.
-
-    Args:
-        data_root:       Directory to download/store Food-101.
-        results_dir:     Directory for output files.
-        subset_fraction: Use a fraction of the dataset (1.0 = full).
-        cnn_epochs:      Max CNN training epochs per configuration.
-        batch_size:      DataLoader batch size.
-    """
     os.makedirs(results_dir, exist_ok=True)
 
     data = load_food101(
@@ -100,10 +84,8 @@ def run(
 
         all_results[f"CNN ({mode})"] = metrics
 
-    # Side-by-side training curves comparison
     _plot_combined_history(results_dir)
 
-    # Bar chart comparison
     plot_model_comparison(
         all_results,
         save_path=os.path.join(results_dir, "transfer_learning_comparison.png"),
@@ -118,7 +100,6 @@ def run(
 
 
 def _plot_combined_history(results_dir: str):
-    """Overlays val accuracy for head_only vs two_blocks in a single plot."""
     import matplotlib
     matplotlib.use("Agg")
     import matplotlib.pyplot as plt

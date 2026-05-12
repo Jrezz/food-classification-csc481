@@ -1,5 +1,5 @@
 """
-Food Classification & Calorie Estimation — Interactive Dashboard
+Food Classification & Calorie Estimation — Dashboard
 CSC 481 | Justin Rzepko, Kathya Reynosa, Tiago Freitas
 """
 
@@ -14,7 +14,6 @@ import numpy as np
 import streamlit as st
 from PIL import Image
 
-# ── Page config ───────────────────────────────────────────────────────────────
 st.set_page_config(
     page_title="Food Classification — CSC 481",
     page_icon=None,
@@ -22,7 +21,6 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-# ── Global styles ─────────────────────────────────────────────────────────────
 st.markdown("""
 <style>
     /* Font and background */
@@ -189,7 +187,6 @@ RESULTS  = os.path.join(os.path.dirname(__file__), "results")
 DATA_DIR = os.path.join(os.path.dirname(__file__), "data")
 sys.path.insert(0, os.path.dirname(__file__))
 
-# ── Matplotlib style ──────────────────────────────────────────────────────────
 plt.rcParams.update({
     "figure.facecolor":  "white",
     "axes.facecolor":    "#f8faff",
@@ -213,7 +210,6 @@ RED    = "#E8645A"
 PURPLE = "#9B7FE8"
 NAVY   = "#1a1f2e"
 
-# ── Helpers ───────────────────────────────────────────────────────────────────
 @st.cache_data
 def load_summary():
     with open(os.path.join(RESULTS, "all_results_summary.json")) as f:
@@ -228,7 +224,6 @@ def show_image(path, caption=None):
 def section(text):
     st.markdown(f'<p class="section-label">{text}</p>', unsafe_allow_html=True)
 
-# ── Sidebar ───────────────────────────────────────────────────────────────────
 with st.sidebar:
     st.markdown("### Food Classification")
     st.markdown("**CSC 481 — Artificial Intelligence**")
@@ -255,9 +250,6 @@ with st.sidebar:
         unsafe_allow_html=True,
     )
 
-# ══════════════════════════════════════════════════════════════════════════════
-# OVERVIEW
-# ══════════════════════════════════════════════════════════════════════════════
 if page == "Overview":
     st.title("Project Overview")
     st.markdown(
@@ -345,9 +337,6 @@ if page == "Overview":
             "±50 kcal of ground truth, with a mean absolute error of only 26.4 kcal."
         )
 
-# ══════════════════════════════════════════════════════════════════════════════
-# EXPERIMENT 1
-# ══════════════════════════════════════════════════════════════════════════════
 elif page == "Experiment 1 — Baseline":
     st.title("Experiment 1 — Baseline Classifier Comparison")
     st.markdown(
@@ -391,9 +380,6 @@ elif page == "Experiment 1 — Baseline":
         "fine-grained food recognition across 101 classes."
     )
 
-# ══════════════════════════════════════════════════════════════════════════════
-# EXPERIMENT 2
-# ══════════════════════════════════════════════════════════════════════════════
 elif page == "Experiment 2 — Transfer Learning":
     st.title("Experiment 2 — Transfer Learning Depth")
     st.markdown(
@@ -440,9 +426,6 @@ elif page == "Experiment 2 — Transfer Learning":
         "requires domain adaptation to food-specific textures and color patterns."
     )
 
-# ══════════════════════════════════════════════════════════════════════════════
-# EXPERIMENT 3
-# ══════════════════════════════════════════════════════════════════════════════
 elif page == "Experiment 3 — Feature Ablation":
     st.title("Experiment 3 — Feature Ablation")
     st.markdown(
@@ -496,9 +479,6 @@ elif page == "Experiment 3 — Feature Ablation":
         "cannot match deep learned representations for 101-class food recognition."
     )
 
-# ══════════════════════════════════════════════════════════════════════════════
-# EXPERIMENT 4
-# ══════════════════════════════════════════════════════════════════════════════
 elif page == "Experiment 4 — Calorie Estimation":
     st.title("Experiment 4 — Calorie Estimation Accuracy")
     st.markdown(
@@ -534,9 +514,6 @@ elif page == "Experiment 4 — Calorie Estimation":
         "has a similar caloric density — making this approach practical for dietary tracking."
     )
 
-# ══════════════════════════════════════════════════════════════════════════════
-# LIVE PREDICTION
-# ══════════════════════════════════════════════════════════════════════════════
 elif page == "Live Prediction":
     st.title("Live Food Prediction")
     st.markdown(

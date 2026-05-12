@@ -1,6 +1,5 @@
 """
 Food-101 dataset loading, preprocessing, and augmentation pipeline.
-Uses torchvision's built-in Food101 dataset which handles downloading automatically.
 """
 
 import os
@@ -18,10 +17,6 @@ IMAGE_SIZE    = 224
 
 
 def get_train_transform(augment: bool = True) -> transforms.Compose:
-    """
-    Returns the transform pipeline for training images.
-    Applies data augmentation when augment=True (Section 4.1 of proposal).
-    """
     if augment:
         return transforms.Compose([
             transforms.Resize((IMAGE_SIZE, IMAGE_SIZE)),
@@ -37,7 +32,6 @@ def get_train_transform(augment: bool = True) -> transforms.Compose:
 
 
 def get_eval_transform() -> transforms.Compose:
-    """Returns the transform pipeline for validation/test images (no augmentation)."""
     return transforms.Compose([
         transforms.Resize((IMAGE_SIZE, IMAGE_SIZE)),
         transforms.ToTensor(),
@@ -46,11 +40,7 @@ def get_eval_transform() -> transforms.Compose:
 
 
 def get_raw_transform() -> transforms.Compose:
-    """
-    Returns a transform that resizes and converts to tensor without ImageNet normalization.
-    Used for HOG/color histogram feature extraction (SVM/RF pipelines).
-    Pixel values in [0, 1] as per Section 4.1.
-    """
+    """No ImageNet normalization — used for HOG/color feature extraction."""
     return transforms.Compose([
         transforms.Resize((IMAGE_SIZE, IMAGE_SIZE)),
         transforms.ToTensor(),  # scales to [0, 1]
@@ -68,28 +58,12 @@ def load_food101(
 ):
     """
     Loads the Food-101 dataset. Downloads automatically on first run (~4.6 GB).
-
-    Args:
-        data_root:        Directory to store/load the dataset.
-        batch_size:       DataLoader batch size.
-        num_workers:      Number of parallel data loading workers.
-        augment:          Whether to apply training augmentations.
-        val_fraction:     Fraction of training data to use as validation set (default 10%).
-        subset_fraction:  Fraction of each split to use (1.0 = full dataset).
-                          Useful for quick smoke-testing.
-        seed:             Random seed for reproducibility.
-
-    Returns:
-        dict with keys: train_loader, val_loader, test_loader, class_names,
-                        num_classes, train_dataset, val_dataset, test_dataset
     """
     os.makedirs(data_root, exist_ok=True)
 
-    # Download / load the official train and test splits
     train_full = Food101(root=data_root, split="train", transform=get_train_transform(augment), download=True)
     test_ds    = Food101(root=data_root, split="test",  transform=get_eval_transform(),          download=True)
 
-    # Carve out a validation set from the training split
     rng = np.random.default_rng(seed)
     n_train_full = len(train_full)
     all_idx = np.arange(n_train_full)
@@ -99,7 +73,6 @@ def load_food101(
     val_idx   = all_idx[:n_val]
     train_idx = all_idx[n_val:]
 
-    # Optional subset (for quick experiments)
     if subset_fraction < 1.0:
         train_idx = train_idx[:int(len(train_idx) * subset_fraction)]
         val_idx   = val_idx[:int(len(val_idx)   * subset_fraction)]
@@ -107,7 +80,6 @@ def load_food101(
     else:
         test_idx = np.arange(len(test_ds))
 
-    # Build validation dataset with no augmentation
     val_full = Food101(root=data_root, split="train", transform=get_eval_transform(), download=False)
 
     train_ds = Subset(train_full, train_idx)
@@ -141,10 +113,8 @@ def load_food101_raw(
     seed: int = 42,
 ):
     """
-    Loads Food-101 with raw pixel transforms [0,1] (no ImageNet normalization).
-    Used for extracting HOG and color histogram features for SVM and Random Forest.
-
-    Returns same dict structure as load_food101().
+    Loads Food-101 with raw [0,1] transforms for HOG/color feature extraction.
+    Returns the same dict structure as load_food101().
     """
     os.makedirs(data_root, exist_ok=True)
 

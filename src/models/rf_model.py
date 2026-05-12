@@ -1,6 +1,5 @@
 """
-Random Forest classifier with 200 estimators trained on PCA-reduced HOG + color features.
-Matches Section 4.3 of the proposal.
+Random Forest classifier trained on PCA-reduced HOG + color features.
 """
 
 import os
@@ -17,19 +16,6 @@ def train_random_forest(
     n_jobs: int = -1,
     verbose: int = 1,
 ) -> RandomForestClassifier:
-    """
-    Trains a Random Forest classifier.
-
-    Args:
-        X_train:      (N, n_components) feature matrix.
-        y_train:      (N,) label array.
-        n_estimators: Number of trees (default 200 per proposal).
-        n_jobs:       Parallel jobs (-1 = all CPUs).
-        verbose:      Verbosity level.
-
-    Returns:
-        Fitted RandomForestClassifier.
-    """
     rf = RandomForestClassifier(
         n_estimators=n_estimators,
         max_features="sqrt",
@@ -53,14 +39,6 @@ def evaluate_random_forest(
     X: np.ndarray,
     y: np.ndarray,
 ) -> tuple[np.ndarray, np.ndarray, np.ndarray]:
-    """
-    Runs inference and returns probabilities, predictions, and labels.
-
-    Returns:
-        probs:  (N, num_classes) probability estimates.
-        preds:  (N,) predicted class indices.
-        labels: (N,) ground-truth class indices (same as y).
-    """
     probs = rf.predict_proba(X)
     preds = probs.argmax(axis=1)
     acc   = accuracy_score(y, preds)
@@ -69,12 +47,10 @@ def evaluate_random_forest(
 
 
 def save_rf(rf: RandomForestClassifier, path: str):
-    """Persists the fitted Random Forest to disk."""
     os.makedirs(os.path.dirname(path) or ".", exist_ok=True)
     joblib.dump(rf, path)
     print(f"Random Forest saved to {path}")
 
 
 def load_rf(path: str) -> RandomForestClassifier:
-    """Loads a previously saved Random Forest from disk."""
     return joblib.load(path)

@@ -1,7 +1,5 @@
 """
-Feature extraction pipeline for SVM and Random Forest classifiers.
-Extracts HOG features, RGB/HSV color histograms, and applies PCA reduction.
-Matches Section 4.2 of the proposal.
+Feature extraction pipeline: HOG features, RGB/HSV color histograms, PCA reduction.
 """
 
 import os
@@ -17,25 +15,14 @@ import joblib
 from tqdm import tqdm
 
 
-# ─── HOG parameters ──────────────────────────────────────────────────────────
 HOG_ORIENTATIONS  = 9
 HOG_PIXELS_PER_CELL = (16, 16)
 HOG_CELLS_PER_BLOCK = (2, 2)
 
-# ─── Color histogram parameters ───────────────────────────────────────────────
-COLOR_BINS = 32   # bins per channel
+COLOR_BINS = 32
 
 
 def extract_hog_features(image_np: np.ndarray) -> np.ndarray:
-    """
-    Extracts HOG features from a single image.
-
-    Args:
-        image_np: uint8 HxWxC numpy array (RGB, values 0-255).
-
-    Returns:
-        1-D numpy feature vector.
-    """
     gray = skcolor.rgb2gray(image_np)
     features = hog(
         gray,
@@ -49,22 +36,13 @@ def extract_hog_features(image_np: np.ndarray) -> np.ndarray:
 
 
 def extract_color_histogram(image_np: np.ndarray) -> np.ndarray:
-    """
-    Extracts concatenated RGB and HSV color histograms from a single image.
-
-    Args:
-        image_np: uint8 HxWxC numpy array (RGB, values 0-255).
-
-    Returns:
-        1-D numpy feature vector (RGB hist + HSV hist).
-    """
+    """Returns concatenated L2-normalized RGB + HSV histograms."""
     rgb_hist = []
     for ch in range(3):
         hist, _ = np.histogram(image_np[:, :, ch], bins=COLOR_BINS, range=(0, 256))
         rgb_hist.append(hist.astype(np.float32))
     rgb_hist = np.concatenate(rgb_hist)
 
-    # Convert to HSV via OpenCV (expects BGR)
     bgr = cv2.cvtColor(image_np, cv2.COLOR_RGB2BGR)
     hsv = cv2.cvtColor(bgr, cv2.COLOR_BGR2HSV)
     hsv_hist = []
@@ -75,7 +53,6 @@ def extract_color_histogram(image_np: np.ndarray) -> np.ndarray:
     hsv_hist = np.concatenate(hsv_hist)
 
     combined = np.concatenate([rgb_hist, hsv_hist])
-    # L2 normalize
     norm = np.linalg.norm(combined)
     if norm > 0:
         combined = combined / norm
@@ -83,10 +60,7 @@ def extract_color_histogram(image_np: np.ndarray) -> np.ndarray:
 
 
 def tensor_to_uint8(img_tensor: torch.Tensor) -> np.ndarray:
-    """
-    Converts a CxHxW float tensor in [0,1] to uint8 HxWxC numpy array.
-    Assumes NO ImageNet normalization was applied (raw pipeline).
-    """
+    """Converts a CxHxW float tensor in [0,1] to uint8 HxWxC numpy array."""
     img = img_tensor.permute(1, 2, 0).numpy()
     img = np.clip(img * 255, 0, 255).astype(np.uint8)
     return img
@@ -97,18 +71,6 @@ def extract_features_from_loader(
     hog_only: bool = False,
     verbose: bool = True,
 ) -> tuple[np.ndarray, np.ndarray]:
-    """
-    Iterates over a DataLoader and extracts HOG + (optionally) color histogram features.
-
-    Args:
-        loader:   DataLoader whose dataset uses the raw [0,1] transform (no ImageNet norm).
-        hog_only: If True, only HOG features are extracted (for Experiment 3 ablation).
-        verbose:  Show tqdm progress bar.
-
-    Returns:
-        X: float32 array of shape (N, feature_dim)
-        y: int64 array of shape (N,) with class labels
-    """
     all_features = []
     all_labels   = []
 
@@ -134,17 +96,9 @@ def extract_features_from_loader(
 
 
 class FeaturePipeline:
-    """
-    Wraps feature extraction, StandardScaler, and PCA into a single pipeline.
-    Mirrors Section 4.2: PCA on HOG + color features.
-    """
+    """Wraps feature extraction, StandardScaler, and PCA into a single reusable pipeline."""
 
     def __init__(self, n_components: int = 200, hog_only: bool = False):
-        """
-        Args:
-            n_components: Number of PCA components to retain.
-            hog_only:     Whether to use only HOG features (skips color histograms).
-        """
         self.n_components = n_components
         self.hog_only     = hog_only
         self.scaler       = StandardScaler()
@@ -152,9 +106,6 @@ class FeaturePipeline:
         self._fitted      = False
 
     def fit_transform(self, loader: DataLoader, verbose: bool = True) -> tuple[np.ndarray, np.ndarray]:
-        """
-        Extracts features, fits scaler and PCA on training data, returns transformed X.
-        """
         X, y = extract_features_from_loader(loader, hog_only=self.hog_only, verbose=verbose)
         X_scaled = self.scaler.fit_transform(X)
         X_pca    = self.pca.fit_transform(X_scaled)
@@ -164,9 +115,6 @@ class FeaturePipeline:
         return X_pca, y
 
     def transform(self, loader: DataLoader, verbose: bool = True) -> tuple[np.ndarray, np.ndarray]:
-        """
-        Applies fitted scaler and PCA to new data (val/test sets).
-        """
         if not self._fitted:
             raise RuntimeError("Call fit_transform() on training data before transform().")
         X, y = extract_features_from_loader(loader, hog_only=self.hog_only, verbose=verbose)
@@ -175,14 +123,12 @@ class FeaturePipeline:
         return X_pca, y
 
     def save(self, path: str):
-        """Persists the fitted pipeline to disk."""
         os.makedirs(os.path.dirname(path) or ".", exist_ok=True)
         joblib.dump({"scaler": self.scaler, "pca": self.pca, "hog_only": self.hog_only}, path)
         print(f"Feature pipeline saved to {path}")
 
     @classmethod
     def load(cls, path: str) -> "FeaturePipeline":
-        """Loads a previously saved pipeline from disk."""
         data = joblib.load(path)
         pipeline = cls(n_components=data["pca"].n_components, hog_only=data["hog_only"])
         pipeline.scaler  = data["scaler"]

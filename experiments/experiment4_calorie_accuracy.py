@@ -1,17 +1,6 @@
 """
 Experiment 4 — Calorie Estimation Accuracy
-============================================
-Uses the best-performing classifier (CNN) to evaluate end-to-end calorie
-estimation accuracy by comparing predicted calorie ranges to USDA ground-truth.
-
-Metrics reported:
-  - MAE (kcal) between predicted and true average calorie values
-  - Calorie accuracy (% within ±50 kcal tolerance)
-  - Per-class calorie lookup table
-  - Distribution of calorie errors
-
-Matches Section 4.4, Experiment 4 of the proposal.
-
+End-to-end evaluation: CNN predictions mapped to calorie ranges vs. USDA ground-truth.
 Results saved to: results/experiment4/
 """
 
@@ -43,25 +32,12 @@ def run(
     cnn_model_path: str | None = None,
     tolerance_kcal: float = 50.0,
 ):
-    """
-    Runs Experiment 4.
-
-    Args:
-        data_root:       Directory to download/store Food-101.
-        results_dir:     Directory for output files.
-        subset_fraction: Use a fraction of the dataset (1.0 = full).
-        cnn_epochs:      Max CNN training epochs (only if no saved model found).
-        batch_size:      DataLoader batch size.
-        cnn_model_path:  Path to a pre-trained CNN .pth file (trains from scratch if None).
-        tolerance_kcal:  Tolerance window for calorie accuracy (default ±50 kcal).
-    """
     os.makedirs(results_dir, exist_ok=True)
 
     data        = load_food101(data_root=data_root, batch_size=batch_size, subset_fraction=subset_fraction)
     class_names = data["class_names"]
     estimator   = CalorieEstimator()
 
-    # ─── Load or train CNN ────────────────────────────────────────────────────
     best_path = cnn_model_path or EXP1_CNN_PATH
     if best_path and os.path.exists(best_path):
         print(f"Loading pre-trained CNN from {best_path}")
@@ -83,12 +59,10 @@ def run(
             model_name="CNN (Experiment 4)",
         )
 
-    # ─── Classification evaluation ────────────────────────────────────────────
     print("\nRunning CNN inference on test set...")
     probs, preds, labels = evaluate_cnn(model, data["test_loader"])
     clf_metrics = compute_all_metrics(labels, preds, probs, model_name="CNN (Experiment 4)")
 
-    # ─── Calorie estimation ───────────────────────────────────────────────────
     print("\nComputing calorie estimation metrics...")
     mae = estimator.compute_mae(preds, labels, class_names)
     cal_acc = estimator.compute_calorie_accuracy(preds, labels, class_names, tolerance_kcal=tolerance_kcal)
@@ -100,20 +74,15 @@ def run(
     print(f"  Calorie Accuracy (±{tolerance_kcal:.0f} kcal):  {cal_acc:.4f}  ({cal_acc*100:.2f}%)")
     print(f"{'='*60}")
 
-    # ─── Per-class calorie table ──────────────────────────────────────────────
     calorie_table = _build_calorie_table(class_names, estimator)
     calorie_table_path = os.path.join(results_dir, "calorie_table.json")
     with open(calorie_table_path, "w") as f:
         json.dump(calorie_table, f, indent=2)
     print(f"\nCalorie table (all 101 classes) saved to: {calorie_table_path}")
 
-    # ─── Error distribution plot ──────────────────────────────────────────────
     _plot_calorie_error_distribution(preds, labels, class_names, estimator, results_dir)
-
-    # ─── Per-class calorie error ──────────────────────────────────────────────
     _plot_top_calorie_errors(preds, labels, class_names, estimator, results_dir)
 
-    # ─── Save summary ─────────────────────────────────────────────────────────
     summary = {
         **clf_metrics,
         "calorie_mae_kcal":          mae,
@@ -128,7 +97,6 @@ def run(
 
 
 def _build_calorie_table(class_names: list[str], estimator: CalorieEstimator) -> list[dict]:
-    """Builds a sorted list of all Food-101 classes with their calorie info."""
     table = []
     for cls in class_names:
         info = estimator.estimate(cls)
@@ -144,7 +112,6 @@ def _build_calorie_table(class_names: list[str], estimator: CalorieEstimator) ->
 def _plot_calorie_error_distribution(
     preds, labels, class_names, estimator, results_dir
 ):
-    """Histogram of calorie prediction errors (predicted_avg - true_avg)."""
     import matplotlib
     matplotlib.use("Agg")
     import matplotlib.pyplot as plt
@@ -170,7 +137,6 @@ def _plot_calorie_error_distribution(
 def _plot_top_calorie_errors(
     preds, labels, class_names, estimator, results_dir, top_n: int = 20
 ):
-    """Bar chart of the top-N food classes with the highest mean calorie error."""
     import matplotlib
     matplotlib.use("Agg")
     import matplotlib.pyplot as plt

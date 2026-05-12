@@ -1,8 +1,9 @@
 """
 ResNet-50 CNN with configurable fine-tuning depth.
-Supports two modes (Section 4.3 / Experiment 2):
-  - 'head_only'   : Only the final FC layer is trained (all ResNet layers frozen).
-  - 'two_blocks'  : The final FC layer + the last 2 residual blocks (layer3, layer4) are trained.
+
+Modes:
+  - 'head_only'  : only the final FC layer is trained
+  - 'two_blocks' : FC layer + last two residual blocks (layer3, layer4)
 """
 
 import os
@@ -20,34 +21,21 @@ FINE_TUNE_MODES = ("head_only", "two_blocks")
 
 
 def build_resnet50(num_classes: int = 101, fine_tune_mode: str = "two_blocks") -> nn.Module:
-    """
-    Constructs a ResNet-50 model pre-trained on ImageNet with a replaced head.
-
-    Args:
-        num_classes:     Number of output classes (101 for Food-101).
-        fine_tune_mode:  'head_only' or 'two_blocks' (see module docstring).
-
-    Returns:
-        nn.Module ready for training.
-    """
     if fine_tune_mode not in FINE_TUNE_MODES:
         raise ValueError(f"fine_tune_mode must be one of {FINE_TUNE_MODES}")
 
     model = models.resnet50(weights=models.ResNet50_Weights.IMAGENET1K_V1)
 
-    # Replace the final FC layer
-    in_features = model.fc.in_features  # 2048 for ResNet-50
+    in_features = model.fc.in_features
     model.fc = nn.Linear(in_features, num_classes)
 
-    # Freeze parameters based on fine-tuning strategy
     if fine_tune_mode == "head_only":
-        # Freeze everything except the new FC head
         for name, param in model.named_parameters():
             if "fc" not in name:
                 param.requires_grad = False
 
     elif fine_tune_mode == "two_blocks":
-        # Freeze all layers up through layer2; unfreeze layer3, layer4, and fc
+        # Freeze through layer2; unfreeze layer3, layer4, fc
         freeze_until = {"conv1", "bn1", "layer1", "layer2"}
         for name, param in model.named_parameters():
             layer = name.split(".")[0]
@@ -58,21 +46,10 @@ def build_resnet50(num_classes: int = 101, fine_tune_mode: str = "two_blocks") -
 
 
 def get_optimizer(model: nn.Module, fine_tune_mode: str, lr: float = 1e-3) -> optim.Optimizer:
-    """
-    Returns an Adam optimizer.
-    Uses a lower learning rate for unfrozen backbone layers vs. the new head,
-    which is a standard practice for transfer learning.
-
-    Args:
-        model:          The ResNet-50 model.
-        fine_tune_mode: Used to decide if differential LR is applied.
-        lr:             Base learning rate (default 0.001 per proposal).
-    """
+    """Uses differential LR for two_blocks mode (lower rate for backbone layers)."""
     if fine_tune_mode == "head_only":
-        # Only FC parameters have requires_grad=True
         return optim.Adam(filter(lambda p: p.requires_grad, model.parameters()), lr=lr)
 
-    # For 'two_blocks': lower LR for backbone, higher for head
     backbone_params = []
     head_params     = []
     for name, param in model.named_parameters():
@@ -121,23 +98,6 @@ def train_cnn(
     device: str | None = None,
     save_path: str | None = None,
 ) -> dict:
-    """
-    Full training loop for the CNN.
-
-    Args:
-        model:          ResNet-50 model (from build_resnet50).
-        train_loader:   DataLoader for training split.
-        val_loader:     DataLoader for validation split.
-        fine_tune_mode: 'head_only' or 'two_blocks'.
-        epochs:         Max training epochs (default 20 per proposal).
-        lr:             Learning rate (default 0.001 per proposal).
-        patience:       Early-stopping patience (in epochs with no val loss improvement).
-        device:         'cuda', 'mps', or 'cpu'. Auto-detected if None.
-        save_path:      If provided, the best model weights are saved here.
-
-    Returns:
-        history dict with keys: train_loss, train_acc, val_loss, val_acc (all lists).
-    """
     if device is None:
         if torch.cuda.is_available():
             device = "cuda"
@@ -161,7 +121,6 @@ def train_cnn(
     for epoch in range(1, epochs + 1):
         t0 = time.time()
 
-        # ── Training phase ──────────────────────────────────────────────────
         model.train()
         running_loss = 0.0
         correct      = 0
@@ -183,7 +142,6 @@ def train_cnn(
         train_loss = running_loss / total
         train_acc  = correct / total
 
-        # ── Validation phase ─────────────────────────────────────────────────
         model.eval()
         val_loss_sum = 0.0
         val_correct  = 0
@@ -217,7 +175,6 @@ def train_cnn(
             f"Time: {elapsed:.1f}s"
         )
 
-        # Save best model
         if val_acc > best_val_acc:
             best_val_acc = val_acc
             best_weights = copy.deepcopy(model.state_dict())
@@ -240,14 +197,6 @@ def evaluate_cnn(
     loader: DataLoader,
     device: str | None = None,
 ) -> tuple[np.ndarray, np.ndarray, np.ndarray]:
-    """
-    Runs inference on a DataLoader and returns predictions and ground-truth labels.
-
-    Returns:
-        all_probs:  (N, num_classes) softmax probability array
-        all_preds:  (N,) predicted class indices
-        all_labels: (N,) ground-truth class indices
-    """
     import numpy as np
 
     if device is None:
