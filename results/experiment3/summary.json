@@ -1,0 +1,30 @@
+{
+  "SVM [HOG_only]": {
+    "top1_accuracy": 0.11053465346534654,
+    "top5_accuracy": 0.2954059405940594,
+    "macro_precision": 0.09513318072194318,
+    "macro_recall": 0.11053465346534651,
+    "macro_f1": 0.0981168886603049
+  },
+  "RF [HOG_only]": {
+    "top1_accuracy": 0.05192079207920792,
+    "top5_accuracy": 0.15607920792079208,
+    "macro_precision": 0.04353741953309857,
+    "macro_recall": 0.05192079207920792,
+    "macro_f1": 0.04454970280165469
+  },
+  "SVM [HOG_plus_Color]": {
+    "top1_accuracy": 0.13885148514851486,
+    "top5_accuracy": 0.3483960396039604,
+    "macro_precision": 0.12430034351107148,
+    "macro_recall": 0.13885148514851486,
+    "macro_f1": 0.12702762965537948
+  },
+  "RF [HOG_plus_Color]": {
+    "top1_accuracy": 0.05536633663366337,
+    "top5_accuracy": 0.16491089108910892,
+    "macro_precision": 0.0470130806690293,
+    "macro_recall": 0.05536633663366336,
+    "macro_f1": 0.048304126886879434
+  }
+}

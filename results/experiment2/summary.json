@@ -1,0 +1,16 @@
+{
+  "CNN (head_only)": {
+    "top1_accuracy": 0.6128712871287129,
+    "top5_accuracy": 0.8512871287128713,
+    "macro_precision": 0.6472109288686865,
+    "macro_recall": 0.612871287128713,
+    "macro_f1": 0.6094789004182556
+  },
+  "CNN (two_blocks)": {
+    "top1_accuracy": 0.8182574257425742,
+    "top5_accuracy": 0.9566336633663366,
+    "macro_precision": 0.8253915185560121,
+    "macro_recall": 0.8182574257425743,
+    "macro_f1": 0.8183318993411699
+  }
+}

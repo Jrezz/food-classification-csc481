@@ -1,0 +1,10 @@
+{
+  "top1_accuracy": 0.8285148514851485,
+  "top5_accuracy": 0.9578217821782178,
+  "macro_precision": 0.8325925391982726,
+  "macro_recall": 0.8285148514851486,
+  "macro_f1": 0.8287853518924109,
+  "calorie_mae_kcal": 26.440078735351562,
+  "calorie_accuracy_pct": 96.64158415841584,
+  "tolerance_kcal": 50.0
+}

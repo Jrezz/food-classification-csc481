@@ -1,0 +1,23 @@
+{
+  "CNN (ResNet-50)": {
+    "top1_accuracy": 0.8285148514851485,
+    "top5_accuracy": 0.9578217821782178,
+    "macro_precision": 0.8325925391982726,
+    "macro_recall": 0.8285148514851486,
+    "macro_f1": 0.8287853518924109
+  },
+  "SVM (HOG+Color+PCA)": {
+    "top1_accuracy": 0.13885148514851486,
+    "top5_accuracy": 0.3483960396039604,
+    "macro_precision": 0.12430034351107148,
+    "macro_recall": 0.13885148514851486,
+    "macro_f1": 0.12702762965537948
+  },
+  "Random Forest": {
+    "top1_accuracy": 0.05536633663366337,
+    "top5_accuracy": 0.16491089108910892,
+    "macro_precision": 0.0470130806690293,
+    "macro_recall": 0.05536633663366336,
+    "macro_f1": 0.048304126886879434
+  }
+}

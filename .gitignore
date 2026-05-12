@@ -1,0 +1,34 @@
+# Dataset — too large for GitHub (4.6 GB)
+food_data/
+
+# Virtual environments
+.venv/
+.venv311/
+
+# Trained model weights — too large for GitHub
+results/experiment1/cnn_best.pth
+results/experiment2/cnn_head_only_best.pth
+results/experiment2/cnn_two_blocks_best.pth
+
+# Trained classical model files
+results/experiment1/svm_best.pkl
+results/experiment1/rf_best.pkl
+results/experiment1/feature_pipeline_hog_color.pkl
+results/experiment2/*.pkl
+results/experiment3/*.pkl
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# macOS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+training.log
+nohup.out

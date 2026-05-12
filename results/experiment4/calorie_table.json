@@ -1,0 +1,6163 @@
+[
+  {
+    "food": "Seaweed Salad",
+    "class_name": "seaweed_salad",
+    "min_cal": 50,
+    "max_cal": 150,
+    "avg_cal": 100,
+    "per_100g": 50,
+    "unit": "per serving (~200g)",
+    "portions": [
+      {
+        "weight_g": 100,
+        "calories": 50,
+        "protein_g": 2.0,
+        "carbs_g": 8.0,
+        "fat_g": 1.0,
+        "fiber_g": 3.0,
+        "sugars_g": 2.0,
+        "sodium_mg": 300.0
+      },
+      {
+        "weight_g": 150,
+        "calories": 75,
+        "protein_g": 3.0,
+        "carbs_g": 12.0,
+        "fat_g": 2.0,
+        "fiber_g": 5.0,
+        "sugars_g": 3.0,
+        "sodium_mg": 450.0
+      },
+      {
+        "weight_g": 200,
+        "calories": 100,
+        "protein_g": 4.0,
+        "carbs_g": 16.0,
+        "fat_g": 3.0,
+        "fiber_g": 6.0,
+        "sugars_g": 4.0,
+        "sodium_mg": 600.0
+      },
+      {
+        "weight_g": 250,
+        "calories": 125,
+        "protein_g": 5.0,
+        "carbs_g": 20.0,
+        "fat_g": 4.0,
+        "fiber_g": 8.0,
+        "sugars_g": 5.0,
+        "sodium_mg": 750.0
+      },
+      {
+        "weight_g": 300,
+        "calories": 150,
+        "protein_g": 6.0,
+        "carbs_g": 24.0,
+        "fat_g": 5.0,
+        "fiber_g": 9.0,
+        "sugars_g": 6.0,
+        "sodium_mg": 900.0
+      }
+    ]
+  },
+  {
+    "food": "Miso Soup",
+    "class_name": "miso_soup",
+    "min_cal": 100,
+    "max_cal": 200,
+    "avg_cal": 150,
+    "per_100g": 100,
+    "unit": "per serving (~300g)",
+    "portions": [
+      {
+        "weight_g": 200,
+        "calories": 100,
+        "protein_g": 6.0,
+        "carbs_g": 10.0,
+        "fat_g": 3.0,
+        "fiber_g": 2.0,
+        "sugars_g": 2.0,
+        "sodium_mg": 800.0
+      },
+      {
+        "weight_g": 250,
+        "calories": 125,
+        "protein_g": 8.0,
+        "carbs_g": 13.0,
+        "fat_g": 4.0,
+        "fiber_g": 3.0,
+        "sugars_g": 3.0,
+        "sodium_mg": 1000.0
+      },
+      {
+        "weight_g": 300,
+        "calories": 150,
+        "protein_g": 9.0,
+        "carbs_g": 15.0,
+        "fat_g": 5.0,
+        "fiber_g": 4.0,
+        "sugars_g": 4.0,
+        "sodium_mg": 1200.0
+      },
+      {
+        "weight_g": 350,
+        "calories": 175,
+        "protein_g": 11.0,
+        "carbs_g": 18.0,
+        "fat_g": 6.0,
+        "fiber_g": 5.0,
+        "sugars_g": 5.0,
+        "sodium_mg": 1400.0
+      },
+      {
+        "weight_g": 400,
+        "calories": 200,
+        "protein_g": 12.0,
+        "carbs_g": 20.0,
+        "fat_g": 7.0,
+        "fiber_g": 6.0,
+        "sugars_g": 6.0,
+        "sodium_mg": 1600.0
+      }
+    ]
+  },
+  {
+    "food": "Beet Salad",
+    "class_name": "beet_salad",
+    "min_cal": 80,
+    "max_cal": 240,
+    "avg_cal": 160,
+    "per_100g": 80,
+    "unit": "per serving (~200g)",
+    "portions": [
+      {
+        "weight_g": 100,
+        "calories": 80,
+        "protein_g": 3.0,
+        "carbs_g": 12.0,
+        "fat_g": 2.0,
+        "fiber_g": 3.0,
+        "sugars_g": 8.0,
+        "sodium_mg": 150.0
+      },
+      {
+        "weight_g": 150,
+        "calories": 120,
+        "protein_g": 5.0,
+        "carbs_g": 18.0,
+        "fat_g": 3.0,
+        "fiber_g": 5.0,
+        "sugars_g": 12.0,
+        "sodium_mg": 225.0
+      },
+      {
+        "weight_g": 200,
+        "calories": 160,
+        "protein_g": 6.0,
+        "carbs_g": 24.0,
+        "fat_g": 4.0,
+        "fiber_g": 6.0,
+        "sugars_g": 16.0,
+        "sodium_mg": 300.0
+      },
+      {
+        "weight_g": 250,
+        "calories": 200,
+        "protein_g": 8.0,
+        "carbs_g": 30.0,
+        "fat_g": 5.0,
+        "fiber_g": 8.0,
+        "sugars_g": 20.0,
+        "sodium_mg": 375.0
+      },
+      {
+        "weight_g": 300,
+        "calories": 240,
+        "protein_g": 10.0,
+        "carbs_g": 36.0,
+        "fat_g": 6.0,
+        "fiber_g": 9.0,
+        "sugars_g": 24.0,
+        "sodium_mg": 450.0
+      }
+    ]
+  },
+  {
+    "food": "Bruschetta",
+    "class_name": "bruschetta",
+    "min_cal": 100,
+    "max_cal": 300,
+    "avg_cal": 196,
+    "per_100g": 200,
+    "unit": "per serving (~100g)",
+    "portions": [
+      {
+        "weight_g": 50,
+        "calories": 100,
+        "protein_g": 3.0,
+        "carbs_g": 15.0,
+        "fat_g": 4.0,
+        "fiber_g": 1.0,
+        "sugars_g": 2.0,
+        "sodium_mg": 150.0
+      },
+      {
+        "weight_g": 70,
+        "calories": 140,
+        "protein_g": 4.0,
+        "carbs_g": 21.0,
+        "fat_g": 6.0,
+        "fiber_g": 1.0,
+        "sugars_g": 3.0,
+        "sodium_mg": 210.0
+      },
+      {
+        "weight_g": 100,
+        "calories": 200,
+        "protein_g": 6.0,
+        "carbs_g": 30.0,
+        "fat_g": 8.0,
+        "fiber_g": 2.0,
+        "sugars_g": 4.0,
+        "sodium_mg": 300.0
+      },
+      {
+        "weight_g": 120,
+        "calories": 240,
+        "protein_g": 7.0,
+        "carbs_g": 36.0,
+        "fat_g": 10.0,
+        "fiber_g": 2.0,
+        "sugars_g": 5.0,
+        "sodium_mg": 360.0
+      },
+      {
+        "weight_g": 150,
+        "calories": 300,
+        "protein_g": 9.0,
+        "carbs_g": 45.0,
+        "fat_g": 12.0,
+        "fiber_g": 3.0,
+        "sugars_g": 6.0,
+        "sodium_mg": 450.0
+      }
+    ]
+  },
+  {
+    "food": "Deviled Eggs",
+    "class_name": "deviled_eggs",
+    "min_cal": 100,
+    "max_cal": 300,
+    "avg_cal": 196,
+    "per_100g": 200,
+    "unit": "per serving (~100g)",
+    "portions": [
+      {
+        "weight_g": 50,
+        "calories": 100,
+        "protein_g": 6.0,
+        "carbs_g": 1.0,
+        "fat_g": 8.0,
+        "fiber_g": 0.0,
+        "sugars_g": 1.0,
+        "sodium_mg": 120.0
+      },
+      {
+        "weight_g": 70,
+        "calories": 140,
+        "protein_g": 8.0,
+        "carbs_g": 1.0,
+        "fat_g": 11.0,
+        "fiber_g": 0.0,
+        "sugars_g": 1.0,
+        "sodium_mg": 168.0
+      },
+      {
+        "weight_g": 100,
+        "calories": 200,
+        "protein_g": 12.0,
+        "carbs_g": 2.0,
+        "fat_g": 16.0,
+        "fiber_g": 0.0,
+        "sugars_g": 2.0,
+        "sodium_mg": 240.0
+      },
+      {
+        "weight_g": 120,
+        "calories": 240,
+        "protein_g": 14.0,
+        "carbs_g": 2.0,
+        "fat_g": 19.0,
+        "fiber_g": 0.0,
+        "sugars_g": 2.0,
+        "sodium_mg": 288.0
+      },
+      {
+        "weight_g": 150,
+        "calories": 300,
+        "protein_g": 18.0,
+        "carbs_g": 3.0,
+        "fat_g": 24.0,
+        "fiber_g": 0.0,
+        "sugars_g": 3.0,
+        "sodium_mg": 360.0
+      }
+    ]
+  },
+  {
+    "food": "Guacamole",
+    "class_name": "guacamole",
+    "min_cal": 100,
+    "max_cal": 300,
+    "avg_cal": 196,
+    "per_100g": 200,
+    "unit": "per serving (~100g)",
+    "portions": [
+      {
+        "weight_g": 50,
+        "calories": 100,
+        "protein_g": 2.0,
+        "carbs_g": 5.0,
+        "fat_g": 8.0,
+        "fiber_g": 3.0,
+        "sugars_g": 1.0,
+        "sodium_mg": 50.0
+      },
+      {
+        "weight_g": 70,
+        "calories": 140,
+        "protein_g": 3.0,
+        "carbs_g": 7.0,
+        "fat_g": 11.0,
+        "fiber_g": 4.0,
+        "sugars_g": 1.0,
+        "sodium_mg": 70.0
+      },
+      {
+        "weight_g": 100,
+        "calories": 200,
+        "protein_g": 4.0,
+        "carbs_g": 10.0,
+        "fat_g": 16.0,
+        "fiber_g": 6.0,
+        "sugars_g": 2.0,
+        "sodium_mg": 100.0
+      },
+      {
+        "weight_g": 120,
+        "calories": 240,
+        "protein_g": 5.0,
+        "carbs_g": 12.0,
+        "fat_g": 19.0,
+        "fiber_g": 7.0,
+        "sugars_g": 2.0,
+        "sodium_mg": 120.0
+      },
+      {
+        "weight_g": 150,
+        "calories": 300,
+        "protein_g": 6.0,
+        "carbs_g": 15.0,
+        "fat_g": 24.0,
+        "fiber_g": 9.0,
+        "sugars_g": 3.0,
+        "sodium_mg": 150.0
+      }
+    ]
+  },
+  {
+    "food": "Hummus",
+    "class_name": "hummus",
+    "min_cal": 100,
+    "max_cal": 300,
+    "avg_cal": 196,
+    "per_100g": 200,
+    "unit": "per serving (~100g)",
+    "portions": [
+      {
+        "weight_g": 50,
+        "calories": 100,
+        "protein_g": 4.0,
+        "carbs_g": 8.0,
+        "fat_g": 6.0,
+        "fiber_g": 3.0,
+        "sugars_g": 1.0,
+        "sodium_mg": 100.0
+      },
+      {
+        "weight_g": 70,
+        "calories": 140,
+        "protein_g": 6.0,
+        "carbs_g": 11.0,
+        "fat_g": 8.0,
+        "fiber_g": 4.0,
+        "sugars_g": 1.0,
+        "sodium_mg": 140.0
+      },
+      {
+        "weight_g": 100,
+        "calories": 200,
+        "protein_g": 8.0,
+        "carbs_g": 16.0,
+        "fat_g": 12.0,
+        "fiber_g": 6.0,
+        "sugars_g": 2.0,
+        "sodium_mg": 200.0
+      },
+      {
+        "weight_g": 120,
+        "calories": 240,
+        "protein_g": 10.0,
+        "carbs_g": 19.0,
+        "fat_g": 14.0,
+        "fiber_g": 7.0,
+        "sugars_g": 2.0,
+        "sodium_mg": 240.0
+      },
+      {
+        "weight_g": 150,
+        "calories": 300,
+        "protein_g": 12.0,
+        "carbs_g": 24.0,
+        "fat_g": 18.0,
+        "fiber_g": 9.0,
+        "sugars_g": 3.0,
+        "sodium_mg": 300.0
+      }
+    ]
+  },
+  {
+    "food": "Spring Rolls",
+    "class_name": "spring_rolls",
+    "min_cal": 100,
+    "max_cal": 300,
+    "avg_cal": 196,
+    "per_100g": 200,
+    "unit": "per serving (~100g)",
+    "portions": [
+      {
+        "weight_g": 50,
+        "calories": 100,
+        "protein_g": 3.0,
+        "carbs_g": 15.0,
+        "fat_g": 4.0,
+        "fiber_g": 1.0,
+        "sugars_g": 2.0,
+        "sodium_mg": 150.0
+      },
+      {
+        "weight_g": 70,
+        "calories": 140,
+        "protein_g": 4.0,
+        "carbs_g": 21.0,
+        "fat_g": 6.0,
+        "fiber_g": 1.0,
+        "sugars_g": 3.0,
+        "sodium_mg": 210.0
+      },
+      {
+        "weight_g": 100,
+        "calories": 200,
+        "protein_g": 6.0,
+        "carbs_g": 30.0,
+        "fat_g": 8.0,
+        "fiber_g": 2.0,
+        "sugars_g": 4.0,
+        "sodium_mg": 300.0
+      },
+      {
+        "weight_g": 120,
+        "calories": 240,
+        "protein_g": 7.0,
+        "carbs_g": 36.0,
+        "fat_g": 10.0,
+        "fiber_g": 2.0,
+        "sugars_g": 5.0,
+        "sodium_mg": 360.0
+      },
+      {
+        "weight_g": 150,
+        "calories": 300,
+        "protein_g": 9.0,
+        "carbs_g": 45.0,
+        "fat_g": 12.0,
+        "fiber_g": 3.0,
+        "sugars_g": 6.0,
+        "sodium_mg": 450.0
+      }
+    ]
+  },
+  {
+    "food": "Oysters",
+    "class_name": "oysters",
+    "min_cal": 100,
+    "max_cal": 300,
+    "avg_cal": 200,
+    "per_100g": 100,
+    "unit": "per serving (~200g)",
+    "portions": [
+      {
+        "weight_g": 100,
+        "calories": 100,
+        "protein_g": 10.0,
+        "carbs_g": 5.0,
+        "fat_g": 3.0,
+        "fiber_g": 0.0,
+        "sugars_g": 1.0,
+        "sodium_mg": 200.0
+      },
+      {
+        "weight_g": 150,
+        "calories": 150,
+        "protein_g": 15.0,
+        "carbs_g": 8.0,
+        "fat_g": 5.0,
+        "fiber_g": 0.0,
+        "sugars_g": 2.0,
+        "sodium_mg": 300.0
+      },
+      {
+        "weight_g": 200,
+        "calories": 200,
+        "protein_g": 20.0,
+        "carbs_g": 10.0,
+        "fat_g": 6.0,
+        "fiber_g": 0.0,
+        "sugars_g": 2.0,
+        "sodium_mg": 400.0
+      },
+      {
+        "weight_g": 250,
+        "calories": 250,
+        "protein_g": 25.0,
+        "carbs_g": 13.0,
+        "fat_g": 8.0,
+        "fiber_g": 0.0,
+        "sugars_g": 3.0,
+        "sodium_mg": 500.0
+      },
+      {
+        "weight_g": 300,
+        "calories": 300,
+        "protein_g": 30.0,
+        "carbs_g": 15.0,
+        "fat_g": 10.0,
+        "fiber_g": 0.0,
+        "sugars_g": 4.0,
+        "sodium_mg": 600.0
+      }
+    ]
+  },
+  {
+    "food": "Hot And Sour Soup",
+    "class_name": "hot_and_sour_soup",
+    "min_cal": 150,
+    "max_cal": 300,
+    "avg_cal": 225,
+    "per_100g": 150,
+    "unit": "per serving (~300g)",
+    "portions": [
+      {
+        "weight_g": 200,
+        "calories": 150,
+        "protein_g": 8.0,
+        "carbs_g": 15.0,
+        "fat_g": 5.0,
+        "fiber_g": 2.0,
+        "sugars_g": 3.0,
+        "sodium_mg": 600.0
+      },
+      {
+        "weight_g": 250,
+        "calories": 188,
+        "protein_g": 10.0,
+        "carbs_g": 19.0,
+        "fat_g": 6.0,
+        "fiber_g": 3.0,
+        "sugars_g": 4.0,
+        "sodium_mg": 750.0
+      },
+      {
+        "weight_g": 300,
+        "calories": 225,
+        "protein_g": 12.0,
+        "carbs_g": 23.0,
+        "fat_g": 8.0,
+        "fiber_g": 4.0,
+        "sugars_g": 5.0,
+        "sodium_mg": 900.0
+      },
+      {
+        "weight_g": 350,
+        "calories": 263,
+        "protein_g": 14.0,
+        "carbs_g": 26.0,
+        "fat_g": 9.0,
+        "fiber_g": 5.0,
+        "sugars_g": 6.0,
+        "sodium_mg": 1050.0
+      },
+      {
+        "weight_g": 400,
+        "calories": 300,
+        "protein_g": 16.0,
+        "carbs_g": 30.0,
+        "fat_g": 10.0,
+        "fiber_g": 6.0,
+        "sugars_g": 7.0,
+        "sodium_mg": 1200.0
+      }
+    ]
+  },
+  {
+    "food": "Edamame",
+    "class_name": "edamame",
+    "min_cal": 120,
+    "max_cal": 360,
+    "avg_cal": 240,
+    "per_100g": 120,
+    "unit": "per serving (~200g)",
+    "portions": [
+      {
+        "weight_g": 100,
+        "calories": 120,
+        "protein_g": 11.0,
+        "carbs_g": 10.0,
+        "fat_g": 5.0,
+        "fiber_g": 5.0,
+        "sugars_g": 2.0,
+        "sodium_mg": 10.0
+      },
+      {
+        "weight_g": 150,
+        "calories": 180,
+        "protein_g": 17.0,
+        "carbs_g": 15.0,
+        "fat_g": 8.0,
+        "fiber_g": 8.0,
+        "sugars_g": 3.0,
+        "sodium_mg": 15.0
+      },
+      {
+        "weight_g": 200,
+        "calories": 240,
+        "protein_g": 22.0,
+        "carbs_g": 20.0,
+        "fat_g": 10.0,
+        "fiber_g": 10.0,
+        "sugars_g": 4.0,
+        "sodium_mg": 20.0
+      },
+      {
+        "weight_g": 250,
+        "calories": 300,
+        "protein_g": 28.0,
+        "carbs_g": 25.0,
+        "fat_g": 13.0,
+        "fiber_g": 13.0,
+        "sugars_g": 5.0,
+        "sodium_mg": 25.0
+      },
+      {
+        "weight_g": 300,
+        "calories": 360,
+        "protein_g": 33.0,
+        "carbs_g": 30.0,
+        "fat_g": 15.0,
+        "fiber_g": 15.0,
+        "sugars_g": 6.0,
+        "sodium_mg": 30.0
+      }
+    ]
+  },
+  {
+    "food": "Scallops",
+    "class_name": "scallops",
+    "min_cal": 120,
+    "max_cal": 360,
+    "avg_cal": 240,
+    "per_100g": 120,
+    "unit": "per serving (~200g)",
+    "portions": [
+      {
+        "weight_g": 100,
+        "calories": 120,
+        "protein_g": 20.0,
+        "carbs_g": 2.0,
+        "fat_g": 3.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "sodium_mg": 200.0
+      },
+      {
+        "weight_g": 150,
+        "calories": 180,
+        "protein_g": 30.0,
+        "carbs_g": 3.0,
+        "fat_g": 5.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "sodium_mg": 300.0
+      },
+      {
+        "weight_g": 200,
+        "calories": 240,
+        "protein_g": 40.0,
+        "carbs_g": 4.0,
+        "fat_g": 6.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "sodium_mg": 400.0
+      },
+      {
+        "weight_g": 250,
+        "calories": 300,
+        "protein_g": 50.0,
+        "carbs_g": 5.0,
+        "fat_g": 8.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "sodium_mg": 500.0
+      },
+      {
+        "weight_g": 300,
+        "calories": 360,
+        "protein_g": 60.0,
+        "carbs_g": 6.0,
+        "fat_g": 9.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "sodium_mg": 600.0
+      }
+    ]
+  },
+  {
+    "food": "Falafel",
+    "class_name": "falafel",
+    "min_cal": 150,
+    "max_cal": 450,
+    "avg_cal": 294,
+    "per_100g": 300,
+    "unit": "per serving (~100g)",
+    "portions": [
+      {
+        "weight_g": 50,
+        "calories": 150,
+        "protein_g": 5.0,
+        "carbs_g": 15.0,
+        "fat_g": 8.0,
+        "fiber_g": 3.0,
+        "sugars_g": 2.0,
+        "sodium_mg": 200.0
+      },
+      {
+        "weight_g": 70,
+        "calories": 210,
+        "protein_g": 7.0,
+        "carbs_g": 21.0,
+        "fat_g": 11.0,
+        "fiber_g": 4.0,
+        "sugars_g": 3.0,
+        "sodium_mg": 280.0
+      },
+      {
+        "weight_g": 100,
+        "calories": 300,
+        "protein_g": 10.0,
+        "carbs_g": 30.0,
+        "fat_g": 16.0,
+        "fiber_g": 6.0,
+        "sugars_g": 4.0,
+        "sodium_mg": 400.0
+      },
+      {
+        "weight_g": 120,
+        "calories": 360,
+        "protein_g": 12.0,
+        "carbs_g": 36.0,
+        "fat_g": 19.0,
+        "fiber_g": 7.0,
+        "sugars_g": 5.0,
+        "sodium_mg": 480.0
+      },
+      {
+        "weight_g": 150,
+        "calories": 450,
+        "protein_g": 15.0,
+        "carbs_g": 45.0,
+        "fat_g": 24.0,
+        "fiber_g": 9.0,
+        "sugars_g": 6.0,
+        "sodium_mg": 600.0
+      }
+    ]
+  },
+  {
+    "food": "Garlic Bread",
+    "class_name": "garlic_bread",
+    "min_cal": 150,
+    "max_cal": 450,
+    "avg_cal": 294,
+    "per_100g": 300,
+    "unit": "per serving (~100g)",
+    "portions": [
+      {
+        "weight_g": 50,
+        "calories": 150,
+        "protein_g": 4.0,
+        "carbs_g": 20.0,
+        "fat_g": 6.0,
+        "fiber_g": 1.0,
+        "sugars_g": 2.0,
+        "sodium_mg": 200.0
+      },
+      {
+        "weight_g": 70,
+        "calories": 210,
+        "protein_g": 6.0,
+        "carbs_g": 28.0,
+        "fat_g": 8.0,
+        "fiber_g": 1.0,
+        "sugars_g": 3.0,
+        "sodium_mg": 280.0
+      },
+      {
+        "weight_g": 100,
+        "calories": 300,
+        "protein_g": 8.0,
+        "carbs_g": 40.0,
+        "fat_g": 12.0,
+        "fiber_g": 2.0,
+        "sugars_g": 4.0,
+        "sodium_mg": 400.0
+      },
+      {
+        "weight_g": 120,
+        "calories": 360,
+        "protein_g": 10.0,
+        "carbs_g": 48.0,
+        "fat_g": 14.0,
+        "fiber_g": 2.0,
+        "sugars_g": 5.0,
+        "sodium_mg": 480.0
+      },
+      {
+        "weight_g": 150,
+        "calories": 450,
+        "protein_g": 12.0,
+        "carbs_g": 60.0,
+        "fat_g": 18.0,
+        "fiber_g": 3.0,
+        "sugars_g": 6.0,
+        "sodium_mg": 600.0
+      }
+    ]
+  },
+  {
+    "food": "Samosa",
+    "class_name": "samosa",
+    "min_cal": 150,
+    "max_cal": 450,
+    "avg_cal": 294,
+    "per_100g": 300,
+    "unit": "per serving (~100g)",
+    "portions": [
+      {
+        "weight_g": 50,
+        "calories": 150,
+        "protein_g": 3.0,
+        "carbs_g": 20.0,
+        "fat_g": 6.0,
+        "fiber_g": 2.0,
+        "sugars_g": 2.0,
+        "sodium_mg": 200.0
+      },
+      {
+        "weight_g": 70,
+        "calories": 210,
+        "protein_g": 4.0,
+        "carbs_g": 28.0,
+        "fat_g": 8.0,
+        "fiber_g": 3.0,
+        "sugars_g": 3.0,
+        "sodium_mg": 280.0
+      },
+      {
+        "weight_g": 100,
+        "calories": 300,
+        "protein_g": 6.0,
+        "carbs_g": 40.0,
+        "fat_g": 12.0,
+        "fiber_g": 4.0,
+        "sugars_g": 4.0,
+        "sodium_mg": 400.0
+      },
+      {
+        "weight_g": 120,
+        "calories": 360,
+        "protein_g": 7.0,
+        "carbs_g": 48.0,
+        "fat_g": 14.0,
+        "fiber_g": 5.0,
+        "sugars_g": 5.0,
+        "sodium_mg": 480.0
+      },
+      {
+        "weight_g": 150,
+        "calories": 450,
+        "protein_g": 9.0,
+        "carbs_g": 60.0,
+        "fat_g": 18.0,
+        "fiber_g": 6.0,
+        "sugars_g": 6.0,
+        "sodium_mg": 600.0
+      }
+    ]
+  },
+  {
+    "food": "Frozen Yogurt",
+    "class_name": "frozen_yogurt",
+    "min_cal": 150,
+    "max_cal": 450,
+    "avg_cal": 300,
+    "per_100g": 150,
+    "unit": "per serving (~200g)",
+    "portions": [
+      {
+        "weight_g": 100,
+        "calories": 150,
+        "protein_g": 4.0,
+        "carbs_g": 25.0,
+        "fat_g": 3.0,
+        "fiber_g": 0.0,
+        "sugars_g": 20.0,
+        "sodium_mg": 50.0
+      },
+      {
+        "weight_g": 150,
+        "calories": 225,
+        "protein_g": 6.0,
+        "carbs_g": 38.0,
+        "fat_g": 5.0,
+        "fiber_g": 0.0,
+        "sugars_g": 30.0,
+        "sodium_mg": 75.0
+      },
+      {
+        "weight_g": 200,
+        "calories": 300,
+        "protein_g": 8.0,
+        "carbs_g": 50.0,
+        "fat_g": 6.0,
+        "fiber_g": 0.0,
+        "sugars_g": 40.0,
+        "sodium_mg": 100.0
+      },
+      {
+        "weight_g": 250,
+        "calories": 375,
+        "protein_g": 10.0,
+        "carbs_g": 63.0,
+        "fat_g": 8.0,
+        "fiber_g": 0.0,
+        "sugars_g": 50.0,
+        "sodium_mg": 125.0
+      },
+      {
+        "weight_g": 300,
+        "calories": 450,
+        "protein_g": 12.0,
+        "carbs_g": 75.0,
+        "fat_g": 9.0,
+        "fiber_g": 0.0,
+        "sugars_g": 60.0,
+        "sodium_mg": 150.0
+      }
+    ]
+  },
+  {
+    "food": "Sashimi",
+    "class_name": "sashimi",
+    "min_cal": 150,
+    "max_cal": 450,
+    "avg_cal": 300,
+    "per_100g": 150,
+    "unit": "per serving (~200g)",
+    "portions": [
+      {
+        "weight_g": 100,
+        "calories": 150,
+        "protein_g": 25.0,
+        "carbs_g": 0.0,
+        "fat_g": 5.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "sodium_mg": 100.0
+      },
+      {
+        "weight_g": 150,
+        "calories": 225,
+        "protein_g": 38.0,
+        "carbs_g": 0.0,
+        "fat_g": 8.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "sodium_mg": 150.0
+      },
+      {
+        "weight_g": 200,
+        "calories": 300,
+        "protein_g": 50.0,
+        "carbs_g": 0.0,
+        "fat_g": 10.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "sodium_mg": 200.0
+      },
+      {
+        "weight_g": 250,
+        "calories": 375,
+        "protein_g": 63.0,
+        "carbs_g": 0.0,
+        "fat_g": 13.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "sodium_mg": 250.0
+      },
+      {
+        "weight_g": 300,
+        "calories": 450,
+        "protein_g": 75.0,
+        "carbs_g": 0.0,
+        "fat_g": 15.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "sodium_mg": 300.0
+      }
+    ]
+  },
+  {
+    "food": "Tuna Tartare",
+    "class_name": "tuna_tartare",
+    "min_cal": 150,
+    "max_cal": 450,
+    "avg_cal": 300,
+    "per_100g": 150,
+    "unit": "per serving (~200g)",
+    "portions": [
+      {
+        "weight_g": 100,
+        "calories": 150,
+        "protein_g": 20.0,
+        "carbs_g": 2.0,
+        "fat_g": 5.0,
+        "fiber_g": 0.0,
+        "sugars_g": 1.0,
+        "sodium_mg": 200.0
+      },
+      {
+        "weight_g": 150,
+        "calories": 225,
+        "protein_g": 30.0,
+        "carbs_g": 3.0,
+        "fat_g": 8.0,
+        "fiber_g": 0.0,
+        "sugars_g": 2.0,
+        "sodium_mg": 300.0
+      },
+      {
+        "weight_g": 200,
+        "calories": 300,
+        "protein_g": 40.0,
+        "carbs_g": 4.0,
+        "fat_g": 10.0,
+        "fiber_g": 0.0,
+        "sugars_g": 3.0,
+        "sodium_mg": 400.0
+      },
+      {
+        "weight_g": 250,
+        "calories": 375,
+        "protein_g": 50.0,
+        "carbs_g": 5.0,
+        "fat_g": 13.0,
+        "fiber_g": 0.0,
+        "sugars_g": 4.0,
+        "sodium_mg": 500.0
+      },
+      {
+        "weight_g": 300,
+        "calories": 450,
+        "protein_g": 60.0,
+        "carbs_g": 6.0,
+        "fat_g": 15.0,
+        "fiber_g": 0.0,
+        "sugars_g": 5.0,
+        "sodium_mg": 600.0
+      }
+    ]
+  },
+  {
+    "food": "Baklava",
+    "class_name": "baklava",
+    "min_cal": 165,
+    "max_cal": 495,
+    "avg_cal": 323,
+    "per_100g": 330,
+    "unit": "per serving (~100g)",
+    "portions": [
+      {
+        "weight_g": 50,
+        "calories": 165,
+        "protein_g": 3.0,
+        "carbs_g": 20.0,
+        "fat_g": 8.0,
+        "fiber_g": 1.0,
+        "sugars_g": 13.0,
+        "sodium_mg": 60.0
+      },
+      {
+        "weight_g": 70,
+        "calories": 231,
+        "protein_g": 4.0,
+        "carbs_g": 28.0,
+        "fat_g": 11.0,
+        "fiber_g": 1.0,
+        "sugars_g": 18.0,
+        "sodium_mg": 84.0
+      },
+      {
+        "weight_g": 100,
+        "calories": 330,
+        "protein_g": 6.0,
+        "carbs_g": 40.0,
+        "fat_g": 16.0,
+        "fiber_g": 2.0,
+        "sugars_g": 25.0,
+        "sodium_mg": 120.0
+      },
+      {
+        "weight_g": 120,
+        "calories": 396,
+        "protein_g": 7.0,
+        "carbs_g": 48.0,
+        "fat_g": 19.0,
+        "fiber_g": 2.0,
+        "sugars_g": 30.0,
+        "sodium_mg": 144.0
+      },
+      {
+        "weight_g": 150,
+        "calories": 495,
+        "protein_g": 9.0,
+        "carbs_g": 60.0,
+        "fat_g": 24.0,
+        "fiber_g": 3.0,
+        "sugars_g": 38.0,
+        "sodium_mg": 180.0
+      }
+    ]
+  },
+  {
+    "food": "Caprese Salad",
+    "class_name": "caprese_salad",
+    "min_cal": 200,
+    "max_cal": 467,
+    "avg_cal": 333,
+    "per_100g": 200,
+    "unit": "per serving (~250g)",
+    "portions": [
+      {
+        "weight_g": 150,
+        "calories": 200,
+        "protein_g": 8.0,
+        "carbs_g": 10.0,
+        "fat_g": 15.0,
+        "fiber_g": 2.0,
+        "sugars_g": 5.0,
+        "sodium_mg": 200.0
+      },
+      {
+        "weight_g": 200,
+        "calories": 267,
+        "protein_g": 11.0,
+        "carbs_g": 13.0,
+        "fat_g": 20.0,
+        "fiber_g": 3.0,
+        "sugars_g": 7.0,
+        "sodium_mg": 267.0
+      },
+      {
+        "weight_g": 250,
+        "calories": 333,
+        "protein_g": 13.0,
+        "carbs_g": 17.0,
+        "fat_g": 25.0,
+        "fiber_g": 4.0,
+        "sugars_g": 8.0,
+        "sodium_mg": 333.0
+      },
+      {
+        "weight_g": 300,
+        "calories": 400,
+        "protein_g": 16.0,
+        "carbs_g": 20.0,
+        "fat_g": 30.0,
+        "fiber_g": 5.0,
+        "sugars_g": 10.0,
+        "sodium_mg": 400.0
+      },
+      {
+        "weight_g": 350,
+        "calories": 467,
+        "protein_g": 19.0,
+        "carbs_g": 23.0,
+        "fat_g": 35.0,
+        "fiber_g": 6.0,
+        "sugars_g": 12.0,
+        "sodium_mg": 467.0
+      }
+    ]
+  },
+  {
+    "food": "Ceviche",
+    "class_name": "ceviche",
+    "min_cal": 200,
+    "max_cal": 467,
+    "avg_cal": 333,
+    "per_100g": 200,
+    "unit": "per serving (~250g)",
+    "portions": [
+      {
+        "weight_g": 150,
+        "calories": 200,
+        "protein_g": 20.0,
+        "carbs_g": 10.0,
+        "fat_g": 5.0,
+        "fiber_g": 2.0,
+        "sugars_g": 3.0,
+        "sodium_mg": 400.0
+      },
+      {
+        "weight_g": 200,
+        "calories": 267,
+        "protein_g": 27.0,
+        "carbs_g": 13.0,
+        "fat_g": 7.0,
+        "fiber_g": 3.0,
+        "sugars_g": 4.0,
+        "sodium_mg": 533.0
+      },
+      {
+        "weight_g": 250,
+        "calories": 333,
+        "protein_g": 33.0,
+        "carbs_g": 17.0,
+        "fat_g": 8.0,
+        "fiber_g": 4.0,
+        "sugars_g": 5.0,
+        "sodium_mg": 667.0
+      },
+      {
+        "weight_g": 300,
+        "calories": 400,
+        "protein_g": 40.0,
+        "carbs_g": 20.0,
+        "fat_g": 10.0,
+        "fiber_g": 5.0,
+        "sugars_g": 6.0,
+        "sodium_mg": 800.0
+      },
+      {
+        "weight_g": 350,
+        "calories": 467,
+        "protein_g": 47.0,
+        "carbs_g": 23.0,
+        "fat_g": 12.0,
+        "fiber_g": 6.0,
+        "sugars_g": 7.0,
+        "sodium_mg": 933.0
+      }
+    ]
+  },
+  {
+    "food": "Mussels",
+    "class_name": "mussels",
+    "min_cal": 200,
+    "max_cal": 467,
+    "avg_cal": 333,
+    "per_100g": 200,
+    "unit": "per serving (~250g)",
+    "portions": [
+      {
+        "weight_g": 150,
+        "calories": 200,
+        "protein_g": 25.0,
+        "carbs_g": 5.0,
+        "fat_g": 8.0,
+        "fiber_g": 0.0,
+        "sugars_g": 1.0,
+        "sodium_mg": 400.0
+      },
+      {
+        "weight_g": 200,
+        "calories": 267,
+        "protein_g": 33.0,
+        "carbs_g": 7.0,
+        "fat_g": 11.0,
+        "fiber_g": 0.0,
+        "sugars_g": 1.0,
+        "sodium_mg": 533.0
+      },
+      {
+        "weight_g": 250,
+        "calories": 333,
+        "protein_g": 42.0,
+        "carbs_g": 8.0,
+        "fat_g": 13.0,
+        "fiber_g": 0.0,
+        "sugars_g": 2.0,
+        "sodium_mg": 667.0
+      },
+      {
+        "weight_g": 300,
+        "calories": 400,
+        "protein_g": 50.0,
+        "carbs_g": 10.0,
+        "fat_g": 16.0,
+        "fiber_g": 0.0,
+        "sugars_g": 2.0,
+        "sodium_mg": 800.0
+      },
+      {
+        "weight_g": 350,
+        "calories": 467,
+        "protein_g": 58.0,
+        "carbs_g": 12.0,
+        "fat_g": 19.0,
+        "fiber_g": 0.0,
+        "sugars_g": 3.0,
+        "sodium_mg": 933.0
+      }
+    ]
+  },
+  {
+    "food": "Clam Chowder",
+    "class_name": "clam_chowder",
+    "min_cal": 250,
+    "max_cal": 500,
+    "avg_cal": 375,
+    "per_100g": 250,
+    "unit": "per serving (~300g)",
+    "portions": [
+      {
+        "weight_g": 200,
+        "calories": 250,
+        "protein_g": 10.0,
+        "carbs_g": 20.0,
+        "fat_g": 12.0,
+        "fiber_g": 2.0,
+        "sugars_g": 5.0,
+        "sodium_mg": 800.0
+      },
+      {
+        "weight_g": 250,
+        "calories": 313,
+        "protein_g": 13.0,
+        "carbs_g": 25.0,
+        "fat_g": 15.0,
+        "fiber_g": 3.0,
+        "sugars_g": 6.0,
+        "sodium_mg": 1000.0
+      },
+      {
+        "weight_g": 300,
+        "calories": 375,
+        "protein_g": 15.0,
+        "carbs_g": 30.0,
+        "fat_g": 18.0,
+        "fiber_g": 4.0,
+        "sugars_g": 8.0,
+        "sodium_mg": 1200.0
+      },
+      {
+        "weight_g": 350,
+        "calories": 438,
+        "protein_g": 18.0,
+        "carbs_g": 35.0,
+        "fat_g": 21.0,
+        "fiber_g": 5.0,
+        "sugars_g": 9.0,
+        "sodium_mg": 1400.0
+      },
+      {
+        "weight_g": 400,
+        "calories": 500,
+        "protein_g": 20.0,
+        "carbs_g": 40.0,
+        "fat_g": 24.0,
+        "fiber_g": 6.0,
+        "sugars_g": 10.0,
+        "sodium_mg": 1600.0
+      }
+    ]
+  },
+  {
+    "food": "French Onion Soup",
+    "class_name": "french_onion_soup",
+    "min_cal": 250,
+    "max_cal": 500,
+    "avg_cal": 375,
+    "per_100g": 250,
+    "unit": "per serving (~300g)",
+    "portions": [
+      {
+        "weight_g": 200,
+        "calories": 250,
+        "protein_g": 10.0,
+        "carbs_g": 20.0,
+        "fat_g": 12.0,
+        "fiber_g": 2.0,
+        "sugars_g": 5.0,
+        "sodium_mg": 800.0
+      },
+      {
+        "weight_g": 250,
+        "calories": 313,
+        "protein_g": 13.0,
+        "carbs_g": 25.0,
+        "fat_g": 15.0,
+        "fiber_g": 3.0,
+        "sugars_g": 6.0,
+        "sodium_mg": 1000.0
+      },
+      {
+        "weight_g": 300,
+        "calories": 375,
+        "protein_g": 15.0,
+        "carbs_g": 30.0,
+        "fat_g": 18.0,
+        "fiber_g": 4.0,
+        "sugars_g": 8.0,
+        "sodium_mg": 1200.0
+      },
+      {
+        "weight_g": 350,
+        "calories": 438,
+        "protein_g": 18.0,
+        "carbs_g": 35.0,
+        "fat_g": 21.0,
+        "fiber_g": 5.0,
+        "sugars_g": 9.0,
+        "sodium_mg": 1400.0
+      },
+      {
+        "weight_g": 400,
+        "calories": 500,
+        "protein_g": 20.0,
+        "carbs_g": 40.0,
+        "fat_g": 24.0,
+        "fiber_g": 6.0,
+        "sugars_g": 10.0,
+        "sodium_mg": 1600.0
+      }
+    ]
+  },
+  {
+    "food": "Greek Salad",
+    "class_name": "greek_salad",
+    "min_cal": 250,
+    "max_cal": 500,
+    "avg_cal": 375,
+    "per_100g": 250,
+    "unit": "per serving (~300g)",
+    "portions": [
+      {
+        "weight_g": 200,
+        "calories": 250,
+        "protein_g": 8.0,
+        "carbs_g": 15.0,
+        "fat_g": 18.0,
+        "fiber_g": 4.0,
+        "sugars_g": 5.0,
+        "sodium_mg": 400.0
+      },
+      {
+        "weight_g": 250,
+        "calories": 313,
+        "protein_g": 10.0,
+        "carbs_g": 19.0,
+        "fat_g": 23.0,
+        "fiber_g": 5.0,
+        "sugars_g": 6.0,
+        "sodium_mg": 500.0
+      },
+      {
+        "weight_g": 300,
+        "calories": 375,
+        "protein_g": 12.0,
+        "carbs_g": 23.0,
+        "fat_g": 27.0,
+        "fiber_g": 6.0,
+        "sugars_g": 8.0,
+        "sodium_mg": 600.0
+      },
+      {
+        "weight_g": 350,
+        "calories": 438,
+        "protein_g": 14.0,
+        "carbs_g": 26.0,
+        "fat_g": 32.0,
+        "fiber_g": 7.0,
+        "sugars_g": 9.0,
+        "sodium_mg": 700.0
+      },
+      {
+        "weight_g": 400,
+        "calories": 500,
+        "protein_g": 16.0,
+        "carbs_g": 30.0,
+        "fat_g": 36.0,
+        "fiber_g": 8.0,
+        "sugars_g": 10.0,
+        "sodium_mg": 800.0
+      }
+    ]
+  },
+  {
+    "food": "Lobster Bisque",
+    "class_name": "lobster_bisque",
+    "min_cal": 250,
+    "max_cal": 500,
+    "avg_cal": 375,
+    "per_100g": 250,
+    "unit": "per serving (~300g)",
+    "portions": [
+      {
+        "weight_g": 200,
+        "calories": 250,
+        "protein_g": 10.0,
+        "carbs_g": 15.0,
+        "fat_g": 15.0,
+        "fiber_g": 2.0,
+        "sugars_g": 5.0,
+        "sodium_mg": 500.0
+      },
+      {
+        "weight_g": 250,
+        "calories": 313,
+        "protein_g": 13.0,
+        "carbs_g": 19.0,
+        "fat_g": 19.0,
+        "fiber_g": 3.0,
+        "sugars_g": 6.0,
+        "sodium_mg": 625.0
+      },
+      {
+        "weight_g": 300,
+        "calories": 375,
+        "protein_g": 15.0,
+        "carbs_g": 23.0,
+        "fat_g": 23.0,
+        "fiber_g": 4.0,
+        "sugars_g": 8.0,
+        "sodium_mg": 750.0
+      },
+      {
+        "weight_g": 350,
+        "calories": 438,
+        "protein_g": 18.0,
+        "carbs_g": 26.0,
+        "fat_g": 26.0,
+        "fiber_g": 5.0,
+        "sugars_g": 9.0,
+        "sodium_mg": 875.0
+      },
+      {
+        "weight_g": 400,
+        "calories": 500,
+        "protein_g": 20.0,
+        "carbs_g": 30.0,
+        "fat_g": 30.0,
+        "fiber_g": 6.0,
+        "sugars_g": 10.0,
+        "sodium_mg": 1000.0
+      }
+    ]
+  },
+  {
+    "food": "Apple Pie",
+    "class_name": "apple_pie",
+    "min_cal": 240,
+    "max_cal": 600,
+    "avg_cal": 390,
+    "per_100g": 300,
+    "unit": "per serving (~120g)",
+    "portions": [
+      {
+        "weight_g": 80,
+        "calories": 240,
+        "protein_g": 2.0,
+        "carbs_g": 36.0,
+        "fat_g": 10.0,
+        "fiber_g": 2.0,
+        "sugars_g": 16.0,
+        "sodium_mg": 120.0
+      },
+      {
+        "weight_g": 100,
+        "calories": 300,
+        "protein_g": 3.0,
+        "carbs_g": 45.0,
+        "fat_g": 12.0,
+        "fiber_g": 2.0,
+        "sugars_g": 20.0,
+        "sodium_mg": 150.0
+      },
+      {
+        "weight_g": 120,
+        "calories": 360,
+        "protein_g": 4.0,
+        "carbs_g": 54.0,
+        "fat_g": 14.0,
+        "fiber_g": 3.0,
+        "sugars_g": 24.0,
+        "sodium_mg": 180.0
+      },
+      {
+        "weight_g": 150,
+        "calories": 450,
+        "protein_g": 5.0,
+        "carbs_g": 68.0,
+        "fat_g": 18.0,
+        "fiber_g": 3.0,
+        "sugars_g": 30.0,
+        "sodium_mg": 225.0
+      },
+      {
+        "weight_g": 200,
+        "calories": 600,
+        "protein_g": 6.0,
+        "carbs_g": 90.0,
+        "fat_g": 24.0,
+        "fiber_g": 4.0,
+        "sugars_g": 40.0,
+        "sodium_mg": 300.0
+      }
+    ]
+  },
+  {
+    "food": "Beignets",
+    "class_name": "beignets",
+    "min_cal": 200,
+    "max_cal": 600,
+    "avg_cal": 392,
+    "per_100g": 400,
+    "unit": "per serving (~100g)",
+    "portions": [
+      {
+        "weight_g": 50,
+        "calories": 200,
+        "protein_g": 3.0,
+        "carbs_g": 25.0,
+        "fat_g": 10.0,
+        "fiber_g": 1.0,
+        "sugars_g": 12.0,
+        "sodium_mg": 100.0
+      },
+      {
+        "weight_g": 70,
+        "calories": 280,
+        "protein_g": 4.0,
+        "carbs_g": 35.0,
+        "fat_g": 14.0,
+        "fiber_g": 1.0,
+        "sugars_g": 17.0,
+        "sodium_mg": 140.0
+      },
+      {
+        "weight_g": 100,
+        "calories": 400,
+        "protein_g": 6.0,
+        "carbs_g": 50.0,
+        "fat_g": 20.0,
+        "fiber_g": 2.0,
+        "sugars_g": 24.0,
+        "sodium_mg": 200.0
+      },
+      {
+        "weight_g": 120,
+        "calories": 480,
+        "protein_g": 7.0,
+        "carbs_g": 60.0,
+        "fat_g": 24.0,
+        "fiber_g": 2.0,
+        "sugars_g": 29.0,
+        "sodium_mg": 240.0
+      },
+      {
+        "weight_g": 150,
+        "calories": 600,
+        "protein_g": 9.0,
+        "carbs_g": 75.0,
+        "fat_g": 30.0,
+        "fiber_g": 3.0,
+        "sugars_g": 36.0,
+        "sodium_mg": 300.0
+      }
+    ]
+  },
+  {
+    "food": "Cannoli",
+    "class_name": "cannoli",
+    "min_cal": 200,
+    "max_cal": 600,
+    "avg_cal": 392,
+    "per_100g": 400,
+    "unit": "per serving (~100g)",
+    "portions": [
+      {
+        "weight_g": 50,
+        "calories": 200,
+        "protein_g": 4.0,
+        "carbs_g": 25.0,
+        "fat_g": 10.0,
+        "fiber_g": 1.0,
+        "sugars_g": 15.0,
+        "sodium_mg": 50.0
+      },
+      {
+        "weight_g": 70,
+        "calories": 280,
+        "protein_g": 6.0,
+        "carbs_g": 35.0,
+        "fat_g": 14.0,
+        "fiber_g": 1.0,
+        "sugars_g": 21.0,
+        "sodium_mg": 70.0
+      },
+      {
+        "weight_g": 100,
+        "calories": 400,
+        "protein_g": 8.0,
+        "carbs_g": 50.0,
+        "fat_g": 20.0,
+        "fiber_g": 2.0,
+        "sugars_g": 30.0,
+        "sodium_mg": 100.0
+      },
+      {
+        "weight_g": 120,
+        "calories": 480,
+        "protein_g": 10.0,
+        "carbs_g": 60.0,
+        "fat_g": 24.0,
+        "fiber_g": 2.0,
+        "sugars_g": 36.0,
+        "sodium_mg": 120.0
+      },
+      {
+        "weight_g": 150,
+        "calories": 600,
+        "protein_g": 12.0,
+        "carbs_g": 75.0,
+        "fat_g": 30.0,
+        "fiber_g": 3.0,
+        "sugars_g": 45.0,
+        "sodium_mg": 150.0
+      }
+    ]
+  },
+  {
+    "food": "Churros",
+    "class_name": "churros",
+    "min_cal": 200,
+    "max_cal": 600,
+    "avg_cal": 392,
+    "per_100g": 400,
+    "unit": "per serving (~100g)",
+    "portions": [
+      {
+        "weight_g": 50,
+        "calories": 200,
+        "protein_g": 3.0,
+        "carbs_g": 25.0,
+        "fat_g": 10.0,
+        "fiber_g": 1.0,
+        "sugars_g": 12.0,
+        "sodium_mg": 100.0
+      },
+      {
+        "weight_g": 70,
+        "calories": 280,
+        "protein_g": 4.0,
+        "carbs_g": 35.0,
+        "fat_g": 14.0,
+        "fiber_g": 1.0,
+        "sugars_g": 17.0,
+        "sodium_mg": 140.0
+      },
+      {
+        "weight_g": 100,
+        "calories": 400,
+        "protein_g": 6.0,
+        "carbs_g": 50.0,
+        "fat_g": 20.0,
+        "fiber_g": 2.0,
+        "sugars_g": 24.0,
+        "sodium_mg": 200.0
+      },
+      {
+        "weight_g": 120,
+        "calories": 480,
+        "protein_g": 7.0,
+        "carbs_g": 60.0,
+        "fat_g": 24.0,
+        "fiber_g": 2.0,
+        "sugars_g": 29.0,
+        "sodium_mg": 240.0
+      },
+      {
+        "weight_g": 150,
+        "calories": 600,
+        "protein_g": 9.0,
+        "carbs_g": 75.0,
+        "fat_g": 30.0,
+        "fiber_g": 3.0,
+        "sugars_g": 36.0,
+        "sodium_mg": 300.0
+      }
+    ]
+  },
+  {
+    "food": "Cup Cakes",
+    "class_name": "cup_cakes",
+    "min_cal": 200,
+    "max_cal": 600,
+    "avg_cal": 392,
+    "per_100g": 400,
+    "unit": "per serving (~100g)",
+    "portions": [
+      {
+        "weight_g": 50,
+        "calories": 200,
+        "protein_g": 3.0,
+        "carbs_g": 25.0,
+        "fat_g": 10.0,
+        "fiber_g": 1.0,
+        "sugars_g": 15.0,
+        "sodium_mg": 150.0
+      },
+      {
+        "weight_g": 70,
+        "calories": 280,
+        "protein_g": 4.0,
+        "carbs_g": 35.0,
+        "fat_g": 14.0,
+        "fiber_g": 1.0,
+        "sugars_g": 21.0,
+        "sodium_mg": 210.0
+      },
+      {
+        "weight_g": 100,
+        "calories": 400,
+        "protein_g": 6.0,
+        "carbs_g": 50.0,
+        "fat_g": 20.0,
+        "fiber_g": 2.0,
+        "sugars_g": 30.0,
+        "sodium_mg": 300.0
+      },
+      {
+        "weight_g": 120,
+        "calories": 480,
+        "protein_g": 7.0,
+        "carbs_g": 60.0,
+        "fat_g": 24.0,
+        "fiber_g": 2.0,
+        "sugars_g": 36.0,
+        "sodium_mg": 360.0
+      },
+      {
+        "weight_g": 150,
+        "calories": 600,
+        "protein_g": 9.0,
+        "carbs_g": 75.0,
+        "fat_g": 30.0,
+        "fiber_g": 3.0,
+        "sugars_g": 45.0,
+        "sodium_mg": 450.0
+      }
+    ]
+  },
+  {
+    "food": "Donuts",
+    "class_name": "donuts",
+    "min_cal": 200,
+    "max_cal": 600,
+    "avg_cal": 392,
+    "per_100g": 400,
+    "unit": "per serving (~100g)",
+    "portions": [
+      {
+        "weight_g": 50,
+        "calories": 200,
+        "protein_g": 3.0,
+        "carbs_g": 25.0,
+        "fat_g": 10.0,
+        "fiber_g": 1.0,
+        "sugars_g": 12.0,
+        "sodium_mg": 150.0
+      },
+      {
+        "weight_g": 70,
+        "calories": 280,
+        "protein_g": 4.0,
+        "carbs_g": 35.0,
+        "fat_g": 14.0,
+        "fiber_g": 1.0,
+        "sugars_g": 17.0,
+        "sodium_mg": 210.0
+      },
+      {
+        "weight_g": 100,
+        "calories": 400,
+        "protein_g": 6.0,
+        "carbs_g": 50.0,
+        "fat_g": 20.0,
+        "fiber_g": 2.0,
+        "sugars_g": 24.0,
+        "sodium_mg": 300.0
+      },
+      {
+        "weight_g": 120,
+        "calories": 480,
+        "protein_g": 7.0,
+        "carbs_g": 60.0,
+        "fat_g": 24.0,
+        "fiber_g": 2.0,
+        "sugars_g": 29.0,
+        "sodium_mg": 360.0
+      },
+      {
+        "weight_g": 150,
+        "calories": 600,
+        "protein_g": 9.0,
+        "carbs_g": 75.0,
+        "fat_g": 30.0,
+        "fiber_g": 3.0,
+        "sugars_g": 36.0,
+        "sodium_mg": 450.0
+      }
+    ]
+  },
+  {
+    "food": "Foie Gras",
+    "class_name": "foie_gras",
+    "min_cal": 200,
+    "max_cal": 600,
+    "avg_cal": 392,
+    "per_100g": 400,
+    "unit": "per serving (~100g)",
+    "portions": [
+      {
+        "weight_g": 50,
+        "calories": 200,
+        "protein_g": 5.0,
+        "carbs_g": 2.0,
+        "fat_g": 20.0,
+        "fiber_g": 0.0,
+        "sugars_g": 1.0,
+        "sodium_mg": 100.0
+      },
+      {
+        "weight_g": 70,
+        "calories": 280,
+        "protein_g": 7.0,
+        "carbs_g": 3.0,
+        "fat_g": 28.0,
+        "fiber_g": 0.0,
+        "sugars_g": 1.0,
+        "sodium_mg": 140.0
+      },
+      {
+        "weight_g": 100,
+        "calories": 400,
+        "protein_g": 10.0,
+        "carbs_g": 4.0,
+        "fat_g": 40.0,
+        "fiber_g": 0.0,
+        "sugars_g": 2.0,
+        "sodium_mg": 200.0
+      },
+      {
+        "weight_g": 120,
+        "calories": 480,
+        "protein_g": 12.0,
+        "carbs_g": 5.0,
+        "fat_g": 48.0,
+        "fiber_g": 0.0,
+        "sugars_g": 2.0,
+        "sodium_mg": 240.0
+      },
+      {
+        "weight_g": 150,
+        "calories": 600,
+        "protein_g": 15.0,
+        "carbs_g": 6.0,
+        "fat_g": 60.0,
+        "fiber_g": 0.0,
+        "sugars_g": 3.0,
+        "sodium_mg": 300.0
+      }
+    ]
+  },
+  {
+    "food": "Macarons",
+    "class_name": "macarons",
+    "min_cal": 200,
+    "max_cal": 600,
+    "avg_cal": 392,
+    "per_100g": 400,
+    "unit": "per serving (~100g)",
+    "portions": [
+      {
+        "weight_g": 50,
+        "calories": 200,
+        "protein_g": 3.0,
+        "carbs_g": 25.0,
+        "fat_g": 10.0,
+        "fiber_g": 1.0,
+        "sugars_g": 20.0,
+        "sodium_mg": 50.0
+      },
+      {
+        "weight_g": 70,
+        "calories": 280,
+        "protein_g": 4.0,
+        "carbs_g": 35.0,
+        "fat_g": 14.0,
+        "fiber_g": 1.0,
+        "sugars_g": 28.0,
+        "sodium_mg": 70.0
+      },
+      {
+        "weight_g": 100,
+        "calories": 400,
+        "protein_g": 6.0,
+        "carbs_g": 50.0,
+        "fat_g": 20.0,
+        "fiber_g": 2.0,
+        "sugars_g": 40.0,
+        "sodium_mg": 100.0
+      },
+      {
+        "weight_g": 120,
+        "calories": 480,
+        "protein_g": 7.0,
+        "carbs_g": 60.0,
+        "fat_g": 24.0,
+        "fiber_g": 2.0,
+        "sugars_g": 48.0,
+        "sodium_mg": 120.0
+      },
+      {
+        "weight_g": 150,
+        "calories": 600,
+        "protein_g": 9.0,
+        "carbs_g": 75.0,
+        "fat_g": 30.0,
+        "fiber_g": 3.0,
+        "sugars_g": 60.0,
+        "sodium_mg": 150.0
+      }
+    ]
+  },
+  {
+    "food": "Beef Carpaccio",
+    "class_name": "beef_carpaccio",
+    "min_cal": 200,
+    "max_cal": 600,
+    "avg_cal": 400,
+    "per_100g": 200,
+    "unit": "per serving (~200g)",
+    "portions": [
+      {
+        "weight_g": 100,
+        "calories": 200,
+        "protein_g": 20.0,
+        "carbs_g": 1.0,
+        "fat_g": 12.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "sodium_mg": 300.0
+      },
+      {
+        "weight_g": 150,
+        "calories": 300,
+        "protein_g": 30.0,
+        "carbs_g": 2.0,
+        "fat_g": 18.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "sodium_mg": 450.0
+      },
+      {
+        "weight_g": 200,
+        "calories": 400,
+        "protein_g": 40.0,
+        "carbs_g": 3.0,
+        "fat_g": 24.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "sodium_mg": 600.0
+      },
+      {
+        "weight_g": 250,
+        "calories": 500,
+        "protein_g": 50.0,
+        "carbs_g": 4.0,
+        "fat_g": 30.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "sodium_mg": 750.0
+      },
+      {
+        "weight_g": 300,
+        "calories": 600,
+        "protein_g": 60.0,
+        "carbs_g": 5.0,
+        "fat_g": 36.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "sodium_mg": 900.0
+      }
+    ]
+  },
+  {
+    "food": "Escargots",
+    "class_name": "escargots",
+    "min_cal": 200,
+    "max_cal": 600,
+    "avg_cal": 400,
+    "per_100g": 200,
+    "unit": "per serving (~200g)",
+    "portions": [
+      {
+        "weight_g": 100,
+        "calories": 200,
+        "protein_g": 15.0,
+        "carbs_g": 5.0,
+        "fat_g": 12.0,
+        "fiber_g": 1.0,
+        "sugars_g": 1.0,
+        "sodium_mg": 300.0
+      },
+      {
+        "weight_g": 150,
+        "calories": 300,
+        "protein_g": 23.0,
+        "carbs_g": 8.0,
+        "fat_g": 18.0,
+        "fiber_g": 2.0,
+        "sugars_g": 2.0,
+        "sodium_mg": 450.0
+      },
+      {
+        "weight_g": 200,
+        "calories": 400,
+        "protein_g": 30.0,
+        "carbs_g": 10.0,
+        "fat_g": 24.0,
+        "fiber_g": 3.0,
+        "sugars_g": 3.0,
+        "sodium_mg": 600.0
+      },
+      {
+        "weight_g": 250,
+        "calories": 500,
+        "protein_g": 38.0,
+        "carbs_g": 13.0,
+        "fat_g": 30.0,
+        "fiber_g": 4.0,
+        "sugars_g": 4.0,
+        "sodium_mg": 750.0
+      },
+      {
+        "weight_g": 300,
+        "calories": 600,
+        "protein_g": 45.0,
+        "carbs_g": 15.0,
+        "fat_g": 36.0,
+        "fiber_g": 5.0,
+        "sugars_g": 5.0,
+        "sodium_mg": 900.0
+      }
+    ]
+  },
+  {
+    "food": "Gyoza",
+    "class_name": "gyoza",
+    "min_cal": 200,
+    "max_cal": 600,
+    "avg_cal": 400,
+    "per_100g": 200,
+    "unit": "per serving (~200g)",
+    "portions": [
+      {
+        "weight_g": 100,
+        "calories": 200,
+        "protein_g": 8.0,
+        "carbs_g": 20.0,
+        "fat_g": 8.0,
+        "fiber_g": 2.0,
+        "sugars_g": 2.0,
+        "sodium_mg": 300.0
+      },
+      {
+        "weight_g": 150,
+        "calories": 300,
+        "protein_g": 12.0,
+        "carbs_g": 30.0,
+        "fat_g": 12.0,
+        "fiber_g": 3.0,
+        "sugars_g": 3.0,
+        "sodium_mg": 450.0
+      },
+      {
+        "weight_g": 200,
+        "calories": 400,
+        "protein_g": 16.0,
+        "carbs_g": 40.0,
+        "fat_g": 16.0,
+        "fiber_g": 4.0,
+        "sugars_g": 4.0,
+        "sodium_mg": 600.0
+      },
+      {
+        "weight_g": 250,
+        "calories": 500,
+        "protein_g": 20.0,
+        "carbs_g": 50.0,
+        "fat_g": 20.0,
+        "fiber_g": 5.0,
+        "sugars_g": 5.0,
+        "sodium_mg": 750.0
+      },
+      {
+        "weight_g": 300,
+        "calories": 600,
+        "protein_g": 24.0,
+        "carbs_g": 60.0,
+        "fat_g": 24.0,
+        "fiber_g": 6.0,
+        "sugars_g": 6.0,
+        "sodium_mg": 900.0
+      }
+    ]
+  },
+  {
+    "food": "Ice Cream",
+    "class_name": "ice_cream",
+    "min_cal": 200,
+    "max_cal": 600,
+    "avg_cal": 400,
+    "per_100g": 200,
+    "unit": "per serving (~200g)",
+    "portions": [
+      {
+        "weight_g": 100,
+        "calories": 200,
+        "protein_g": 4.0,
+        "carbs_g": 25.0,
+        "fat_g": 10.0,
+        "fiber_g": 0.0,
+        "sugars_g": 20.0,
+        "sodium_mg": 50.0
+      },
+      {
+        "weight_g": 150,
+        "calories": 300,
+        "protein_g": 6.0,
+        "carbs_g": 38.0,
+        "fat_g": 15.0,
+        "fiber_g": 0.0,
+        "sugars_g": 30.0,
+        "sodium_mg": 75.0
+      },
+      {
+        "weight_g": 200,
+        "calories": 400,
+        "protein_g": 8.0,
+        "carbs_g": 50.0,
+        "fat_g": 20.0,
+        "fiber_g": 0.0,
+        "sugars_g": 40.0,
+        "sodium_mg": 100.0
+      },
+      {
+        "weight_g": 250,
+        "calories": 500,
+        "protein_g": 10.0,
+        "carbs_g": 63.0,
+        "fat_g": 25.0,
+        "fiber_g": 0.0,
+        "sugars_g": 50.0,
+        "sodium_mg": 125.0
+      },
+      {
+        "weight_g": 300,
+        "calories": 600,
+        "protein_g": 12.0,
+        "carbs_g": 75.0,
+        "fat_g": 30.0,
+        "fiber_g": 0.0,
+        "sugars_g": 60.0,
+        "sodium_mg": 150.0
+      }
+    ]
+  },
+  {
+    "food": "Sushi",
+    "class_name": "sushi",
+    "min_cal": 200,
+    "max_cal": 600,
+    "avg_cal": 400,
+    "per_100g": 200,
+    "unit": "per serving (~200g)",
+    "portions": [
+      {
+        "weight_g": 100,
+        "calories": 200,
+        "protein_g": 8.0,
+        "carbs_g": 30.0,
+        "fat_g": 2.0,
+        "fiber_g": 1.0,
+        "sugars_g": 5.0,
+        "sodium_mg": 300.0
+      },
+      {
+        "weight_g": 150,
+        "calories": 300,
+        "protein_g": 12.0,
+        "carbs_g": 45.0,
+        "fat_g": 3.0,
+        "fiber_g": 2.0,
+        "sugars_g": 8.0,
+        "sodium_mg": 450.0
+      },
+      {
+        "weight_g": 200,
+        "calories": 400,
+        "protein_g": 16.0,
+        "carbs_g": 60.0,
+        "fat_g": 4.0,
+        "fiber_g": 3.0,
+        "sugars_g": 10.0,
+        "sodium_mg": 600.0
+      },
+      {
+        "weight_g": 250,
+        "calories": 500,
+        "protein_g": 20.0,
+        "carbs_g": 75.0,
+        "fat_g": 5.0,
+        "fiber_g": 4.0,
+        "sugars_g": 13.0,
+        "sodium_mg": 750.0
+      },
+      {
+        "weight_g": 300,
+        "calories": 600,
+        "protein_g": 24.0,
+        "carbs_g": 90.0,
+        "fat_g": 6.0,
+        "fiber_g": 5.0,
+        "sugars_g": 15.0,
+        "sodium_mg": 900.0
+      }
+    ]
+  },
+  {
+    "food": "Takoyaki",
+    "class_name": "takoyaki",
+    "min_cal": 200,
+    "max_cal": 600,
+    "avg_cal": 400,
+    "per_100g": 200,
+    "unit": "per serving (~200g)",
+    "portions": [
+      {
+        "weight_g": 100,
+        "calories": 200,
+        "protein_g": 8.0,
+        "carbs_g": 25.0,
+        "fat_g": 8.0,
+        "fiber_g": 1.0,
+        "sugars_g": 5.0,
+        "sodium_mg": 300.0
+      },
+      {
+        "weight_g": 150,
+        "calories": 300,
+        "protein_g": 12.0,
+        "carbs_g": 38.0,
+        "fat_g": 12.0,
+        "fiber_g": 2.0,
+        "sugars_g": 8.0,
+        "sodium_mg": 450.0
+      },
+      {
+        "weight_g": 200,
+        "calories": 400,
+        "protein_g": 16.0,
+        "carbs_g": 50.0,
+        "fat_g": 16.0,
+        "fiber_g": 3.0,
+        "sugars_g": 10.0,
+        "sodium_mg": 600.0
+      },
+      {
+        "weight_g": 250,
+        "calories": 500,
+        "protein_g": 20.0,
+        "carbs_g": 63.0,
+        "fat_g": 20.0,
+        "fiber_g": 4.0,
+        "sugars_g": 13.0,
+        "sodium_mg": 750.0
+      },
+      {
+        "weight_g": 300,
+        "calories": 600,
+        "protein_g": 24.0,
+        "carbs_g": 75.0,
+        "fat_g": 24.0,
+        "fiber_g": 5.0,
+        "sugars_g": 15.0,
+        "sodium_mg": 900.0
+      }
+    ]
+  },
+  {
+    "food": "Gnocchi",
+    "class_name": "gnocchi",
+    "min_cal": 250,
+    "max_cal": 583,
+    "avg_cal": 417,
+    "per_100g": 250,
+    "unit": "per serving (~250g)",
+    "portions": [
+      {
+        "weight_g": 150,
+        "calories": 250,
+        "protein_g": 6.0,
+        "carbs_g": 40.0,
+        "fat_g": 5.0,
+        "fiber_g": 2.0,
+        "sugars_g": 2.0,
+        "sodium_mg": 300.0
+      },
+      {
+        "weight_g": 200,
+        "calories": 333,
+        "protein_g": 8.0,
+        "carbs_g": 53.0,
+        "fat_g": 7.0,
+        "fiber_g": 3.0,
+        "sugars_g": 3.0,
+        "sodium_mg": 400.0
+      },
+      {
+        "weight_g": 250,
+        "calories": 417,
+        "protein_g": 10.0,
+        "carbs_g": 67.0,
+        "fat_g": 8.0,
+        "fiber_g": 4.0,
+        "sugars_g": 4.0,
+        "sodium_mg": 500.0
+      },
+      {
+        "weight_g": 300,
+        "calories": 500,
+        "protein_g": 12.0,
+        "carbs_g": 80.0,
+        "fat_g": 10.0,
+        "fiber_g": 5.0,
+        "sugars_g": 5.0,
+        "sodium_mg": 600.0
+      },
+      {
+        "weight_g": 350,
+        "calories": 583,
+        "protein_g": 14.0,
+        "carbs_g": 93.0,
+        "fat_g": 12.0,
+        "fiber_g": 6.0,
+        "sugars_g": 6.0,
+        "sodium_mg": 700.0
+      }
+    ]
+  },
+  {
+    "food": "Omelette",
+    "class_name": "omelette",
+    "min_cal": 250,
+    "max_cal": 583,
+    "avg_cal": 417,
+    "per_100g": 250,
+    "unit": "per serving (~250g)",
+    "portions": [
+      {
+        "weight_g": 150,
+        "calories": 250,
+        "protein_g": 15.0,
+        "carbs_g": 2.0,
+        "fat_g": 18.0,
+        "fiber_g": 0.0,
+        "sugars_g": 1.0,
+        "sodium_mg": 300.0
+      },
+      {
+        "weight_g": 200,
+        "calories": 333,
+        "protein_g": 20.0,
+        "carbs_g": 3.0,
+        "fat_g": 24.0,
+        "fiber_g": 0.0,
+        "sugars_g": 1.0,
+        "sodium_mg": 400.0
+      },
+      {
+        "weight_g": 250,
+        "calories": 417,
+        "protein_g": 25.0,
+        "carbs_g": 4.0,
+        "fat_g": 30.0,
+        "fiber_g": 0.0,
+        "sugars_g": 2.0,
+        "sodium_mg": 500.0
+      },
+      {
+        "weight_g": 300,
+        "calories": 500,
+        "protein_g": 30.0,
+        "carbs_g": 5.0,
+        "fat_g": 36.0,
+        "fiber_g": 0.0,
+        "sugars_g": 2.0,
+        "sodium_mg": 600.0
+      },
+      {
+        "weight_g": 350,
+        "calories": 583,
+        "protein_g": 35.0,
+        "carbs_g": 6.0,
+        "fat_g": 42.0,
+        "fiber_g": 0.0,
+        "sugars_g": 3.0,
+        "sodium_mg": 700.0
+      }
+    ]
+  },
+  {
+    "food": "Caesar Salad",
+    "class_name": "caesar_salad",
+    "min_cal": 300,
+    "max_cal": 600,
+    "avg_cal": 450,
+    "per_100g": 300,
+    "unit": "per serving (~300g)",
+    "portions": [
+      {
+        "weight_g": 200,
+        "calories": 300,
+        "protein_g": 10.0,
+        "carbs_g": 15.0,
+        "fat_g": 20.0,
+        "fiber_g": 3.0,
+        "sugars_g": 5.0,
+        "sodium_mg": 500.0
+      },
+      {
+        "weight_g": 250,
+        "calories": 375,
+        "protein_g": 13.0,
+        "carbs_g": 19.0,
+        "fat_g": 25.0,
+        "fiber_g": 4.0,
+        "sugars_g": 6.0,
+        "sodium_mg": 625.0
+      },
+      {
+        "weight_g": 300,
+        "calories": 450,
+        "protein_g": 15.0,
+        "carbs_g": 23.0,
+        "fat_g": 30.0,
+        "fiber_g": 5.0,
+        "sugars_g": 8.0,
+        "sodium_mg": 750.0
+      },
+      {
+        "weight_g": 350,
+        "calories": 525,
+        "protein_g": 18.0,
+        "carbs_g": 26.0,
+        "fat_g": 35.0,
+        "fiber_g": 6.0,
+        "sugars_g": 9.0,
+        "sodium_mg": 875.0
+      },
+      {
+        "weight_g": 400,
+        "calories": 600,
+        "protein_g": 20.0,
+        "carbs_g": 30.0,
+        "fat_g": 40.0,
+        "fiber_g": 7.0,
+        "sugars_g": 10.0,
+        "sodium_mg": 1000.0
+      }
+    ]
+  },
+  {
+    "food": "Chicken Curry",
+    "class_name": "chicken_curry",
+    "min_cal": 300,
+    "max_cal": 600,
+    "avg_cal": 450,
+    "per_100g": 300,
+    "unit": "per serving (~300g)",
+    "portions": [
+      {
+        "weight_g": 200,
+        "calories": 300,
+        "protein_g": 20.0,
+        "carbs_g": 15.0,
+        "fat_g": 15.0,
+        "fiber_g": 3.0,
+        "sugars_g": 5.0,
+        "sodium_mg": 500.0
+      },
+      {
+        "weight_g": 250,
+        "calories": 375,
+        "protein_g": 25.0,
+        "carbs_g": 19.0,
+        "fat_g": 19.0,
+        "fiber_g": 4.0,
+        "sugars_g": 6.0,
+        "sodium_mg": 625.0
+      },
+      {
+        "weight_g": 300,
+        "calories": 450,
+        "protein_g": 30.0,
+        "carbs_g": 23.0,
+        "fat_g": 23.0,
+        "fiber_g": 5.0,
+        "sugars_g": 8.0,
+        "sodium_mg": 750.0
+      },
+      {
+        "weight_g": 350,
+        "calories": 525,
+        "protein_g": 35.0,
+        "carbs_g": 26.0,
+        "fat_g": 26.0,
+        "fiber_g": 6.0,
+        "sugars_g": 9.0,
+        "sodium_mg": 875.0
+      },
+      {
+        "weight_g": 400,
+        "calories": 600,
+        "protein_g": 40.0,
+        "carbs_g": 30.0,
+        "fat_g": 30.0,
+        "fiber_g": 7.0,
+        "sugars_g": 10.0,
+        "sodium_mg": 1000.0
+      }
+    ]
+  },
+  {
+    "food": "Fried Rice",
+    "class_name": "fried_rice",
+    "min_cal": 300,
+    "max_cal": 600,
+    "avg_cal": 450,
+    "per_100g": 300,
+    "unit": "per serving (~300g)",
+    "portions": [
+      {
+        "weight_g": 200,
+        "calories": 300,
+        "protein_g": 8.0,
+        "carbs_g": 50.0,
+        "fat_g": 10.0,
+        "fiber_g": 2.0,
+        "sugars_g": 3.0,
+        "sodium_mg": 400.0
+      },
+      {
+        "weight_g": 250,
+        "calories": 375,
+        "protein_g": 10.0,
+        "carbs_g": 63.0,
+        "fat_g": 13.0,
+        "fiber_g": 3.0,
+        "sugars_g": 4.0,
+        "sodium_mg": 500.0
+      },
+      {
+        "weight_g": 300,
+        "calories": 450,
+        "protein_g": 12.0,
+        "carbs_g": 75.0,
+        "fat_g": 15.0,
+        "fiber_g": 4.0,
+        "sugars_g": 5.0,
+        "sodium_mg": 600.0
+      },
+      {
+        "weight_g": 350,
+        "calories": 525,
+        "protein_g": 14.0,
+        "carbs_g": 88.0,
+        "fat_g": 18.0,
+        "fiber_g": 5.0,
+        "sugars_g": 6.0,
+        "sodium_mg": 700.0
+      },
+      {
+        "weight_g": 400,
+        "calories": 600,
+        "protein_g": 16.0,
+        "carbs_g": 100.0,
+        "fat_g": 20.0,
+        "fiber_g": 6.0,
+        "sugars_g": 7.0,
+        "sodium_mg": 800.0
+      }
+    ]
+  },
+  {
+    "food": "Huevos Rancheros",
+    "class_name": "huevos_rancheros",
+    "min_cal": 300,
+    "max_cal": 600,
+    "avg_cal": 450,
+    "per_100g": 300,
+    "unit": "per serving (~300g)",
+    "portions": [
+      {
+        "weight_g": 200,
+        "calories": 300,
+        "protein_g": 15.0,
+        "carbs_g": 20.0,
+        "fat_g": 15.0,
+        "fiber_g": 4.0,
+        "sugars_g": 3.0,
+        "sodium_mg": 400.0
+      },
+      {
+        "weight_g": 250,
+        "calories": 375,
+        "protein_g": 19.0,
+        "carbs_g": 25.0,
+        "fat_g": 19.0,
+        "fiber_g": 5.0,
+        "sugars_g": 4.0,
+        "sodium_mg": 500.0
+      },
+      {
+        "weight_g": 300,
+        "calories": 450,
+        "protein_g": 23.0,
+        "carbs_g": 30.0,
+        "fat_g": 23.0,
+        "fiber_g": 6.0,
+        "sugars_g": 5.0,
+        "sodium_mg": 600.0
+      },
+      {
+        "weight_g": 350,
+        "calories": 525,
+        "protein_g": 26.0,
+        "carbs_g": 35.0,
+        "fat_g": 26.0,
+        "fiber_g": 7.0,
+        "sugars_g": 6.0,
+        "sodium_mg": 700.0
+      },
+      {
+        "weight_g": 400,
+        "calories": 600,
+        "protein_g": 30.0,
+        "carbs_g": 40.0,
+        "fat_g": 30.0,
+        "fiber_g": 8.0,
+        "sugars_g": 7.0,
+        "sodium_mg": 800.0
+      }
+    ]
+  },
+  {
+    "food": "Ravioli",
+    "class_name": "ravioli",
+    "min_cal": 300,
+    "max_cal": 600,
+    "avg_cal": 450,
+    "per_100g": 300,
+    "unit": "per serving (~300g)",
+    "portions": [
+      {
+        "weight_g": 200,
+        "calories": 300,
+        "protein_g": 12.0,
+        "carbs_g": 40.0,
+        "fat_g": 10.0,
+        "fiber_g": 3.0,
+        "sugars_g": 4.0,
+        "sodium_mg": 500.0
+      },
+      {
+        "weight_g": 250,
+        "calories": 375,
+        "protein_g": 15.0,
+        "carbs_g": 50.0,
+        "fat_g": 13.0,
+        "fiber_g": 4.0,
+        "sugars_g": 5.0,
+        "sodium_mg": 625.0
+      },
+      {
+        "weight_g": 300,
+        "calories": 450,
+        "protein_g": 18.0,
+        "carbs_g": 60.0,
+        "fat_g": 15.0,
+        "fiber_g": 5.0,
+        "sugars_g": 6.0,
+        "sodium_mg": 750.0
+      },
+      {
+        "weight_g": 350,
+        "calories": 525,
+        "protein_g": 21.0,
+        "carbs_g": 70.0,
+        "fat_g": 18.0,
+        "fiber_g": 6.0,
+        "sugars_g": 7.0,
+        "sodium_mg": 875.0
+      },
+      {
+        "weight_g": 400,
+        "calories": 600,
+        "protein_g": 24.0,
+        "carbs_g": 80.0,
+        "fat_g": 20.0,
+        "fiber_g": 7.0,
+        "sugars_g": 8.0,
+        "sodium_mg": 1000.0
+      }
+    ]
+  },
+  {
+    "food": "Risotto",
+    "class_name": "risotto",
+    "min_cal": 300,
+    "max_cal": 600,
+    "avg_cal": 450,
+    "per_100g": 300,
+    "unit": "per serving (~300g)",
+    "portions": [
+      {
+        "weight_g": 200,
+        "calories": 300,
+        "protein_g": 8.0,
+        "carbs_g": 50.0,
+        "fat_g": 8.0,
+        "fiber_g": 2.0,
+        "sugars_g": 3.0,
+        "sodium_mg": 400.0
+      },
+      {
+        "weight_g": 250,
+        "calories": 375,
+        "protein_g": 10.0,
+        "carbs_g": 63.0,
+        "fat_g": 10.0,
+        "fiber_g": 3.0,
+        "sugars_g": 4.0,
+        "sodium_mg": 500.0
+      },
+      {
+        "weight_g": 300,
+        "calories": 450,
+        "protein_g": 12.0,
+        "carbs_g": 75.0,
+        "fat_g": 12.0,
+        "fiber_g": 4.0,
+        "sugars_g": 5.0,
+        "sodium_mg": 600.0
+      },
+      {
+        "weight_g": 350,
+        "calories": 525,
+        "protein_g": 14.0,
+        "carbs_g": 88.0,
+        "fat_g": 14.0,
+        "fiber_g": 5.0,
+        "sugars_g": 6.0,
+        "sodium_mg": 700.0
+      },
+      {
+        "weight_g": 400,
+        "calories": 600,
+        "protein_g": 16.0,
+        "carbs_g": 100.0,
+        "fat_g": 16.0,
+        "fiber_g": 6.0,
+        "sugars_g": 7.0,
+        "sodium_mg": 800.0
+      }
+    ]
+  },
+  {
+    "food": "Shrimp And Grits",
+    "class_name": "shrimp_and_grits",
+    "min_cal": 300,
+    "max_cal": 600,
+    "avg_cal": 450,
+    "per_100g": 300,
+    "unit": "per serving (~300g)",
+    "portions": [
+      {
+        "weight_g": 200,
+        "calories": 300,
+        "protein_g": 20.0,
+        "carbs_g": 30.0,
+        "fat_g": 10.0,
+        "fiber_g": 2.0,
+        "sugars_g": 3.0,
+        "sodium_mg": 500.0
+      },
+      {
+        "weight_g": 250,
+        "calories": 375,
+        "protein_g": 25.0,
+        "carbs_g": 38.0,
+        "fat_g": 13.0,
+        "fiber_g": 3.0,
+        "sugars_g": 4.0,
+        "sodium_mg": 625.0
+      },
+      {
+        "weight_g": 300,
+        "calories": 450,
+        "protein_g": 30.0,
+        "carbs_g": 45.0,
+        "fat_g": 15.0,
+        "fiber_g": 4.0,
+        "sugars_g": 5.0,
+        "sodium_mg": 750.0
+      },
+      {
+        "weight_g": 350,
+        "calories": 525,
+        "protein_g": 35.0,
+        "carbs_g": 53.0,
+        "fat_g": 18.0,
+        "fiber_g": 5.0,
+        "sugars_g": 6.0,
+        "sodium_mg": 875.0
+      },
+      {
+        "weight_g": 400,
+        "calories": 600,
+        "protein_g": 40.0,
+        "carbs_g": 60.0,
+        "fat_g": 20.0,
+        "fiber_g": 6.0,
+        "sugars_g": 7.0,
+        "sodium_mg": 1000.0
+      }
+    ]
+  },
+  {
+    "food": "Pho",
+    "class_name": "pho",
+    "min_cal": 350,
+    "max_cal": 583,
+    "avg_cal": 467,
+    "per_100g": 350,
+    "unit": "per serving (~400g)",
+    "portions": [
+      {
+        "weight_g": 300,
+        "calories": 350,
+        "protein_g": 20.0,
+        "carbs_g": 50.0,
+        "fat_g": 8.0,
+        "fiber_g": 3.0,
+        "sugars_g": 5.0,
+        "sodium_mg": 800.0
+      },
+      {
+        "weight_g": 350,
+        "calories": 408,
+        "protein_g": 23.0,
+        "carbs_g": 58.0,
+        "fat_g": 9.0,
+        "fiber_g": 4.0,
+        "sugars_g": 6.0,
+        "sodium_mg": 933.0
+      },
+      {
+        "weight_g": 400,
+        "calories": 467,
+        "protein_g": 27.0,
+        "carbs_g": 67.0,
+        "fat_g": 10.0,
+        "fiber_g": 5.0,
+        "sugars_g": 7.0,
+        "sodium_mg": 1067.0
+      },
+      {
+        "weight_g": 450,
+        "calories": 525,
+        "protein_g": 30.0,
+        "carbs_g": 75.0,
+        "fat_g": 11.0,
+        "fiber_g": 6.0,
+        "sugars_g": 8.0,
+        "sodium_mg": 1200.0
+      },
+      {
+        "weight_g": 500,
+        "calories": 583,
+        "protein_g": 33.0,
+        "carbs_g": 83.0,
+        "fat_g": 12.0,
+        "fiber_g": 7.0,
+        "sugars_g": 9.0,
+        "sodium_mg": 1333.0
+      }
+    ]
+  },
+  {
+    "food": "Beef Tartare",
+    "class_name": "beef_tartare",
+    "min_cal": 250,
+    "max_cal": 750,
+    "avg_cal": 500,
+    "per_100g": 250,
+    "unit": "per serving (~200g)",
+    "portions": [
+      {
+        "weight_g": 100,
+        "calories": 250,
+        "protein_g": 25.0,
+        "carbs_g": 2.0,
+        "fat_g": 15.0,
+        "fiber_g": 0.0,
+        "sugars_g": 1.0,
+        "sodium_mg": 400.0
+      },
+      {
+        "weight_g": 150,
+        "calories": 375,
+        "protein_g": 38.0,
+        "carbs_g": 3.0,
+        "fat_g": 23.0,
+        "fiber_g": 0.0,
+        "sugars_g": 2.0,
+        "sodium_mg": 600.0
+      },
+      {
+        "weight_g": 200,
+        "calories": 500,
+        "protein_g": 50.0,
+        "carbs_g": 4.0,
+        "fat_g": 30.0,
+        "fiber_g": 0.0,
+        "sugars_g": 3.0,
+        "sodium_mg": 800.0
+      },
+      {
+        "weight_g": 250,
+        "calories": 625,
+        "protein_g": 63.0,
+        "carbs_g": 5.0,
+        "fat_g": 38.0,
+        "fiber_g": 0.0,
+        "sugars_g": 4.0,
+        "sodium_mg": 1000.0
+      },
+      {
+        "weight_g": 300,
+        "calories": 750,
+        "protein_g": 75.0,
+        "carbs_g": 6.0,
+        "fat_g": 45.0,
+        "fiber_g": 0.0,
+        "sugars_g": 5.0,
+        "sodium_mg": 1200.0
+      }
+    ]
+  },
+  {
+    "food": "Bread Pudding",
+    "class_name": "bread_pudding",
+    "min_cal": 250,
+    "max_cal": 750,
+    "avg_cal": 500,
+    "per_100g": 250,
+    "unit": "per serving (~200g)",
+    "portions": [
+      {
+        "weight_g": 100,
+        "calories": 250,
+        "protein_g": 6.0,
+        "carbs_g": 35.0,
+        "fat_g": 10.0,
+        "fiber_g": 2.0,
+        "sugars_g": 20.0,
+        "sodium_mg": 200.0
+      },
+      {
+        "weight_g": 150,
+        "calories": 375,
+        "protein_g": 9.0,
+        "carbs_g": 53.0,
+        "fat_g": 15.0,
+        "fiber_g": 3.0,
+        "sugars_g": 30.0,
+        "sodium_mg": 300.0
+      },
+      {
+        "weight_g": 200,
+        "calories": 500,
+        "protein_g": 12.0,
+        "carbs_g": 70.0,
+        "fat_g": 20.0,
+        "fiber_g": 4.0,
+        "sugars_g": 40.0,
+        "sodium_mg": 400.0
+      },
+      {
+        "weight_g": 250,
+        "calories": 625,
+        "protein_g": 15.0,
+        "carbs_g": 88.0,
+        "fat_g": 25.0,
+        "fiber_g": 5.0,
+        "sugars_g": 50.0,
+        "sodium_mg": 500.0
+      },
+      {
+        "weight_g": 300,
+        "calories": 750,
+        "protein_g": 18.0,
+        "carbs_g": 105.0,
+        "fat_g": 30.0,
+        "fiber_g": 6.0,
+        "sugars_g": 60.0,
+        "sodium_mg": 600.0
+      }
+    ]
+  },
+  {
+    "food": "Crab Cakes",
+    "class_name": "crab_cakes",
+    "min_cal": 250,
+    "max_cal": 750,
+    "avg_cal": 500,
+    "per_100g": 250,
+    "unit": "per serving (~200g)",
+    "portions": [
+      {
+        "weight_g": 100,
+        "calories": 250,
+        "protein_g": 15.0,
+        "carbs_g": 10.0,
+        "fat_g": 15.0,
+        "fiber_g": 1.0,
+        "sugars_g": 2.0,
+        "sodium_mg": 400.0
+      },
+      {
+        "weight_g": 150,
+        "calories": 375,
+        "protein_g": 23.0,
+        "carbs_g": 15.0,
+        "fat_g": 23.0,
+        "fiber_g": 2.0,
+        "sugars_g": 3.0,
+        "sodium_mg": 600.0
+      },
+      {
+        "weight_g": 200,
+        "calories": 500,
+        "protein_g": 30.0,
+        "carbs_g": 20.0,
+        "fat_g": 30.0,
+        "fiber_g": 3.0,
+        "sugars_g": 4.0,
+        "sodium_mg": 800.0
+      },
+      {
+        "weight_g": 250,
+        "calories": 625,
+        "protein_g": 38.0,
+        "carbs_g": 25.0,
+        "fat_g": 38.0,
+        "fiber_g": 4.0,
+        "sugars_g": 5.0,
+        "sodium_mg": 1000.0
+      },
+      {
+        "weight_g": 300,
+        "calories": 750,
+        "protein_g": 45.0,
+        "carbs_g": 30.0,
+        "fat_g": 45.0,
+        "fiber_g": 5.0,
+        "sugars_g": 6.0,
+        "sodium_mg": 1200.0
+      }
+    ]
+  },
+  {
+    "food": "Dumplings",
+    "class_name": "dumplings",
+    "min_cal": 250,
+    "max_cal": 750,
+    "avg_cal": 500,
+    "per_100g": 250,
+    "unit": "per serving (~200g)",
+    "portions": [
+      {
+        "weight_g": 100,
+        "calories": 250,
+        "protein_g": 8.0,
+        "carbs_g": 30.0,
+        "fat_g": 10.0,
+        "fiber_g": 2.0,
+        "sugars_g": 2.0,
+        "sodium_mg": 300.0
+      },
+      {
+        "weight_g": 150,
+        "calories": 375,
+        "protein_g": 12.0,
+        "carbs_g": 45.0,
+        "fat_g": 15.0,
+        "fiber_g": 3.0,
+        "sugars_g": 3.0,
+        "sodium_mg": 450.0
+      },
+      {
+        "weight_g": 200,
+        "calories": 500,
+        "protein_g": 16.0,
+        "carbs_g": 60.0,
+        "fat_g": 20.0,
+        "fiber_g": 4.0,
+        "sugars_g": 4.0,
+        "sodium_mg": 600.0
+      },
+      {
+        "weight_g": 250,
+        "calories": 625,
+        "protein_g": 20.0,
+        "carbs_g": 75.0,
+        "fat_g": 25.0,
+        "fiber_g": 5.0,
+        "sugars_g": 5.0,
+        "sodium_mg": 750.0
+      },
+      {
+        "weight_g": 300,
+        "calories": 750,
+        "protein_g": 24.0,
+        "carbs_g": 90.0,
+        "fat_g": 30.0,
+        "fiber_g": 6.0,
+        "sugars_g": 6.0,
+        "sodium_mg": 900.0
+      }
+    ]
+  },
+  {
+    "food": "French Toast",
+    "class_name": "french_toast",
+    "min_cal": 250,
+    "max_cal": 750,
+    "avg_cal": 500,
+    "per_100g": 250,
+    "unit": "per serving (~200g)",
+    "portions": [
+      {
+        "weight_g": 100,
+        "calories": 250,
+        "protein_g": 8.0,
+        "carbs_g": 30.0,
+        "fat_g": 10.0,
+        "fiber_g": 2.0,
+        "sugars_g": 10.0,
+        "sodium_mg": 300.0
+      },
+      {
+        "weight_g": 150,
+        "calories": 375,
+        "protein_g": 12.0,
+        "carbs_g": 45.0,
+        "fat_g": 15.0,
+        "fiber_g": 3.0,
+        "sugars_g": 15.0,
+        "sodium_mg": 450.0
+      },
+      {
+        "weight_g": 200,
+        "calories": 500,
+        "protein_g": 16.0,
+        "carbs_g": 60.0,
+        "fat_g": 20.0,
+        "fiber_g": 4.0,
+        "sugars_g": 20.0,
+        "sodium_mg": 600.0
+      },
+      {
+        "weight_g": 250,
+        "calories": 625,
+        "protein_g": 20.0,
+        "carbs_g": 75.0,
+        "fat_g": 25.0,
+        "fiber_g": 5.0,
+        "sugars_g": 25.0,
+        "sodium_mg": 750.0
+      },
+      {
+        "weight_g": 300,
+        "calories": 750,
+        "protein_g": 24.0,
+        "carbs_g": 90.0,
+        "fat_g": 30.0,
+        "fiber_g": 6.0,
+        "sugars_g": 30.0,
+        "sodium_mg": 900.0
+      }
+    ]
+  },
+  {
+    "food": "Grilled Salmon",
+    "class_name": "grilled_salmon",
+    "min_cal": 300,
+    "max_cal": 700,
+    "avg_cal": 500,
+    "per_100g": 300,
+    "unit": "per serving (~250g)",
+    "portions": [
+      {
+        "weight_g": 150,
+        "calories": 300,
+        "protein_g": 35.0,
+        "carbs_g": 0.0,
+        "fat_g": 15.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "sodium_mg": 100.0
+      },
+      {
+        "weight_g": 200,
+        "calories": 400,
+        "protein_g": 47.0,
+        "carbs_g": 0.0,
+        "fat_g": 20.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "sodium_mg": 133.0
+      },
+      {
+        "weight_g": 250,
+        "calories": 500,
+        "protein_g": 58.0,
+        "carbs_g": 0.0,
+        "fat_g": 25.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "sodium_mg": 167.0
+      },
+      {
+        "weight_g": 300,
+        "calories": 600,
+        "protein_g": 70.0,
+        "carbs_g": 0.0,
+        "fat_g": 30.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "sodium_mg": 200.0
+      },
+      {
+        "weight_g": 350,
+        "calories": 700,
+        "protein_g": 82.0,
+        "carbs_g": 0.0,
+        "fat_g": 35.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "sodium_mg": 233.0
+      }
+    ]
+  },
+  {
+    "food": "Hot Dog",
+    "class_name": "hot_dog",
+    "min_cal": 250,
+    "max_cal": 750,
+    "avg_cal": 500,
+    "per_100g": 250,
+    "unit": "per serving (~200g)",
+    "portions": [
+      {
+        "weight_g": 100,
+        "calories": 250,
+        "protein_g": 10.0,
+        "carbs_g": 15.0,
+        "fat_g": 15.0,
+        "fiber_g": 1.0,
+        "sugars_g": 3.0,
+        "sodium_mg": 500.0
+      },
+      {
+        "weight_g": 150,
+        "calories": 375,
+        "protein_g": 15.0,
+        "carbs_g": 23.0,
+        "fat_g": 23.0,
+        "fiber_g": 2.0,
+        "sugars_g": 5.0,
+        "sodium_mg": 750.0
+      },
+      {
+        "weight_g": 200,
+        "calories": 500,
+        "protein_g": 20.0,
+        "carbs_g": 30.0,
+        "fat_g": 30.0,
+        "fiber_g": 3.0,
+        "sugars_g": 6.0,
+        "sodium_mg": 1000.0
+      },
+      {
+        "weight_g": 250,
+        "calories": 625,
+        "protein_g": 25.0,
+        "carbs_g": 38.0,
+        "fat_g": 38.0,
+        "fiber_g": 4.0,
+        "sugars_g": 8.0,
+        "sodium_mg": 1250.0
+      },
+      {
+        "weight_g": 300,
+        "calories": 750,
+        "protein_g": 30.0,
+        "carbs_g": 45.0,
+        "fat_g": 45.0,
+        "fiber_g": 5.0,
+        "sugars_g": 9.0,
+        "sodium_mg": 1500.0
+      }
+    ]
+  },
+  {
+    "food": "Pancakes",
+    "class_name": "pancakes",
+    "min_cal": 250,
+    "max_cal": 750,
+    "avg_cal": 500,
+    "per_100g": 250,
+    "unit": "per serving (~200g)",
+    "portions": [
+      {
+        "weight_g": 100,
+        "calories": 250,
+        "protein_g": 6.0,
+        "carbs_g": 35.0,
+        "fat_g": 8.0,
+        "fiber_g": 2.0,
+        "sugars_g": 10.0,
+        "sodium_mg": 300.0
+      },
+      {
+        "weight_g": 150,
+        "calories": 375,
+        "protein_g": 9.0,
+        "carbs_g": 53.0,
+        "fat_g": 12.0,
+        "fiber_g": 3.0,
+        "sugars_g": 15.0,
+        "sodium_mg": 450.0
+      },
+      {
+        "weight_g": 200,
+        "calories": 500,
+        "protein_g": 12.0,
+        "carbs_g": 70.0,
+        "fat_g": 16.0,
+        "fiber_g": 4.0,
+        "sugars_g": 20.0,
+        "sodium_mg": 600.0
+      },
+      {
+        "weight_g": 250,
+        "calories": 625,
+        "protein_g": 15.0,
+        "carbs_g": 88.0,
+        "fat_g": 20.0,
+        "fiber_g": 5.0,
+        "sugars_g": 25.0,
+        "sodium_mg": 750.0
+      },
+      {
+        "weight_g": 300,
+        "calories": 750,
+        "protein_g": 18.0,
+        "carbs_g": 105.0,
+        "fat_g": 24.0,
+        "fiber_g": 6.0,
+        "sugars_g": 30.0,
+        "sodium_mg": 900.0
+      }
+    ]
+  },
+  {
+    "food": "Tacos",
+    "class_name": "tacos",
+    "min_cal": 250,
+    "max_cal": 750,
+    "avg_cal": 500,
+    "per_100g": 250,
+    "unit": "per serving (~200g)",
+    "portions": [
+      {
+        "weight_g": 100,
+        "calories": 250,
+        "protein_g": 10.0,
+        "carbs_g": 20.0,
+        "fat_g": 12.0,
+        "fiber_g": 3.0,
+        "sugars_g": 2.0,
+        "sodium_mg": 300.0
+      },
+      {
+        "weight_g": 150,
+        "calories": 375,
+        "protein_g": 15.0,
+        "carbs_g": 30.0,
+        "fat_g": 18.0,
+        "fiber_g": 5.0,
+        "sugars_g": 3.0,
+        "sodium_mg": 450.0
+      },
+      {
+        "weight_g": 200,
+        "calories": 500,
+        "protein_g": 20.0,
+        "carbs_g": 40.0,
+        "fat_g": 24.0,
+        "fiber_g": 6.0,
+        "sugars_g": 4.0,
+        "sodium_mg": 600.0
+      },
+      {
+        "weight_g": 250,
+        "calories": 625,
+        "protein_g": 25.0,
+        "carbs_g": 50.0,
+        "fat_g": 30.0,
+        "fiber_g": 8.0,
+        "sugars_g": 5.0,
+        "sodium_mg": 750.0
+      },
+      {
+        "weight_g": 300,
+        "calories": 750,
+        "protein_g": 30.0,
+        "carbs_g": 60.0,
+        "fat_g": 36.0,
+        "fiber_g": 9.0,
+        "sugars_g": 6.0,
+        "sodium_mg": 900.0
+      }
+    ]
+  },
+  {
+    "food": "Paella",
+    "class_name": "paella",
+    "min_cal": 350,
+    "max_cal": 700,
+    "avg_cal": 525,
+    "per_100g": 350,
+    "unit": "per serving (~300g)",
+    "portions": [
+      {
+        "weight_g": 200,
+        "calories": 350,
+        "protein_g": 20.0,
+        "carbs_g": 40.0,
+        "fat_g": 10.0,
+        "fiber_g": 3.0,
+        "sugars_g": 5.0,
+        "sodium_mg": 500.0
+      },
+      {
+        "weight_g": 250,
+        "calories": 438,
+        "protein_g": 25.0,
+        "carbs_g": 50.0,
+        "fat_g": 13.0,
+        "fiber_g": 4.0,
+        "sugars_g": 6.0,
+        "sodium_mg": 625.0
+      },
+      {
+        "weight_g": 300,
+        "calories": 525,
+        "protein_g": 30.0,
+        "carbs_g": 60.0,
+        "fat_g": 15.0,
+        "fiber_g": 5.0,
+        "sugars_g": 8.0,
+        "sodium_mg": 750.0
+      },
+      {
+        "weight_g": 350,
+        "calories": 613,
+        "protein_g": 35.0,
+        "carbs_g": 70.0,
+        "fat_g": 18.0,
+        "fiber_g": 6.0,
+        "sugars_g": 9.0,
+        "sodium_mg": 875.0
+      },
+      {
+        "weight_g": 400,
+        "calories": 700,
+        "protein_g": 40.0,
+        "carbs_g": 80.0,
+        "fat_g": 20.0,
+        "fiber_g": 7.0,
+        "sugars_g": 10.0,
+        "sodium_mg": 1000.0
+      }
+    ]
+  },
+  {
+    "food": "Spaghetti Bolognese",
+    "class_name": "spaghetti_bolognese",
+    "min_cal": 350,
+    "max_cal": 700,
+    "avg_cal": 525,
+    "per_100g": 350,
+    "unit": "per serving (~300g)",
+    "portions": [
+      {
+        "weight_g": 200,
+        "calories": 350,
+        "protein_g": 15.0,
+        "carbs_g": 40.0,
+        "fat_g": 12.0,
+        "fiber_g": 3.0,
+        "sugars_g": 5.0,
+        "sodium_mg": 400.0
+      },
+      {
+        "weight_g": 250,
+        "calories": 438,
+        "protein_g": 19.0,
+        "carbs_g": 50.0,
+        "fat_g": 15.0,
+        "fiber_g": 4.0,
+        "sugars_g": 6.0,
+        "sodium_mg": 500.0
+      },
+      {
+        "weight_g": 300,
+        "calories": 525,
+        "protein_g": 23.0,
+        "carbs_g": 60.0,
+        "fat_g": 18.0,
+        "fiber_g": 5.0,
+        "sugars_g": 8.0,
+        "sodium_mg": 600.0
+      },
+      {
+        "weight_g": 350,
+        "calories": 613,
+        "protein_g": 26.0,
+        "carbs_g": 70.0,
+        "fat_g": 21.0,
+        "fiber_g": 6.0,
+        "sugars_g": 9.0,
+        "sodium_mg": 700.0
+      },
+      {
+        "weight_g": 400,
+        "calories": 700,
+        "protein_g": 30.0,
+        "carbs_g": 80.0,
+        "fat_g": 24.0,
+        "fiber_g": 7.0,
+        "sugars_g": 10.0,
+        "sodium_mg": 800.0
+      }
+    ]
+  },
+  {
+    "food": "Ramen",
+    "class_name": "ramen",
+    "min_cal": 400,
+    "max_cal": 667,
+    "avg_cal": 533,
+    "per_100g": 400,
+    "unit": "per serving (~400g)",
+    "portions": [
+      {
+        "weight_g": 300,
+        "calories": 400,
+        "protein_g": 15.0,
+        "carbs_g": 60.0,
+        "fat_g": 10.0,
+        "fiber_g": 4.0,
+        "sugars_g": 5.0,
+        "sodium_mg": 800.0
+      },
+      {
+        "weight_g": 350,
+        "calories": 467,
+        "protein_g": 18.0,
+        "carbs_g": 70.0,
+        "fat_g": 12.0,
+        "fiber_g": 5.0,
+        "sugars_g": 6.0,
+        "sodium_mg": 933.0
+      },
+      {
+        "weight_g": 400,
+        "calories": 533,
+        "protein_g": 20.0,
+        "carbs_g": 80.0,
+        "fat_g": 13.0,
+        "fiber_g": 6.0,
+        "sugars_g": 7.0,
+        "sodium_mg": 1067.0
+      },
+      {
+        "weight_g": 450,
+        "calories": 600,
+        "protein_g": 23.0,
+        "carbs_g": 90.0,
+        "fat_g": 15.0,
+        "fiber_g": 7.0,
+        "sugars_g": 8.0,
+        "sodium_mg": 1200.0
+      },
+      {
+        "weight_g": 500,
+        "calories": 667,
+        "protein_g": 25.0,
+        "carbs_g": 100.0,
+        "fat_g": 17.0,
+        "fiber_g": 8.0,
+        "sugars_g": 9.0,
+        "sodium_mg": 1333.0
+      }
+    ]
+  },
+  {
+    "food": "Chicken Quesadilla",
+    "class_name": "chicken_quesadilla",
+    "min_cal": 350,
+    "max_cal": 817,
+    "avg_cal": 583,
+    "per_100g": 350,
+    "unit": "per serving (~250g)",
+    "portions": [
+      {
+        "weight_g": 150,
+        "calories": 350,
+        "protein_g": 20.0,
+        "carbs_g": 25.0,
+        "fat_g": 15.0,
+        "fiber_g": 2.0,
+        "sugars_g": 2.0,
+        "sodium_mg": 600.0
+      },
+      {
+        "weight_g": 200,
+        "calories": 467,
+        "protein_g": 27.0,
+        "carbs_g": 33.0,
+        "fat_g": 20.0,
+        "fiber_g": 3.0,
+        "sugars_g": 3.0,
+        "sodium_mg": 800.0
+      },
+      {
+        "weight_g": 250,
+        "calories": 583,
+        "protein_g": 33.0,
+        "carbs_g": 42.0,
+        "fat_g": 25.0,
+        "fiber_g": 4.0,
+        "sugars_g": 4.0,
+        "sodium_mg": 1000.0
+      },
+      {
+        "weight_g": 300,
+        "calories": 700,
+        "protein_g": 40.0,
+        "carbs_g": 50.0,
+        "fat_g": 30.0,
+        "fiber_g": 5.0,
+        "sugars_g": 5.0,
+        "sodium_mg": 1200.0
+      },
+      {
+        "weight_g": 350,
+        "calories": 817,
+        "protein_g": 47.0,
+        "carbs_g": 58.0,
+        "fat_g": 35.0,
+        "fiber_g": 6.0,
+        "sugars_g": 6.0,
+        "sodium_mg": 1400.0
+      }
+    ]
+  },
+  {
+    "food": "Pork Chop",
+    "class_name": "pork_chop",
+    "min_cal": 350,
+    "max_cal": 817,
+    "avg_cal": 583,
+    "per_100g": 350,
+    "unit": "per serving (~250g)",
+    "portions": [
+      {
+        "weight_g": 150,
+        "calories": 350,
+        "protein_g": 30.0,
+        "carbs_g": 0.0,
+        "fat_g": 22.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "sodium_mg": 400.0
+      },
+      {
+        "weight_g": 200,
+        "calories": 467,
+        "protein_g": 40.0,
+        "carbs_g": 0.0,
+        "fat_g": 29.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "sodium_mg": 533.0
+      },
+      {
+        "weight_g": 250,
+        "calories": 583,
+        "protein_g": 50.0,
+        "carbs_g": 0.0,
+        "fat_g": 36.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "sodium_mg": 667.0
+      },
+      {
+        "weight_g": 300,
+        "calories": 700,
+        "protein_g": 60.0,
+        "carbs_g": 0.0,
+        "fat_g": 43.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "sodium_mg": 800.0
+      },
+      {
+        "weight_g": 350,
+        "calories": 817,
+        "protein_g": 70.0,
+        "carbs_g": 0.0,
+        "fat_g": 50.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "sodium_mg": 933.0
+      }
+    ]
+  },
+  {
+    "food": "Breakfast Burrito",
+    "class_name": "breakfast_burrito",
+    "min_cal": 400,
+    "max_cal": 800,
+    "avg_cal": 600,
+    "per_100g": 400,
+    "unit": "per serving (~300g)",
+    "portions": [
+      {
+        "weight_g": 200,
+        "calories": 400,
+        "protein_g": 20.0,
+        "carbs_g": 40.0,
+        "fat_g": 15.0,
+        "fiber_g": 5.0,
+        "sugars_g": 5.0,
+        "sodium_mg": 600.0
+      },
+      {
+        "weight_g": 250,
+        "calories": 500,
+        "protein_g": 25.0,
+        "carbs_g": 50.0,
+        "fat_g": 19.0,
+        "fiber_g": 6.0,
+        "sugars_g": 6.0,
+        "sodium_mg": 750.0
+      },
+      {
+        "weight_g": 300,
+        "calories": 600,
+        "protein_g": 30.0,
+        "carbs_g": 60.0,
+        "fat_g": 23.0,
+        "fiber_g": 7.0,
+        "sugars_g": 7.0,
+        "sodium_mg": 900.0
+      },
+      {
+        "weight_g": 350,
+        "calories": 700,
+        "protein_g": 35.0,
+        "carbs_g": 70.0,
+        "fat_g": 26.0,
+        "fiber_g": 8.0,
+        "sugars_g": 8.0,
+        "sodium_mg": 1050.0
+      },
+      {
+        "weight_g": 400,
+        "calories": 800,
+        "protein_g": 40.0,
+        "carbs_g": 80.0,
+        "fat_g": 30.0,
+        "fiber_g": 10.0,
+        "sugars_g": 10.0,
+        "sodium_mg": 1200.0
+      }
+    ]
+  },
+  {
+    "food": "Chicken Wings",
+    "class_name": "chicken_wings",
+    "min_cal": 300,
+    "max_cal": 900,
+    "avg_cal": 600,
+    "per_100g": 300,
+    "unit": "per serving (~200g)",
+    "portions": [
+      {
+        "weight_g": 100,
+        "calories": 300,
+        "protein_g": 20.0,
+        "carbs_g": 10.0,
+        "fat_g": 20.0,
+        "fiber_g": 0.0,
+        "sugars_g": 1.0,
+        "sodium_mg": 400.0
+      },
+      {
+        "weight_g": 150,
+        "calories": 450,
+        "protein_g": 30.0,
+        "carbs_g": 15.0,
+        "fat_g": 30.0,
+        "fiber_g": 0.0,
+        "sugars_g": 2.0,
+        "sodium_mg": 600.0
+      },
+      {
+        "weight_g": 200,
+        "calories": 600,
+        "protein_g": 40.0,
+        "carbs_g": 20.0,
+        "fat_g": 40.0,
+        "fiber_g": 0.0,
+        "sugars_g": 3.0,
+        "sodium_mg": 800.0
+      },
+      {
+        "weight_g": 250,
+        "calories": 750,
+        "protein_g": 50.0,
+        "carbs_g": 25.0,
+        "fat_g": 50.0,
+        "fiber_g": 0.0,
+        "sugars_g": 4.0,
+        "sodium_mg": 1000.0
+      },
+      {
+        "weight_g": 300,
+        "calories": 900,
+        "protein_g": 60.0,
+        "carbs_g": 30.0,
+        "fat_g": 60.0,
+        "fiber_g": 0.0,
+        "sugars_g": 5.0,
+        "sodium_mg": 1200.0
+      }
+    ]
+  },
+  {
+    "food": "Chocolate Mousse",
+    "class_name": "chocolate_mousse",
+    "min_cal": 300,
+    "max_cal": 900,
+    "avg_cal": 600,
+    "per_100g": 300,
+    "unit": "per serving (~200g)",
+    "portions": [
+      {
+        "weight_g": 100,
+        "calories": 300,
+        "protein_g": 5.0,
+        "carbs_g": 25.0,
+        "fat_g": 20.0,
+        "fiber_g": 2.0,
+        "sugars_g": 20.0,
+        "sodium_mg": 100.0
+      },
+      {
+        "weight_g": 150,
+        "calories": 450,
+        "protein_g": 8.0,
+        "carbs_g": 38.0,
+        "fat_g": 30.0,
+        "fiber_g": 3.0,
+        "sugars_g": 30.0,
+        "sodium_mg": 150.0
+      },
+      {
+        "weight_g": 200,
+        "calories": 600,
+        "protein_g": 10.0,
+        "carbs_g": 50.0,
+        "fat_g": 40.0,
+        "fiber_g": 4.0,
+        "sugars_g": 40.0,
+        "sodium_mg": 200.0
+      },
+      {
+        "weight_g": 250,
+        "calories": 750,
+        "protein_g": 13.0,
+        "carbs_g": 63.0,
+        "fat_g": 50.0,
+        "fiber_g": 5.0,
+        "sugars_g": 50.0,
+        "sodium_mg": 250.0
+      },
+      {
+        "weight_g": 300,
+        "calories": 900,
+        "protein_g": 15.0,
+        "carbs_g": 75.0,
+        "fat_g": 60.0,
+        "fiber_g": 6.0,
+        "sugars_g": 60.0,
+        "sodium_mg": 300.0
+      }
+    ]
+  },
+  {
+    "food": "Club Sandwich",
+    "class_name": "club_sandwich",
+    "min_cal": 400,
+    "max_cal": 800,
+    "avg_cal": 600,
+    "per_100g": 400,
+    "unit": "per serving (~300g)",
+    "portions": [
+      {
+        "weight_g": 200,
+        "calories": 400,
+        "protein_g": 20.0,
+        "carbs_g": 35.0,
+        "fat_g": 18.0,
+        "fiber_g": 3.0,
+        "sugars_g": 5.0,
+        "sodium_mg": 600.0
+      },
+      {
+        "weight_g": 250,
+        "calories": 500,
+        "protein_g": 25.0,
+        "carbs_g": 44.0,
+        "fat_g": 23.0,
+        "fiber_g": 4.0,
+        "sugars_g": 6.0,
+        "sodium_mg": 750.0
+      },
+      {
+        "weight_g": 300,
+        "calories": 600,
+        "protein_g": 30.0,
+        "carbs_g": 53.0,
+        "fat_g": 27.0,
+        "fiber_g": 5.0,
+        "sugars_g": 8.0,
+        "sodium_mg": 900.0
+      },
+      {
+        "weight_g": 350,
+        "calories": 700,
+        "protein_g": 35.0,
+        "carbs_g": 61.0,
+        "fat_g": 32.0,
+        "fiber_g": 6.0,
+        "sugars_g": 9.0,
+        "sodium_mg": 1050.0
+      },
+      {
+        "weight_g": 400,
+        "calories": 800,
+        "protein_g": 40.0,
+        "carbs_g": 70.0,
+        "fat_g": 36.0,
+        "fiber_g": 7.0,
+        "sugars_g": 10.0,
+        "sodium_mg": 1200.0
+      }
+    ]
+  },
+  {
+    "food": "Creme Brulee",
+    "class_name": "creme_brulee",
+    "min_cal": 300,
+    "max_cal": 900,
+    "avg_cal": 600,
+    "per_100g": 300,
+    "unit": "per serving (~200g)",
+    "portions": [
+      {
+        "weight_g": 100,
+        "calories": 300,
+        "protein_g": 5.0,
+        "carbs_g": 25.0,
+        "fat_g": 20.0,
+        "fiber_g": 0.0,
+        "sugars_g": 20.0,
+        "sodium_mg": 100.0
+      },
+      {
+        "weight_g": 150,
+        "calories": 450,
+        "protein_g": 8.0,
+        "carbs_g": 38.0,
+        "fat_g": 30.0,
+        "fiber_g": 0.0,
+        "sugars_g": 30.0,
+        "sodium_mg": 150.0
+      },
+      {
+        "weight_g": 200,
+        "calories": 600,
+        "protein_g": 10.0,
+        "carbs_g": 50.0,
+        "fat_g": 40.0,
+        "fiber_g": 0.0,
+        "sugars_g": 40.0,
+        "sodium_mg": 200.0
+      },
+      {
+        "weight_g": 250,
+        "calories": 750,
+        "protein_g": 13.0,
+        "carbs_g": 63.0,
+        "fat_g": 50.0,
+        "fiber_g": 0.0,
+        "sugars_g": 50.0,
+        "sodium_mg": 250.0
+      },
+      {
+        "weight_g": 300,
+        "calories": 900,
+        "protein_g": 15.0,
+        "carbs_g": 75.0,
+        "fat_g": 60.0,
+        "fiber_g": 0.0,
+        "sugars_g": 60.0,
+        "sodium_mg": 300.0
+      }
+    ]
+  },
+  {
+    "food": "Eggs Benedict",
+    "class_name": "eggs_benedict",
+    "min_cal": 400,
+    "max_cal": 800,
+    "avg_cal": 600,
+    "per_100g": 400,
+    "unit": "per serving (~300g)",
+    "portions": [
+      {
+        "weight_g": 200,
+        "calories": 400,
+        "protein_g": 20.0,
+        "carbs_g": 20.0,
+        "fat_g": 25.0,
+        "fiber_g": 2.0,
+        "sugars_g": 2.0,
+        "sodium_mg": 600.0
+      },
+      {
+        "weight_g": 250,
+        "calories": 500,
+        "protein_g": 25.0,
+        "carbs_g": 25.0,
+        "fat_g": 31.0,
+        "fiber_g": 3.0,
+        "sugars_g": 3.0,
+        "sodium_mg": 750.0
+      },
+      {
+        "weight_g": 300,
+        "calories": 600,
+        "protein_g": 30.0,
+        "carbs_g": 30.0,
+        "fat_g": 38.0,
+        "fiber_g": 4.0,
+        "sugars_g": 4.0,
+        "sodium_mg": 900.0
+      },
+      {
+        "weight_g": 350,
+        "calories": 700,
+        "protein_g": 35.0,
+        "carbs_g": 35.0,
+        "fat_g": 44.0,
+        "fiber_g": 5.0,
+        "sugars_g": 5.0,
+        "sodium_mg": 1050.0
+      },
+      {
+        "weight_g": 400,
+        "calories": 800,
+        "protein_g": 40.0,
+        "carbs_g": 40.0,
+        "fat_g": 50.0,
+        "fiber_g": 6.0,
+        "sugars_g": 6.0,
+        "sodium_mg": 1200.0
+      }
+    ]
+  },
+  {
+    "food": "French Fries",
+    "class_name": "french_fries",
+    "min_cal": 300,
+    "max_cal": 900,
+    "avg_cal": 600,
+    "per_100g": 300,
+    "unit": "per serving (~200g)",
+    "portions": [
+      {
+        "weight_g": 100,
+        "calories": 300,
+        "protein_g": 4.0,
+        "carbs_g": 35.0,
+        "fat_g": 15.0,
+        "fiber_g": 3.0,
+        "sugars_g": 0.0,
+        "sodium_mg": 200.0
+      },
+      {
+        "weight_g": 150,
+        "calories": 450,
+        "protein_g": 6.0,
+        "carbs_g": 53.0,
+        "fat_g": 23.0,
+        "fiber_g": 5.0,
+        "sugars_g": 0.0,
+        "sodium_mg": 300.0
+      },
+      {
+        "weight_g": 200,
+        "calories": 600,
+        "protein_g": 8.0,
+        "carbs_g": 70.0,
+        "fat_g": 30.0,
+        "fiber_g": 6.0,
+        "sugars_g": 0.0,
+        "sodium_mg": 400.0
+      },
+      {
+        "weight_g": 250,
+        "calories": 750,
+        "protein_g": 10.0,
+        "carbs_g": 88.0,
+        "fat_g": 38.0,
+        "fiber_g": 8.0,
+        "sugars_g": 0.0,
+        "sodium_mg": 500.0
+      },
+      {
+        "weight_g": 300,
+        "calories": 900,
+        "protein_g": 12.0,
+        "carbs_g": 105.0,
+        "fat_g": 45.0,
+        "fiber_g": 9.0,
+        "sugars_g": 0.0,
+        "sodium_mg": 600.0
+      }
+    ]
+  },
+  {
+    "food": "Fried Calamari",
+    "class_name": "fried_calamari",
+    "min_cal": 300,
+    "max_cal": 900,
+    "avg_cal": 600,
+    "per_100g": 300,
+    "unit": "per serving (~200g)",
+    "portions": [
+      {
+        "weight_g": 100,
+        "calories": 300,
+        "protein_g": 15.0,
+        "carbs_g": 20.0,
+        "fat_g": 15.0,
+        "fiber_g": 1.0,
+        "sugars_g": 1.0,
+        "sodium_mg": 400.0
+      },
+      {
+        "weight_g": 150,
+        "calories": 450,
+        "protein_g": 23.0,
+        "carbs_g": 30.0,
+        "fat_g": 23.0,
+        "fiber_g": 2.0,
+        "sugars_g": 2.0,
+        "sodium_mg": 600.0
+      },
+      {
+        "weight_g": 200,
+        "calories": 600,
+        "protein_g": 30.0,
+        "carbs_g": 40.0,
+        "fat_g": 30.0,
+        "fiber_g": 3.0,
+        "sugars_g": 3.0,
+        "sodium_mg": 800.0
+      },
+      {
+        "weight_g": 250,
+        "calories": 750,
+        "protein_g": 38.0,
+        "carbs_g": 50.0,
+        "fat_g": 38.0,
+        "fiber_g": 4.0,
+        "sugars_g": 4.0,
+        "sodium_mg": 1000.0
+      },
+      {
+        "weight_g": 300,
+        "calories": 900,
+        "protein_g": 45.0,
+        "carbs_g": 60.0,
+        "fat_g": 45.0,
+        "fiber_g": 5.0,
+        "sugars_g": 5.0,
+        "sodium_mg": 1200.0
+      }
+    ]
+  },
+  {
+    "food": "Lasagna",
+    "class_name": "lasagna",
+    "min_cal": 400,
+    "max_cal": 800,
+    "avg_cal": 600,
+    "per_100g": 400,
+    "unit": "per serving (~300g)",
+    "portions": [
+      {
+        "weight_g": 200,
+        "calories": 400,
+        "protein_g": 20.0,
+        "carbs_g": 40.0,
+        "fat_g": 20.0,
+        "fiber_g": 4.0,
+        "sugars_g": 6.0,
+        "sodium_mg": 600.0
+      },
+      {
+        "weight_g": 250,
+        "calories": 500,
+        "protein_g": 25.0,
+        "carbs_g": 50.0,
+        "fat_g": 25.0,
+        "fiber_g": 5.0,
+        "sugars_g": 8.0,
+        "sodium_mg": 750.0
+      },
+      {
+        "weight_g": 300,
+        "calories": 600,
+        "protein_g": 30.0,
+        "carbs_g": 60.0,
+        "fat_g": 30.0,
+        "fiber_g": 6.0,
+        "sugars_g": 10.0,
+        "sodium_mg": 900.0
+      },
+      {
+        "weight_g": 350,
+        "calories": 700,
+        "protein_g": 35.0,
+        "carbs_g": 70.0,
+        "fat_g": 35.0,
+        "fiber_g": 7.0,
+        "sugars_g": 12.0,
+        "sodium_mg": 1050.0
+      },
+      {
+        "weight_g": 400,
+        "calories": 800,
+        "protein_g": 40.0,
+        "carbs_g": 80.0,
+        "fat_g": 40.0,
+        "fiber_g": 8.0,
+        "sugars_g": 14.0,
+        "sodium_mg": 1200.0
+      }
+    ]
+  },
+  {
+    "food": "Lobster Roll Sandwich",
+    "class_name": "lobster_roll_sandwich",
+    "min_cal": 400,
+    "max_cal": 800,
+    "avg_cal": 600,
+    "per_100g": 400,
+    "unit": "per serving (~300g)",
+    "portions": [
+      {
+        "weight_g": 200,
+        "calories": 400,
+        "protein_g": 20.0,
+        "carbs_g": 30.0,
+        "fat_g": 20.0,
+        "fiber_g": 2.0,
+        "sugars_g": 5.0,
+        "sodium_mg": 600.0
+      },
+      {
+        "weight_g": 250,
+        "calories": 500,
+        "protein_g": 25.0,
+        "carbs_g": 38.0,
+        "fat_g": 25.0,
+        "fiber_g": 3.0,
+        "sugars_g": 6.0,
+        "sodium_mg": 750.0
+      },
+      {
+        "weight_g": 300,
+        "calories": 600,
+        "protein_g": 30.0,
+        "carbs_g": 45.0,
+        "fat_g": 30.0,
+        "fiber_g": 4.0,
+        "sugars_g": 8.0,
+        "sodium_mg": 900.0
+      },
+      {
+        "weight_g": 350,
+        "calories": 700,
+        "protein_g": 35.0,
+        "carbs_g": 53.0,
+        "fat_g": 35.0,
+        "fiber_g": 5.0,
+        "sugars_g": 9.0,
+        "sodium_mg": 1050.0
+      },
+      {
+        "weight_g": 400,
+        "calories": 800,
+        "protein_g": 40.0,
+        "carbs_g": 60.0,
+        "fat_g": 40.0,
+        "fiber_g": 6.0,
+        "sugars_g": 10.0,
+        "sodium_mg": 1200.0
+      }
+    ]
+  },
+  {
+    "food": "Macaroni And Cheese",
+    "class_name": "macaroni_and_cheese",
+    "min_cal": 400,
+    "max_cal": 800,
+    "avg_cal": 600,
+    "per_100g": 400,
+    "unit": "per serving (~300g)",
+    "portions": [
+      {
+        "weight_g": 200,
+        "calories": 400,
+        "protein_g": 12.0,
+        "carbs_g": 50.0,
+        "fat_g": 18.0,
+        "fiber_g": 2.0,
+        "sugars_g": 6.0,
+        "sodium_mg": 600.0
+      },
+      {
+        "weight_g": 250,
+        "calories": 500,
+        "protein_g": 15.0,
+        "carbs_g": 63.0,
+        "fat_g": 23.0,
+        "fiber_g": 3.0,
+        "sugars_g": 8.0,
+        "sodium_mg": 750.0
+      },
+      {
+        "weight_g": 300,
+        "calories": 600,
+        "protein_g": 18.0,
+        "carbs_g": 75.0,
+        "fat_g": 27.0,
+        "fiber_g": 4.0,
+        "sugars_g": 10.0,
+        "sodium_mg": 900.0
+      },
+      {
+        "weight_g": 350,
+        "calories": 700,
+        "protein_g": 21.0,
+        "carbs_g": 88.0,
+        "fat_g": 32.0,
+        "fiber_g": 5.0,
+        "sugars_g": 12.0,
+        "sodium_mg": 1050.0
+      },
+      {
+        "weight_g": 400,
+        "calories": 800,
+        "protein_g": 24.0,
+        "carbs_g": 100.0,
+        "fat_g": 36.0,
+        "fiber_g": 6.0,
+        "sugars_g": 14.0,
+        "sodium_mg": 1200.0
+      }
+    ]
+  },
+  {
+    "food": "Onion Rings",
+    "class_name": "onion_rings",
+    "min_cal": 300,
+    "max_cal": 900,
+    "avg_cal": 600,
+    "per_100g": 300,
+    "unit": "per serving (~200g)",
+    "portions": [
+      {
+        "weight_g": 100,
+        "calories": 300,
+        "protein_g": 4.0,
+        "carbs_g": 35.0,
+        "fat_g": 15.0,
+        "fiber_g": 2.0,
+        "sugars_g": 5.0,
+        "sodium_mg": 200.0
+      },
+      {
+        "weight_g": 150,
+        "calories": 450,
+        "protein_g": 6.0,
+        "carbs_g": 53.0,
+        "fat_g": 23.0,
+        "fiber_g": 3.0,
+        "sugars_g": 8.0,
+        "sodium_mg": 300.0
+      },
+      {
+        "weight_g": 200,
+        "calories": 600,
+        "protein_g": 8.0,
+        "carbs_g": 70.0,
+        "fat_g": 30.0,
+        "fiber_g": 4.0,
+        "sugars_g": 10.0,
+        "sodium_mg": 400.0
+      },
+      {
+        "weight_g": 250,
+        "calories": 750,
+        "protein_g": 10.0,
+        "carbs_g": 88.0,
+        "fat_g": 38.0,
+        "fiber_g": 5.0,
+        "sugars_g": 13.0,
+        "sodium_mg": 500.0
+      },
+      {
+        "weight_g": 300,
+        "calories": 900,
+        "protein_g": 12.0,
+        "carbs_g": 105.0,
+        "fat_g": 45.0,
+        "fiber_g": 6.0,
+        "sugars_g": 15.0,
+        "sodium_mg": 600.0
+      }
+    ]
+  },
+  {
+    "food": "Pad Thai",
+    "class_name": "pad_thai",
+    "min_cal": 400,
+    "max_cal": 800,
+    "avg_cal": 600,
+    "per_100g": 400,
+    "unit": "per serving (~300g)",
+    "portions": [
+      {
+        "weight_g": 200,
+        "calories": 400,
+        "protein_g": 15.0,
+        "carbs_g": 60.0,
+        "fat_g": 12.0,
+        "fiber_g": 4.0,
+        "sugars_g": 10.0,
+        "sodium_mg": 600.0
+      },
+      {
+        "weight_g": 250,
+        "calories": 500,
+        "protein_g": 19.0,
+        "carbs_g": 75.0,
+        "fat_g": 15.0,
+        "fiber_g": 5.0,
+        "sugars_g": 13.0,
+        "sodium_mg": 750.0
+      },
+      {
+        "weight_g": 300,
+        "calories": 600,
+        "protein_g": 23.0,
+        "carbs_g": 90.0,
+        "fat_g": 18.0,
+        "fiber_g": 6.0,
+        "sugars_g": 15.0,
+        "sodium_mg": 900.0
+      },
+      {
+        "weight_g": 350,
+        "calories": 700,
+        "protein_g": 26.0,
+        "carbs_g": 105.0,
+        "fat_g": 21.0,
+        "fiber_g": 7.0,
+        "sugars_g": 18.0,
+        "sodium_mg": 1050.0
+      },
+      {
+        "weight_g": 400,
+        "calories": 800,
+        "protein_g": 30.0,
+        "carbs_g": 120.0,
+        "fat_g": 24.0,
+        "fiber_g": 8.0,
+        "sugars_g": 20.0,
+        "sodium_mg": 1200.0
+      }
+    ]
+  },
+  {
+    "food": "Panna Cotta",
+    "class_name": "panna_cotta",
+    "min_cal": 300,
+    "max_cal": 900,
+    "avg_cal": 600,
+    "per_100g": 300,
+    "unit": "per serving (~200g)",
+    "portions": [
+      {
+        "weight_g": 100,
+        "calories": 300,
+        "protein_g": 5.0,
+        "carbs_g": 25.0,
+        "fat_g": 20.0,
+        "fiber_g": 0.0,
+        "sugars_g": 20.0,
+        "sodium_mg": 50.0
+      },
+      {
+        "weight_g": 150,
+        "calories": 450,
+        "protein_g": 8.0,
+        "carbs_g": 38.0,
+        "fat_g": 30.0,
+        "fiber_g": 0.0,
+        "sugars_g": 30.0,
+        "sodium_mg": 75.0
+      },
+      {
+        "weight_g": 200,
+        "calories": 600,
+        "protein_g": 10.0,
+        "carbs_g": 50.0,
+        "fat_g": 40.0,
+        "fiber_g": 0.0,
+        "sugars_g": 40.0,
+        "sodium_mg": 100.0
+      },
+      {
+        "weight_g": 250,
+        "calories": 750,
+        "protein_g": 13.0,
+        "carbs_g": 63.0,
+        "fat_g": 50.0,
+        "fiber_g": 0.0,
+        "sugars_g": 50.0,
+        "sodium_mg": 125.0
+      },
+      {
+        "weight_g": 300,
+        "calories": 900,
+        "protein_g": 15.0,
+        "carbs_g": 75.0,
+        "fat_g": 60.0,
+        "fiber_g": 0.0,
+        "sugars_g": 60.0,
+        "sodium_mg": 150.0
+      }
+    ]
+  },
+  {
+    "food": "Pulled Pork Sandwich",
+    "class_name": "pulled_pork_sandwich",
+    "min_cal": 400,
+    "max_cal": 800,
+    "avg_cal": 600,
+    "per_100g": 400,
+    "unit": "per serving (~300g)",
+    "portions": [
+      {
+        "weight_g": 200,
+        "calories": 400,
+        "protein_g": 20.0,
+        "carbs_g": 40.0,
+        "fat_g": 15.0,
+        "fiber_g": 3.0,
+        "sugars_g": 10.0,
+        "sodium_mg": 600.0
+      },
+      {
+        "weight_g": 250,
+        "calories": 500,
+        "protein_g": 25.0,
+        "carbs_g": 50.0,
+        "fat_g": 19.0,
+        "fiber_g": 4.0,
+        "sugars_g": 13.0,
+        "sodium_mg": 750.0
+      },
+      {
+        "weight_g": 300,
+        "calories": 600,
+        "protein_g": 30.0,
+        "carbs_g": 60.0,
+        "fat_g": 23.0,
+        "fiber_g": 5.0,
+        "sugars_g": 15.0,
+        "sodium_mg": 900.0
+      },
+      {
+        "weight_g": 350,
+        "calories": 700,
+        "protein_g": 35.0,
+        "carbs_g": 70.0,
+        "fat_g": 27.0,
+        "fiber_g": 6.0,
+        "sugars_g": 18.0,
+        "sodium_mg": 1050.0
+      },
+      {
+        "weight_g": 400,
+        "calories": 800,
+        "protein_g": 40.0,
+        "carbs_g": 80.0,
+        "fat_g": 30.0,
+        "fiber_g": 7.0,
+        "sugars_g": 20.0,
+        "sodium_mg": 1200.0
+      }
+    ]
+  },
+  {
+    "food": "Spaghetti Carbonara",
+    "class_name": "spaghetti_carbonara",
+    "min_cal": 400,
+    "max_cal": 800,
+    "avg_cal": 600,
+    "per_100g": 400,
+    "unit": "per serving (~300g)",
+    "portions": [
+      {
+        "weight_g": 200,
+        "calories": 400,
+        "protein_g": 15.0,
+        "carbs_g": 45.0,
+        "fat_g": 18.0,
+        "fiber_g": 2.0,
+        "sugars_g": 4.0,
+        "sodium_mg": 500.0
+      },
+      {
+        "weight_g": 250,
+        "calories": 500,
+        "protein_g": 19.0,
+        "carbs_g": 56.0,
+        "fat_g": 23.0,
+        "fiber_g": 3.0,
+        "sugars_g": 5.0,
+        "sodium_mg": 625.0
+      },
+      {
+        "weight_g": 300,
+        "calories": 600,
+        "protein_g": 23.0,
+        "carbs_g": 68.0,
+        "fat_g": 27.0,
+        "fiber_g": 4.0,
+        "sugars_g": 6.0,
+        "sodium_mg": 750.0
+      },
+      {
+        "weight_g": 350,
+        "calories": 700,
+        "protein_g": 26.0,
+        "carbs_g": 79.0,
+        "fat_g": 32.0,
+        "fiber_g": 5.0,
+        "sugars_g": 7.0,
+        "sodium_mg": 875.0
+      },
+      {
+        "weight_g": 400,
+        "calories": 800,
+        "protein_g": 30.0,
+        "carbs_g": 90.0,
+        "fat_g": 36.0,
+        "fiber_g": 6.0,
+        "sugars_g": 8.0,
+        "sodium_mg": 1000.0
+      }
+    ]
+  },
+  {
+    "food": "Strawberry Shortcake",
+    "class_name": "strawberry_shortcake",
+    "min_cal": 300,
+    "max_cal": 900,
+    "avg_cal": 600,
+    "per_100g": 300,
+    "unit": "per serving (~200g)",
+    "portions": [
+      {
+        "weight_g": 100,
+        "calories": 300,
+        "protein_g": 4.0,
+        "carbs_g": 40.0,
+        "fat_g": 12.0,
+        "fiber_g": 2.0,
+        "sugars_g": 25.0,
+        "sodium_mg": 200.0
+      },
+      {
+        "weight_g": 150,
+        "calories": 450,
+        "protein_g": 6.0,
+        "carbs_g": 60.0,
+        "fat_g": 18.0,
+        "fiber_g": 3.0,
+        "sugars_g": 38.0,
+        "sodium_mg": 300.0
+      },
+      {
+        "weight_g": 200,
+        "calories": 600,
+        "protein_g": 8.0,
+        "carbs_g": 80.0,
+        "fat_g": 24.0,
+        "fiber_g": 4.0,
+        "sugars_g": 50.0,
+        "sodium_mg": 400.0
+      },
+      {
+        "weight_g": 250,
+        "calories": 750,
+        "protein_g": 10.0,
+        "carbs_g": 100.0,
+        "fat_g": 30.0,
+        "fiber_g": 5.0,
+        "sugars_g": 63.0,
+        "sodium_mg": 500.0
+      },
+      {
+        "weight_g": 300,
+        "calories": 900,
+        "protein_g": 12.0,
+        "carbs_g": 120.0,
+        "fat_g": 36.0,
+        "fiber_g": 6.0,
+        "sugars_g": 75.0,
+        "sodium_mg": 600.0
+      }
+    ]
+  },
+  {
+    "food": "Tiramisu",
+    "class_name": "tiramisu",
+    "min_cal": 300,
+    "max_cal": 900,
+    "avg_cal": 600,
+    "per_100g": 300,
+    "unit": "per serving (~200g)",
+    "portions": [
+      {
+        "weight_g": 100,
+        "calories": 300,
+        "protein_g": 6.0,
+        "carbs_g": 30.0,
+        "fat_g": 15.0,
+        "fiber_g": 1.0,
+        "sugars_g": 20.0,
+        "sodium_mg": 100.0
+      },
+      {
+        "weight_g": 150,
+        "calories": 450,
+        "protein_g": 9.0,
+        "carbs_g": 45.0,
+        "fat_g": 23.0,
+        "fiber_g": 2.0,
+        "sugars_g": 30.0,
+        "sodium_mg": 150.0
+      },
+      {
+        "weight_g": 200,
+        "calories": 600,
+        "protein_g": 12.0,
+        "carbs_g": 60.0,
+        "fat_g": 30.0,
+        "fiber_g": 3.0,
+        "sugars_g": 40.0,
+        "sodium_mg": 200.0
+      },
+      {
+        "weight_g": 250,
+        "calories": 750,
+        "protein_g": 15.0,
+        "carbs_g": 75.0,
+        "fat_g": 38.0,
+        "fiber_g": 4.0,
+        "sugars_g": 50.0,
+        "sodium_mg": 250.0
+      },
+      {
+        "weight_g": 300,
+        "calories": 900,
+        "protein_g": 18.0,
+        "carbs_g": 90.0,
+        "fat_g": 45.0,
+        "fiber_g": 5.0,
+        "sugars_g": 60.0,
+        "sodium_mg": 300.0
+      }
+    ]
+  },
+  {
+    "food": "Waffles",
+    "class_name": "waffles",
+    "min_cal": 300,
+    "max_cal": 900,
+    "avg_cal": 600,
+    "per_100g": 300,
+    "unit": "per serving (~200g)",
+    "portions": [
+      {
+        "weight_g": 100,
+        "calories": 300,
+        "protein_g": 6.0,
+        "carbs_g": 40.0,
+        "fat_g": 12.0,
+        "fiber_g": 2.0,
+        "sugars_g": 10.0,
+        "sodium_mg": 300.0
+      },
+      {
+        "weight_g": 150,
+        "calories": 450,
+        "protein_g": 9.0,
+        "carbs_g": 60.0,
+        "fat_g": 18.0,
+        "fiber_g": 3.0,
+        "sugars_g": 15.0,
+        "sodium_mg": 450.0
+      },
+      {
+        "weight_g": 200,
+        "calories": 600,
+        "protein_g": 12.0,
+        "carbs_g": 80.0,
+        "fat_g": 24.0,
+        "fiber_g": 4.0,
+        "sugars_g": 20.0,
+        "sodium_mg": 600.0
+      },
+      {
+        "weight_g": 250,
+        "calories": 750,
+        "protein_g": 15.0,
+        "carbs_g": 100.0,
+        "fat_g": 30.0,
+        "fiber_g": 5.0,
+        "sugars_g": 25.0,
+        "sodium_mg": 750.0
+      },
+      {
+        "weight_g": 300,
+        "calories": 900,
+        "protein_g": 18.0,
+        "carbs_g": 120.0,
+        "fat_g": 36.0,
+        "fiber_g": 6.0,
+        "sugars_g": 30.0,
+        "sodium_mg": 900.0
+      }
+    ]
+  },
+  {
+    "food": "Filet Mignon",
+    "class_name": "filet_mignon",
+    "min_cal": 375,
+    "max_cal": 875,
+    "avg_cal": 625,
+    "per_100g": 375,
+    "unit": "per serving (~250g)",
+    "portions": [
+      {
+        "weight_g": 150,
+        "calories": 375,
+        "protein_g": 30.0,
+        "carbs_g": 0.0,
+        "fat_g": 25.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "sodium_mg": 100.0
+      },
+      {
+        "weight_g": 200,
+        "calories": 500,
+        "protein_g": 40.0,
+        "carbs_g": 0.0,
+        "fat_g": 33.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "sodium_mg": 133.0
+      },
+      {
+        "weight_g": 250,
+        "calories": 625,
+        "protein_g": 50.0,
+        "carbs_g": 0.0,
+        "fat_g": 42.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "sodium_mg": 167.0
+      },
+      {
+        "weight_g": 300,
+        "calories": 750,
+        "protein_g": 60.0,
+        "carbs_g": 0.0,
+        "fat_g": 50.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "sodium_mg": 200.0
+      },
+      {
+        "weight_g": 350,
+        "calories": 875,
+        "protein_g": 70.0,
+        "carbs_g": 0.0,
+        "fat_g": 58.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "sodium_mg": 233.0
+      }
+    ]
+  },
+  {
+    "food": "Hamburger",
+    "class_name": "hamburger",
+    "min_cal": 375,
+    "max_cal": 875,
+    "avg_cal": 625,
+    "per_100g": 375,
+    "unit": "per serving (~250g)",
+    "portions": [
+      {
+        "weight_g": 150,
+        "calories": 375,
+        "protein_g": 20.0,
+        "carbs_g": 30.0,
+        "fat_g": 18.0,
+        "fiber_g": 2.0,
+        "sugars_g": 5.0,
+        "sodium_mg": 450.0
+      },
+      {
+        "weight_g": 200,
+        "calories": 500,
+        "protein_g": 27.0,
+        "carbs_g": 40.0,
+        "fat_g": 24.0,
+        "fiber_g": 3.0,
+        "sugars_g": 7.0,
+        "sodium_mg": 600.0
+      },
+      {
+        "weight_g": 250,
+        "calories": 625,
+        "protein_g": 33.0,
+        "carbs_g": 50.0,
+        "fat_g": 30.0,
+        "fiber_g": 4.0,
+        "sugars_g": 8.0,
+        "sodium_mg": 750.0
+      },
+      {
+        "weight_g": 300,
+        "calories": 750,
+        "protein_g": 40.0,
+        "carbs_g": 60.0,
+        "fat_g": 36.0,
+        "fiber_g": 5.0,
+        "sugars_g": 10.0,
+        "sodium_mg": 900.0
+      },
+      {
+        "weight_g": 350,
+        "calories": 875,
+        "protein_g": 47.0,
+        "carbs_g": 70.0,
+        "fat_g": 42.0,
+        "fiber_g": 6.0,
+        "sugars_g": 12.0,
+        "sodium_mg": 1050.0
+      }
+    ]
+  },
+  {
+    "food": "Steak",
+    "class_name": "steak",
+    "min_cal": 375,
+    "max_cal": 875,
+    "avg_cal": 625,
+    "per_100g": 375,
+    "unit": "per serving (~250g)",
+    "portions": [
+      {
+        "weight_g": 150,
+        "calories": 375,
+        "protein_g": 35.0,
+        "carbs_g": 0.0,
+        "fat_g": 25.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "sodium_mg": 100.0
+      },
+      {
+        "weight_g": 200,
+        "calories": 500,
+        "protein_g": 47.0,
+        "carbs_g": 0.0,
+        "fat_g": 33.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "sodium_mg": 133.0
+      },
+      {
+        "weight_g": 250,
+        "calories": 625,
+        "protein_g": 58.0,
+        "carbs_g": 0.0,
+        "fat_g": 42.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "sodium_mg": 167.0
+      },
+      {
+        "weight_g": 300,
+        "calories": 750,
+        "protein_g": 70.0,
+        "carbs_g": 0.0,
+        "fat_g": 50.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "sodium_mg": 200.0
+      },
+      {
+        "weight_g": 350,
+        "calories": 875,
+        "protein_g": 82.0,
+        "carbs_g": 0.0,
+        "fat_g": 58.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "sodium_mg": 233.0
+      }
+    ]
+  },
+  {
+    "food": "Grilled Cheese Sandwich",
+    "class_name": "grilled_cheese_sandwich",
+    "min_cal": 400,
+    "max_cal": 933,
+    "avg_cal": 667,
+    "per_100g": 400,
+    "unit": "per serving (~250g)",
+    "portions": [
+      {
+        "weight_g": 150,
+        "calories": 400,
+        "protein_g": 15.0,
+        "carbs_g": 30.0,
+        "fat_g": 20.0,
+        "fiber_g": 2.0,
+        "sugars_g": 5.0,
+        "sodium_mg": 600.0
+      },
+      {
+        "weight_g": 200,
+        "calories": 533,
+        "protein_g": 20.0,
+        "carbs_g": 40.0,
+        "fat_g": 27.0,
+        "fiber_g": 3.0,
+        "sugars_g": 7.0,
+        "sodium_mg": 800.0
+      },
+      {
+        "weight_g": 250,
+        "calories": 667,
+        "protein_g": 25.0,
+        "carbs_g": 50.0,
+        "fat_g": 33.0,
+        "fiber_g": 4.0,
+        "sugars_g": 8.0,
+        "sodium_mg": 1000.0
+      },
+      {
+        "weight_g": 300,
+        "calories": 800,
+        "protein_g": 30.0,
+        "carbs_g": 60.0,
+        "fat_g": 40.0,
+        "fiber_g": 5.0,
+        "sugars_g": 10.0,
+        "sodium_mg": 1200.0
+      },
+      {
+        "weight_g": 350,
+        "calories": 933,
+        "protein_g": 35.0,
+        "carbs_g": 70.0,
+        "fat_g": 47.0,
+        "fiber_g": 6.0,
+        "sugars_g": 12.0,
+        "sodium_mg": 1400.0
+      }
+    ]
+  },
+  {
+    "food": "Peking Duck",
+    "class_name": "peking_duck",
+    "min_cal": 400,
+    "max_cal": 933,
+    "avg_cal": 667,
+    "per_100g": 400,
+    "unit": "per serving (~250g)",
+    "portions": [
+      {
+        "weight_g": 150,
+        "calories": 400,
+        "protein_g": 30.0,
+        "carbs_g": 10.0,
+        "fat_g": 25.0,
+        "fiber_g": 0.0,
+        "sugars_g": 5.0,
+        "sodium_mg": 500.0
+      },
+      {
+        "weight_g": 200,
+        "calories": 533,
+        "protein_g": 40.0,
+        "carbs_g": 13.0,
+        "fat_g": 33.0,
+        "fiber_g": 0.0,
+        "sugars_g": 7.0,
+        "sodium_mg": 667.0
+      },
+      {
+        "weight_g": 250,
+        "calories": 667,
+        "protein_g": 50.0,
+        "carbs_g": 17.0,
+        "fat_g": 42.0,
+        "fiber_g": 0.0,
+        "sugars_g": 8.0,
+        "sodium_mg": 833.0
+      },
+      {
+        "weight_g": 300,
+        "calories": 800,
+        "protein_g": 60.0,
+        "carbs_g": 20.0,
+        "fat_g": 50.0,
+        "fiber_g": 0.0,
+        "sugars_g": 10.0,
+        "sodium_mg": 1000.0
+      },
+      {
+        "weight_g": 350,
+        "calories": 933,
+        "protein_g": 70.0,
+        "carbs_g": 23.0,
+        "fat_g": 58.0,
+        "fiber_g": 0.0,
+        "sugars_g": 12.0,
+        "sodium_mg": 1167.0
+      }
+    ]
+  },
+  {
+    "food": "Croque Madame",
+    "class_name": "croque_madame",
+    "min_cal": 450,
+    "max_cal": 900,
+    "avg_cal": 675,
+    "per_100g": 450,
+    "unit": "per serving (~300g)",
+    "portions": [
+      {
+        "weight_g": 200,
+        "calories": 450,
+        "protein_g": 20.0,
+        "carbs_g": 30.0,
+        "fat_g": 25.0,
+        "fiber_g": 2.0,
+        "sugars_g": 5.0,
+        "sodium_mg": 800.0
+      },
+      {
+        "weight_g": 250,
+        "calories": 563,
+        "protein_g": 25.0,
+        "carbs_g": 38.0,
+        "fat_g": 31.0,
+        "fiber_g": 3.0,
+        "sugars_g": 6.0,
+        "sodium_mg": 1000.0
+      },
+      {
+        "weight_g": 300,
+        "calories": 675,
+        "protein_g": 30.0,
+        "carbs_g": 45.0,
+        "fat_g": 38.0,
+        "fiber_g": 4.0,
+        "sugars_g": 8.0,
+        "sodium_mg": 1200.0
+      },
+      {
+        "weight_g": 350,
+        "calories": 788,
+        "protein_g": 35.0,
+        "carbs_g": 53.0,
+        "fat_g": 44.0,
+        "fiber_g": 5.0,
+        "sugars_g": 9.0,
+        "sodium_mg": 1400.0
+      },
+      {
+        "weight_g": 400,
+        "calories": 900,
+        "protein_g": 40.0,
+        "carbs_g": 60.0,
+        "fat_g": 50.0,
+        "fiber_g": 6.0,
+        "sugars_g": 10.0,
+        "sodium_mg": 1600.0
+      }
+    ]
+  },
+  {
+    "food": "Carrot Cake",
+    "class_name": "carrot_cake",
+    "min_cal": 350,
+    "max_cal": 1050,
+    "avg_cal": 700,
+    "per_100g": 350,
+    "unit": "per serving (~200g)",
+    "portions": [
+      {
+        "weight_g": 100,
+        "calories": 350,
+        "protein_g": 4.0,
+        "carbs_g": 45.0,
+        "fat_g": 18.0,
+        "fiber_g": 2.0,
+        "sugars_g": 30.0,
+        "sodium_mg": 300.0
+      },
+      {
+        "weight_g": 150,
+        "calories": 525,
+        "protein_g": 6.0,
+        "carbs_g": 68.0,
+        "fat_g": 27.0,
+        "fiber_g": 3.0,
+        "sugars_g": 45.0,
+        "sodium_mg": 450.0
+      },
+      {
+        "weight_g": 200,
+        "calories": 700,
+        "protein_g": 8.0,
+        "carbs_g": 90.0,
+        "fat_g": 36.0,
+        "fiber_g": 4.0,
+        "sugars_g": 60.0,
+        "sodium_mg": 600.0
+      },
+      {
+        "weight_g": 250,
+        "calories": 875,
+        "protein_g": 10.0,
+        "carbs_g": 113.0,
+        "fat_g": 45.0,
+        "fiber_g": 5.0,
+        "sugars_g": 75.0,
+        "sodium_mg": 750.0
+      },
+      {
+        "weight_g": 300,
+        "calories": 1050,
+        "protein_g": 12.0,
+        "carbs_g": 135.0,
+        "fat_g": 54.0,
+        "fiber_g": 6.0,
+        "sugars_g": 90.0,
+        "sodium_mg": 900.0
+      }
+    ]
+  },
+  {
+    "food": "Cheesecake",
+    "class_name": "cheesecake",
+    "min_cal": 350,
+    "max_cal": 1050,
+    "avg_cal": 700,
+    "per_100g": 350,
+    "unit": "per serving (~200g)",
+    "portions": [
+      {
+        "weight_g": 100,
+        "calories": 350,
+        "protein_g": 6.0,
+        "carbs_g": 30.0,
+        "fat_g": 22.0,
+        "fiber_g": 1.0,
+        "sugars_g": 25.0,
+        "sodium_mg": 250.0
+      },
+      {
+        "weight_g": 150,
+        "calories": 525,
+        "protein_g": 9.0,
+        "carbs_g": 45.0,
+        "fat_g": 33.0,
+        "fiber_g": 2.0,
+        "sugars_g": 38.0,
+        "sodium_mg": 375.0
+      },
+      {
+        "weight_g": 200,
+        "calories": 700,
+        "protein_g": 12.0,
+        "carbs_g": 60.0,
+        "fat_g": 44.0,
+        "fiber_g": 2.0,
+        "sugars_g": 50.0,
+        "sodium_mg": 500.0
+      },
+      {
+        "weight_g": 250,
+        "calories": 875,
+        "protein_g": 15.0,
+        "carbs_g": 75.0,
+        "fat_g": 55.0,
+        "fiber_g": 3.0,
+        "sugars_g": 63.0,
+        "sodium_mg": 625.0
+      },
+      {
+        "weight_g": 300,
+        "calories": 1050,
+        "protein_g": 18.0,
+        "carbs_g": 90.0,
+        "fat_g": 66.0,
+        "fiber_g": 4.0,
+        "sugars_g": 75.0,
+        "sodium_mg": 750.0
+      }
+    ]
+  },
+  {
+    "food": "Red Velvet Cake",
+    "class_name": "red_velvet_cake",
+    "min_cal": 350,
+    "max_cal": 1050,
+    "avg_cal": 700,
+    "per_100g": 350,
+    "unit": "per serving (~200g)",
+    "portions": [
+      {
+        "weight_g": 100,
+        "calories": 350,
+        "protein_g": 5.0,
+        "carbs_g": 45.0,
+        "fat_g": 18.0,
+        "fiber_g": 2.0,
+        "sugars_g": 30.0,
+        "sodium_mg": 300.0
+      },
+      {
+        "weight_g": 150,
+        "calories": 525,
+        "protein_g": 8.0,
+        "carbs_g": 68.0,
+        "fat_g": 27.0,
+        "fiber_g": 3.0,
+        "sugars_g": 45.0,
+        "sodium_mg": 450.0
+      },
+      {
+        "weight_g": 200,
+        "calories": 700,
+        "protein_g": 10.0,
+        "carbs_g": 90.0,
+        "fat_g": 36.0,
+        "fiber_g": 4.0,
+        "sugars_g": 60.0,
+        "sodium_mg": 600.0
+      },
+      {
+        "weight_g": 250,
+        "calories": 875,
+        "protein_g": 13.0,
+        "carbs_g": 113.0,
+        "fat_g": 45.0,
+        "fiber_g": 5.0,
+        "sugars_g": 75.0,
+        "sodium_mg": 750.0
+      },
+      {
+        "weight_g": 300,
+        "calories": 1050,
+        "protein_g": 15.0,
+        "carbs_g": 135.0,
+        "fat_g": 54.0,
+        "fiber_g": 6.0,
+        "sugars_g": 90.0,
+        "sodium_mg": 900.0
+      }
+    ]
+  },
+  {
+    "food": "Bibimbap",
+    "class_name": "bibimbap",
+    "min_cal": 450,
+    "max_cal": 1050,
+    "avg_cal": 750,
+    "per_100g": 450,
+    "unit": "per serving (~500g)",
+    "portions": [
+      {
+        "weight_g": 300,
+        "calories": 450,
+        "protein_g": 15.0,
+        "carbs_g": 60.0,
+        "fat_g": 12.0,
+        "fiber_g": 5.0,
+        "sugars_g": 10.0,
+        "sodium_mg": 800.0
+      },
+      {
+        "weight_g": 400,
+        "calories": 600,
+        "protein_g": 20.0,
+        "carbs_g": 80.0,
+        "fat_g": 16.0,
+        "fiber_g": 7.0,
+        "sugars_g": 13.0,
+        "sodium_mg": 1067.0
+      },
+      {
+        "weight_g": 500,
+        "calories": 750,
+        "protein_g": 25.0,
+        "carbs_g": 100.0,
+        "fat_g": 20.0,
+        "fiber_g": 8.0,
+        "sugars_g": 17.0,
+        "sodium_mg": 1333.0
+      },
+      {
+        "weight_g": 600,
+        "calories": 900,
+        "protein_g": 30.0,
+        "carbs_g": 120.0,
+        "fat_g": 24.0,
+        "fiber_g": 10.0,
+        "sugars_g": 20.0,
+        "sodium_mg": 1600.0
+      },
+      {
+        "weight_g": 700,
+        "calories": 1050,
+        "protein_g": 35.0,
+        "carbs_g": 140.0,
+        "fat_g": 28.0,
+        "fiber_g": 12.0,
+        "sugars_g": 23.0,
+        "sodium_mg": 1867.0
+      }
+    ]
+  },
+  {
+    "food": "Cheese Plate",
+    "class_name": "cheese_plate",
+    "min_cal": 450,
+    "max_cal": 1050,
+    "avg_cal": 750,
+    "per_100g": 450,
+    "unit": "per serving (~250g)",
+    "portions": [
+      {
+        "weight_g": 150,
+        "calories": 450,
+        "protein_g": 20.0,
+        "carbs_g": 5.0,
+        "fat_g": 35.0,
+        "fiber_g": 0.0,
+        "sugars_g": 1.0,
+        "sodium_mg": 600.0
+      },
+      {
+        "weight_g": 200,
+        "calories": 600,
+        "protein_g": 27.0,
+        "carbs_g": 7.0,
+        "fat_g": 47.0,
+        "fiber_g": 0.0,
+        "sugars_g": 1.0,
+        "sodium_mg": 800.0
+      },
+      {
+        "weight_g": 250,
+        "calories": 750,
+        "protein_g": 33.0,
+        "carbs_g": 9.0,
+        "fat_g": 58.0,
+        "fiber_g": 0.0,
+        "sugars_g": 2.0,
+        "sodium_mg": 1000.0
+      },
+      {
+        "weight_g": 300,
+        "calories": 900,
+        "protein_g": 40.0,
+        "carbs_g": 10.0,
+        "fat_g": 70.0,
+        "fiber_g": 0.0,
+        "sugars_g": 2.0,
+        "sodium_mg": 1200.0
+      },
+      {
+        "weight_g": 350,
+        "calories": 1050,
+        "protein_g": 47.0,
+        "carbs_g": 12.0,
+        "fat_g": 82.0,
+        "fiber_g": 0.0,
+        "sugars_g": 3.0,
+        "sodium_mg": 1400.0
+      }
+    ]
+  },
+  {
+    "food": "Fish And Chips",
+    "class_name": "fish_and_chips",
+    "min_cal": 500,
+    "max_cal": 1000,
+    "avg_cal": 750,
+    "per_100g": 500,
+    "unit": "per serving (~300g)",
+    "portions": [
+      {
+        "weight_g": 200,
+        "calories": 500,
+        "protein_g": 20.0,
+        "carbs_g": 40.0,
+        "fat_g": 25.0,
+        "fiber_g": 3.0,
+        "sugars_g": 2.0,
+        "sodium_mg": 600.0
+      },
+      {
+        "weight_g": 250,
+        "calories": 625,
+        "protein_g": 25.0,
+        "carbs_g": 50.0,
+        "fat_g": 31.0,
+        "fiber_g": 4.0,
+        "sugars_g": 3.0,
+        "sodium_mg": 750.0
+      },
+      {
+        "weight_g": 300,
+        "calories": 750,
+        "protein_g": 30.0,
+        "carbs_g": 60.0,
+        "fat_g": 38.0,
+        "fiber_g": 5.0,
+        "sugars_g": 4.0,
+        "sodium_mg": 900.0
+      },
+      {
+        "weight_g": 350,
+        "calories": 875,
+        "protein_g": 35.0,
+        "carbs_g": 70.0,
+        "fat_g": 44.0,
+        "fiber_g": 6.0,
+        "sugars_g": 5.0,
+        "sodium_mg": 1050.0
+      },
+      {
+        "weight_g": 400,
+        "calories": 1000,
+        "protein_g": 40.0,
+        "carbs_g": 80.0,
+        "fat_g": 50.0,
+        "fiber_g": 7.0,
+        "sugars_g": 6.0,
+        "sodium_mg": 1200.0
+      }
+    ]
+  },
+  {
+    "food": "Nachos",
+    "class_name": "nachos",
+    "min_cal": 500,
+    "max_cal": 1000,
+    "avg_cal": 750,
+    "per_100g": 500,
+    "unit": "per serving (~300g)",
+    "portions": [
+      {
+        "weight_g": 200,
+        "calories": 500,
+        "protein_g": 10.0,
+        "carbs_g": 50.0,
+        "fat_g": 25.0,
+        "fiber_g": 4.0,
+        "sugars_g": 5.0,
+        "sodium_mg": 600.0
+      },
+      {
+        "weight_g": 250,
+        "calories": 625,
+        "protein_g": 13.0,
+        "carbs_g": 63.0,
+        "fat_g": 31.0,
+        "fiber_g": 5.0,
+        "sugars_g": 6.0,
+        "sodium_mg": 750.0
+      },
+      {
+        "weight_g": 300,
+        "calories": 750,
+        "protein_g": 15.0,
+        "carbs_g": 75.0,
+        "fat_g": 38.0,
+        "fiber_g": 6.0,
+        "sugars_g": 8.0,
+        "sodium_mg": 900.0
+      },
+      {
+        "weight_g": 350,
+        "calories": 875,
+        "protein_g": 18.0,
+        "carbs_g": 88.0,
+        "fat_g": 44.0,
+        "fiber_g": 7.0,
+        "sugars_g": 9.0,
+        "sodium_mg": 1050.0
+      },
+      {
+        "weight_g": 400,
+        "calories": 1000,
+        "protein_g": 20.0,
+        "carbs_g": 100.0,
+        "fat_g": 50.0,
+        "fiber_g": 8.0,
+        "sugars_g": 10.0,
+        "sodium_mg": 1200.0
+      }
+    ]
+  },
+  {
+    "food": "Pizza",
+    "class_name": "pizza",
+    "min_cal": 500,
+    "max_cal": 1000,
+    "avg_cal": 750,
+    "per_100g": 500,
+    "unit": "per serving (~300g)",
+    "portions": [
+      {
+        "weight_g": 200,
+        "calories": 500,
+        "protein_g": 20.0,
+        "carbs_g": 60.0,
+        "fat_g": 20.0,
+        "fiber_g": 4.0,
+        "sugars_g": 5.0,
+        "sodium_mg": 800.0
+      },
+      {
+        "weight_g": 250,
+        "calories": 625,
+        "protein_g": 25.0,
+        "carbs_g": 75.0,
+        "fat_g": 25.0,
+        "fiber_g": 5.0,
+        "sugars_g": 6.0,
+        "sodium_mg": 1000.0
+      },
+      {
+        "weight_g": 300,
+        "calories": 750,
+        "protein_g": 30.0,
+        "carbs_g": 90.0,
+        "fat_g": 30.0,
+        "fiber_g": 6.0,
+        "sugars_g": 8.0,
+        "sodium_mg": 1200.0
+      },
+      {
+        "weight_g": 350,
+        "calories": 875,
+        "protein_g": 35.0,
+        "carbs_g": 105.0,
+        "fat_g": 35.0,
+        "fiber_g": 7.0,
+        "sugars_g": 9.0,
+        "sodium_mg": 1400.0
+      },
+      {
+        "weight_g": 400,
+        "calories": 1000,
+        "protein_g": 40.0,
+        "carbs_g": 120.0,
+        "fat_g": 40.0,
+        "fiber_g": 8.0,
+        "sugars_g": 10.0,
+        "sodium_mg": 1600.0
+      }
+    ]
+  },
+  {
+    "food": "Poutine",
+    "class_name": "poutine",
+    "min_cal": 500,
+    "max_cal": 1000,
+    "avg_cal": 750,
+    "per_100g": 500,
+    "unit": "per serving (~300g)",
+    "portions": [
+      {
+        "weight_g": 200,
+        "calories": 500,
+        "protein_g": 10.0,
+        "carbs_g": 50.0,
+        "fat_g": 25.0,
+        "fiber_g": 3.0,
+        "sugars_g": 2.0,
+        "sodium_mg": 600.0
+      },
+      {
+        "weight_g": 250,
+        "calories": 625,
+        "protein_g": 13.0,
+        "carbs_g": 63.0,
+        "fat_g": 31.0,
+        "fiber_g": 4.0,
+        "sugars_g": 3.0,
+        "sodium_mg": 750.0
+      },
+      {
+        "weight_g": 300,
+        "calories": 750,
+        "protein_g": 15.0,
+        "carbs_g": 75.0,
+        "fat_g": 38.0,
+        "fiber_g": 5.0,
+        "sugars_g": 4.0,
+        "sodium_mg": 900.0
+      },
+      {
+        "weight_g": 350,
+        "calories": 875,
+        "protein_g": 18.0,
+        "carbs_g": 88.0,
+        "fat_g": 44.0,
+        "fiber_g": 6.0,
+        "sugars_g": 5.0,
+        "sodium_mg": 1050.0
+      },
+      {
+        "weight_g": 400,
+        "calories": 1000,
+        "protein_g": 20.0,
+        "carbs_g": 100.0,
+        "fat_g": 50.0,
+        "fiber_g": 7.0,
+        "sugars_g": 6.0,
+        "sodium_mg": 1200.0
+      }
+    ]
+  },
+  {
+    "food": "Chocolate Cake",
+    "class_name": "chocolate_cake",
+    "min_cal": 400,
+    "max_cal": 1200,
+    "avg_cal": 800,
+    "per_100g": 400,
+    "unit": "per serving (~200g)",
+    "portions": [
+      {
+        "weight_g": 100,
+        "calories": 400,
+        "protein_g": 5.0,
+        "carbs_g": 50.0,
+        "fat_g": 20.0,
+        "fiber_g": 2.0,
+        "sugars_g": 35.0,
+        "sodium_mg": 300.0
+      },
+      {
+        "weight_g": 150,
+        "calories": 600,
+        "protein_g": 8.0,
+        "carbs_g": 75.0,
+        "fat_g": 30.0,
+        "fiber_g": 3.0,
+        "sugars_g": 53.0,
+        "sodium_mg": 450.0
+      },
+      {
+        "weight_g": 200,
+        "calories": 800,
+        "protein_g": 10.0,
+        "carbs_g": 100.0,
+        "fat_g": 40.0,
+        "fiber_g": 4.0,
+        "sugars_g": 70.0,
+        "sodium_mg": 600.0
+      },
+      {
+        "weight_g": 250,
+        "calories": 1000,
+        "protein_g": 13.0,
+        "carbs_g": 125.0,
+        "fat_g": 50.0,
+        "fiber_g": 5.0,
+        "sugars_g": 88.0,
+        "sodium_mg": 750.0
+      },
+      {
+        "weight_g": 300,
+        "calories": 1200,
+        "protein_g": 15.0,
+        "carbs_g": 150.0,
+        "fat_g": 60.0,
+        "fiber_g": 6.0,
+        "sugars_g": 105.0,
+        "sodium_mg": 900.0
+      }
+    ]
+  },
+  {
+    "food": "Baby Back Ribs",
+    "class_name": "baby_back_ribs",
+    "min_cal": 540,
+    "max_cal": 1260,
+    "avg_cal": 900,
+    "per_100g": 540,
+    "unit": "per serving (~250g)",
+    "portions": [
+      {
+        "weight_g": 150,
+        "calories": 540,
+        "protein_g": 38.0,
+        "carbs_g": 15.0,
+        "fat_g": 33.0,
+        "fiber_g": 1.0,
+        "sugars_g": 12.0,
+        "sodium_mg": 720.0
+      },
+      {
+        "weight_g": 200,
+        "calories": 720,
+        "protein_g": 50.0,
+        "carbs_g": 20.0,
+        "fat_g": 44.0,
+        "fiber_g": 2.0,
+        "sugars_g": 16.0,
+        "sodium_mg": 960.0
+      },
+      {
+        "weight_g": 250,
+        "calories": 900,
+        "protein_g": 63.0,
+        "carbs_g": 25.0,
+        "fat_g": 55.0,
+        "fiber_g": 2.0,
+        "sugars_g": 20.0,
+        "sodium_mg": 1200.0
+      },
+      {
+        "weight_g": 300,
+        "calories": 1080,
+        "protein_g": 75.0,
+        "carbs_g": 30.0,
+        "fat_g": 66.0,
+        "fiber_g": 3.0,
+        "sugars_g": 24.0,
+        "sodium_mg": 1440.0
+      },
+      {
+        "weight_g": 350,
+        "calories": 1260,
+        "protein_g": 88.0,
+        "carbs_g": 35.0,
+        "fat_g": 77.0,
+        "fiber_g": 3.0,
+        "sugars_g": 28.0,
+        "sodium_mg": 1680.0
+      }
+    ]
+  },
+  {
+    "food": "Prime Rib",
+    "class_name": "prime_rib",
+    "min_cal": 600,
+    "max_cal": 1200,
+    "avg_cal": 900,
+    "per_100g": 600,
+    "unit": "per serving (~300g)",
+    "portions": [
+      {
+        "weight_g": 200,
+        "calories": 600,
+        "protein_g": 40.0,
+        "carbs_g": 0.0,
+        "fat_g": 45.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "sodium_mg": 500.0
+      },
+      {
+        "weight_g": 250,
+        "calories": 750,
+        "protein_g": 50.0,
+        "carbs_g": 0.0,
+        "fat_g": 56.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "sodium_mg": 625.0
+      },
+      {
+        "weight_g": 300,
+        "calories": 900,
+        "protein_g": 60.0,
+        "carbs_g": 0.0,
+        "fat_g": 68.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "sodium_mg": 750.0
+      },
+      {
+        "weight_g": 350,
+        "calories": 1050,
+        "protein_g": 70.0,
+        "carbs_g": 0.0,
+        "fat_g": 79.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "sodium_mg": 875.0
+      },
+      {
+        "weight_g": 400,
+        "calories": 1200,
+        "protein_g": 80.0,
+        "carbs_g": 0.0,
+        "fat_g": 90.0,
+        "fiber_g": 0.0,
+        "sugars_g": 0.0,
+        "sodium_mg": 1000.0
+      }
+    ]
+  }
+]

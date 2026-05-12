@@ -1,0 +1,8 @@
+Feature Ablation Delta (HOG+Color vs HOG-only)
+==================================================
+  SVM top1_accuracy: +0.0283 (+2.83%)
+  SVM top5_accuracy: +0.0530 (+5.30%)
+  SVM macro_f1: +0.0289 (+2.89%)
+  RF top1_accuracy: +0.0034 (+0.34%)
+  RF top5_accuracy: +0.0088 (+0.88%)
+  RF macro_f1: +0.0038 (+0.38%)
