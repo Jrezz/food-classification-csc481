@@ -9,6 +9,7 @@ Modes:
 import os
 import time
 import copy
+import numpy as np
 import torch
 import torch.nn as nn
 import torch.optim as optim
@@ -197,8 +198,6 @@ def evaluate_cnn(
     loader: DataLoader,
     device: str | None = None,
 ) -> tuple[np.ndarray, np.ndarray, np.ndarray]:
-    import numpy as np
-
     if device is None:
         device = "cuda" if torch.cuda.is_available() else ("mps" if torch.backends.mps.is_available() else "cpu")
     device = torch.device(device)

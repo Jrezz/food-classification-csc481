@@ -28,6 +28,20 @@ st.markdown("""
         font-family: 'Inter', 'Segoe UI', sans-serif;
     }
 
+    /* Force light background on main content */
+    .stApp {
+        background-color: #ffffff;
+    }
+
+    .main .block-container {
+        background-color: #ffffff;
+    }
+
+    /* Force all text dark */
+    p, span, div, label, li, td, th, .stMarkdown, .stMarkdown * {
+        color: #0d1117 !important;
+    }
+
     /* Sidebar */
     [data-testid="stSidebar"] {
         background-color: #1a1f2e;
@@ -55,8 +69,8 @@ st.markdown("""
     h1 {
         font-size: 1.8rem !important;
         font-weight: 700 !important;
-        color: #1a1f2e !important;
-        border-bottom: 2px solid #e8ecf3;
+        color: #0d1117 !important;
+        border-bottom: 2px solid #d0d7e8;
         padding-bottom: 0.5rem;
         margin-bottom: 1.2rem !important;
     }
@@ -64,34 +78,39 @@ st.markdown("""
     h2 {
         font-size: 1.2rem !important;
         font-weight: 600 !important;
-        color: #2c3450 !important;
+        color: #0d1117 !important;
         margin-top: 1.5rem !important;
     }
 
     h3 {
         font-size: 1rem !important;
         font-weight: 600 !important;
-        color: #3a4468 !important;
+        color: #1a1f2e !important;
+    }
+
+    /* Body text */
+    p, li, div, span, label {
+        color: #1a1f2e;
     }
 
     /* Metric cards */
     [data-testid="metric-container"] {
-        background-color: #f5f7fc;
-        border: 1px solid #e0e5f0;
+        background-color: #f0f4fc;
+        border: 1px solid #c8d0e5;
         border-radius: 8px;
         padding: 14px 18px !important;
     }
     [data-testid="metric-container"] label {
         font-size: 0.75rem !important;
-        font-weight: 600 !important;
-        color: #6b7694 !important;
+        font-weight: 700 !important;
+        color: #3a4468 !important;
         text-transform: uppercase;
         letter-spacing: 0.05em;
     }
     [data-testid="metric-container"] [data-testid="stMetricValue"] {
         font-size: 1.6rem !important;
         font-weight: 700 !important;
-        color: #1a1f2e !important;
+        color: #0d1117 !important;
     }
 
     /* Info/success boxes */
@@ -99,11 +118,14 @@ st.markdown("""
         border-radius: 8px !important;
         border-left-width: 4px !important;
     }
+    .stAlert p, .stAlert div {
+        color: #0d1117 !important;
+    }
 
     /* Tabs */
     .stTabs [data-baseweb="tab-list"] {
         gap: 4px;
-        background-color: #f0f3fa;
+        background-color: #e8edf7;
         border-radius: 8px;
         padding: 4px;
     }
@@ -111,35 +133,27 @@ st.markdown("""
         border-radius: 6px;
         padding: 6px 16px;
         font-size: 0.85rem;
-        font-weight: 500;
-        color: #6b7694;
+        font-weight: 600;
+        color: #3a4468;
     }
     .stTabs [aria-selected="true"] {
         background-color: white !important;
-        color: #1a1f2e !important;
-        box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+        color: #0d1117 !important;
+        box-shadow: 0 1px 4px rgba(0,0,0,0.12);
     }
 
     /* Divider */
     hr {
-        border-color: #e8ecf3;
+        border-color: #d0d7e8;
         margin: 1.2rem 0;
     }
 
     /* File uploader */
     [data-testid="stFileUploader"] {
-        border: 2px dashed #c8d0e5;
+        border: 2px dashed #a0aec0;
         border-radius: 10px;
         padding: 1rem;
         background: #f8faff;
-    }
-
-    /* Caption text */
-    .caption {
-        font-size: 0.78rem;
-        color: #8a94b0;
-        text-align: center;
-        margin-top: 0.3rem;
     }
 
     /* Section label */
@@ -148,36 +162,29 @@ st.markdown("""
         font-weight: 700;
         text-transform: uppercase;
         letter-spacing: 0.08em;
-        color: #8a94b0;
+        color: #3a4468;
         margin-bottom: 0.4rem;
     }
 
     /* Prediction row */
-    .pred-row {
-        background: #f8faff;
-        border: 1px solid #e0e8f5;
-        border-radius: 8px;
-        padding: 12px 16px;
-        margin-bottom: 8px;
-    }
     .pred-rank {
         font-size: 0.8rem;
         font-weight: 700;
-        color: #8a94b0;
+        color: #3a4468;
     }
     .pred-name {
         font-size: 1rem;
         font-weight: 600;
-        color: #1a1f2e;
+        color: #0d1117;
     }
     .pred-conf {
         font-size: 0.85rem;
-        color: #4C9BE8;
+        color: #2176c7;
         font-weight: 600;
     }
     .pred-cal {
         font-size: 0.85rem;
-        color: #4CAF82;
+        color: #1e7e4a;
         font-weight: 600;
     }
 </style>
